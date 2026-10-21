@@ -6734,6 +6734,10 @@
     {
       "id": "konyk",
       "img": "images/konyk.jpg",
+      "imgs": [
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/konyk-2.jpg",
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/konyk-3.jpg"
+      ],
       "n": "КОНИК ВАН",
       "nr": "KONYK ONE",
       "t": "nrk-ua",
