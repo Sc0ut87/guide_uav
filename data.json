@@ -1,5 +1,5 @@
 {
-   "version": "1.0",
+   "version": "1.1",
   "ua": [
     {
       "id": "neptun",
@@ -6786,6 +6786,9 @@
     {
       "id": "termit",
       "img": "images/d7ed3741373783ee.webp",
+        "imgs": [
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/termit-2.jpg",
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/termit-3.jpg"
       "n": "терміт",
       "nr": "TerMIT",
       "t": "nrk-ua",
