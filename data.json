@@ -1,5 +1,5 @@
 {
-   "version": "1.4",
+   "version": "1.5",
   "ua": [
     {
       "id": "neptun",
@@ -5564,7 +5564,7 @@
     },
          {
       "id": "taron",
-      "img": "images/taron.jpg",
+      "img": "https://github.com/Sc0ut87/guide_uav/blob/main/images/taron.jpg",
              "imgs": [
         "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/taron-2.jpg",
         "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/taron-3.jpg"
@@ -5623,7 +5623,7 @@
     },
          {
       "id": "sabre",
-      "img": "images/sabre.jpg",
+      "img": "https://github.com/Sc0ut87/guide_uav/blob/main/images/sabre.jpg",
        "imgs": [
         "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/sabre-2.jpg",
         "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/sabre-3.jpg"
@@ -11566,7 +11566,7 @@
     },
       {
       "id": "filin",
-      "img": "images/filin.jpg",
+      "img": "https://github.com/Sc0ut87/guide_uav/blob/main/images/filin.jpg",
              "imgs": [
         "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/filin-2.jpg",
         "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/filin-3.jpg"
