@@ -1,5 +1,5 @@
 {
-   "version": "1.6",
+   "version": "1.7",
   "ua": [
     {
       "id": "neptun",
@@ -11593,9 +11593,10 @@
       "ft_en": "not disclosed",
       "h": "до 6 км (наднизькі висоти з огинанням рельєфу)",
       "h_en": "up to 6 km (ultra-low altitudes with terrain following)",
-      "eng": "Турбореактивний R500 (ТОВ «Рейнольдс», РФ)",
+      "eng": "Турбореактивний R500 (ТОВ «Рейнольдс», РФ)",      
       "eng_en": "R500 turbojet (LLC Reynolds, Russia)",
       "mods": "Филин (базова)",
+         "mods_en": "Filin (base)",
       "d": "Російська крилата ракета «Филин» (Filin, «сова») — новий наземний реактивний засіб повітряного нападу, розроблений АТ «НПО „Молнія“»...",
       "d_en": "The Russian Filin (Filin, 'owl') cruise missile is a new ground-launched jet-powered air attack asset developed by JSC NPO Molniya...",
       "f": [
