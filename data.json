@@ -5619,7 +5619,8 @@
         "Externally resembles Shahed/Geran",
         "Presented at FUTURE FORCES FORUM (Prague, October 2026)"
       ],
-      "i": "🎯"
+      "i": "🎯",
+            "c": "cz"
     },
          {
       "id": "sabre",
@@ -5687,7 +5688,8 @@
         "High speed complicates air defense interception",
         "Presented at FUTURE FORCES FORUM 2026"
       ],
-      "i": "⚔️"
+      "i": "⚔️",
+            "c": "cz"
     },
     {
       "id": "tasack",
