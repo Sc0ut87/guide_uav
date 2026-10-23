@@ -1,5 +1,5 @@
 {
-   "version": "1.8",
+   "version": "1.9",
   "ua": [
     {
       "id": "neptun",
@@ -6967,6 +6967,10 @@
     {
       "id": "stohid",
       "img": "images/stohid.jpg",
+             "imgs": [
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/stohid-2.jpg",
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/stohid-3.jpg"
+           ],
       "n": "Стохід",
       "nr": "Stohid",
       "t": "nrk-ua",
@@ -7006,6 +7010,10 @@
     {
       "id": "visliuk",
       "img": "images/visluk.jpg",
+       "imgs": [
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/visliuk-2.jpg",
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/visliuk-3.jpg"
+           ],
       "n": "Віслюк",
       "nr": "Visliuk",
       "t": "nrk-ua",
@@ -7046,6 +7054,10 @@
     {
       "id": "liut",
       "img": "images/3768329a197aa93b.jpg",
+       "imgs": [
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/liut-2.jpg",
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/liut-3.jpg"
+           ],
       "n": "Лють",
       "nr": "Liut",
       "t": "nrk-ua",
