@@ -1,35 +1,340 @@
-// ============================================================
-// ЗАВАНТАЖЕННЯ ПАМ'ЯТКИ З GITHUB (cheatsheet.json)
-// ============================================================
-function loadCheatsheet() {
-    // 1. Спочатку з localStorage (щоб працювало офлайн)
-    const cached = localStorage.getItem('bpla_cheatsheet');
-    if (cached) {
-        try {
-            CHEATSHEET = JSON.parse(cached);
-            console.log('✅ Пам\'ятку завантажено з кешу');
-        } catch (e) {
-            console.warn('Помилка читання кешу пам\'ятки:', e);
-        }
-    }
-    
-    // 2. Потім з GitHub (у фоні)
-    fetch('https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/cheatsheet.json?t=' + Date.now())
-        .then(r => r.json())
-        .then(data => {
-            CHEATSHEET = data;
-            localStorage.setItem('bpla_cheatsheet', JSON.stringify(data));
-            console.log('✅ Пам\'ятку оновлено з GitHub');
-            
-            // Якщо вікно пам'ятки відкрите — перерендерити
-            if (document.getElementById('cheatsheetModal')?.style.display === 'block') {
-                renderCheatsheet();
-            }
-        })
-        .catch(err => {
-            console.warn('Не вдалося завантажити cheatsheet.json (використовуємо кеш):', err);
-        });
+{
+  "uk": {
+    "title": "Пам'ятка",
+    "sections": [
+      {
+        "title": "Типи БПЛА",
+        "items": [
+          { "name": "FPV", "desc": "Дрон-камікадзе з відеоочками. Керується оператором у першій особі. Висока маневреність, точність, низька вартість." },
+          { "name": "Бомбер", "desc": "Дрон-бомбардувальник. Скидає боєприпаси з висоти (Mavic, Vampire, Baba Yaga). Працює по площах." },
+          { "name": "Розвідник", "desc": "Розвідувальний БПЛА (Shark, Leleka, Furia). Літає високо, бачить далеко, коригує артилерію." },
+          { "name": "Барражуючий", "desc": "Летить по маршруту, знаходить ціль і атакує (Lancet, Shahed). Може баражувати над ціллю." },
+          { "name": "Перехоплювач", "desc": "Збиває інші дрони в повітрі (Sting, P1-SUN). Використовується для ППО." }
+        ]
+      },
+      {
+        "title": "Терміни",
+        "items": [
+          { "name": "РЕБ", "desc": "Радіоелектронна боротьба. Глушить GPS, відео, керування. Основна загроза для БПЛА." },
+          { "name": "РЛС", "desc": "Радіолокаційна станція. Виявляє об'єкти на відстані. Працює по відбиттю радіохвиль." },
+          { "name": "ЕПР", "desc": "Ефективна площа розсіювання. Чим менша — тим важче помітити дрон на радарі." },
+          { "name": "КВО", "desc": "Кругове ймовірне відхилення. Показник точності попадання. Чим менше — тим точніше." },
+          { "name": "INS", "desc": "Інерціальна навігаційна система. Дозволяє летіти без GPS (по гіроскопах та акселерометрах)." },
+          { "name": "GNSS", "desc": "Глобальна навігаційна супутникова система (GPS, GLONASS, Galileo, BeiDou)." }
+        ]
+      },
+      {
+        "title": "Класифікація за розміром",
+        "items": [
+          { "name": "Мікро", "desc": "До 2 кг. Mavic, FPV, ближня розвідка. Руки оператора, мала дальність." },
+          { "name": "Міні", "desc": "2–10 кг. Leleka, Shark, Furia. Катапульта, тактична дальність." },
+          { "name": "Середні", "desc": "10–50 кг. PD-2, Raybird. Оперативна дальність, розвідка." },
+          { "name": "Великі", "desc": "50–200 кг. Bayraktar TB2, UJ-22. Оперативно-стратегічна дальність." },
+          { "name": "Стратегічні", "desc": "Понад 200 кг. Tu-141, Palianytsia. Удари по глибокому тилу." }
+        ]
+      },
+      {
+        "title": "Класифікація за дальністю",
+        "items": [
+          { "name": "Ближня дія", "desc": "До 10 км. FPV, Mavic. Тактичний рівень, поле бою." },
+          { "name": "Тактична", "desc": "10–50 км. Leleka, Shark. Бригадний рівень." },
+          { "name": "Оперативна", "desc": "50–200 км. PD-2, Raybird. Оперативний рівень." },
+          { "name": "Оперативно-стратегічна", "desc": "200–1000 км. UJ-22, Liutyi. Глибокий тил." },
+          { "name": "Стратегічна", "desc": "Понад 1000 км. Tu-141, Palianytsia. Стратегічний рівень." }
+        ]
+      },
+      {
+        "title": "Типи бойових частин (БЧ)",
+        "items": [
+          { "name": "Осколково-фугасна (ОФ)", "desc": "Універсальна. Уражає живу силу та легку техніку осколками і ударною хвилею." },
+          { "name": "Кумулятивна (КЗ)", "desc": "Проти броні. Створює вузький струмінь, що пробиває броню." },
+          { "name": "Тандемна", "desc": "Дві БЧ: перша знімає динамічний захист, друга пробиває основну броню." },
+          { "name": "Термобарична", "desc": "Проти укриттів. Вибух з великою кількістю тепла і тиску, випалює кисень." },
+          { "name": "Запалювальна", "desc": "Проти складів. Викликає пожежі, знищує матеріальні запаси." },
+          { "name": "Касетна", "desc": "Проти площ. Розкидає суббоєприпаси на великій території." },
+          { "name": "EFP (ударне ядро)", "desc": "Проти легкоброньованої. Формує компактне металеве ядро, що пробиває броню." }
+        ]
+      },
+      {
+        "title": "Типи наведення",
+        "items": [
+          { "name": "Інерціальна (INS)", "desc": "Без GPS. Працює по гіроскопах. Стійка до РЕБ, але має похибку." },
+          { "name": "Супутникова (GPS/GLONASS)", "desc": "Точна, але вразлива до РЕБ. Легко глушиться." },
+          { "name": "Оптична (DSMAC)", "desc": "За рельєфом місцевості. Порівнює знімки з еталоном. Стійка до РЕБ." },
+          { "name": "Тепловізійна (IR)", "desc": "За температурою. Працює вночі та в погану погоду." },
+          { "name": "Лазерна", "desc": "Підсвітка цілі лазером. Потребує оператора з лазерним цілевказанням." },
+          { "name": "Радіолокаційна (РЛГСН)", "desc": "За радіоконтрастом. Працює по металевих об'єктах (кораблі, танки)." },
+          { "name": "Комп'ютерний зір (AI)", "desc": "Розпізнавання об'єктів. Сучасні дрони самі знаходять ціль за силуетом." }
+        ]
+      },
+      {
+        "title": "Типи двигунів",
+        "items": [
+          { "name": "Електричний", "desc": "Тихий, але малий радіус. FPV, Mavic, легкі розвідники." },
+          { "name": "Поршневий (ДВЗ)", "desc": "Велика дальність. Shahed, Leleka (деякі), Raybird." },
+          { "name": "Турбореактивний", "desc": "Висока швидкість. UJ-25, Palianytsia, ракети." },
+          { "name": "Турбогвинтовий", "desc": "Економічний на великих відстанях. Bayraktar TB2, стратегічні БПЛА." },
+          { "name": "Пульсуючий (ПРД)", "desc": "Дешевий, але гучний. Trembita, іранські ракети." },
+          { "name": "Твердопаливний (РДТП)", "desc": "Ракети. Балістичні, зенітні, протитанкові." }
+        ]
+      },
+      {
+        "title": "Способи запуску",
+        "items": [
+          { "name": "З рук", "desc": "Легкі дрони (до 5 кг). Оператор розганяється і кидає." },
+          { "name": "Катапульта", "desc": "Середні дрони (5–20 кг). Гумова, пневматична або механічна." },
+          { "name": "Рейка", "desc": "Важкі дрони. Запуск по направляючій з прискорювачем." },
+          { "name": "Злітна смуга", "desc": "Літакові дрони. Потрібна рівна поверхня (асфальт, грунт)." },
+          { "name": "Контейнер (ТПК)", "desc": "Ракети. Запуск з транспортно-пускового контейнера." },
+          { "name": "Повітряний старт", "desc": "З літака або вертольота. Для великих ракет і дронів." }
+        ]
+      },
+      {
+        "title": "Способи посадки",
+        "items": [
+          { "name": "На фюзеляж", "desc": "Легкі дрони. Сідають на черево, часто з парашутом." },
+          { "name": "Парашут", "desc": "Стандарт для більшості БПЛА. Безпечно, але потребує місця." },
+          { "name": "По-літаковому", "desc": "Середні дрони. Сідають на шасі, як справжній літак." },
+          { "name": "VTOL (вертикальна)", "desc": "Сучасні дрони. Сідають вертикально, без смуги." },
+          { "name": "Без повернення", "desc": "Камікадзе. Дрон вибухає на цілі." }
+        ]
+      },
+      {
+        "title": "Радіочастоти",
+        "items": [
+          { "name": "433 МГц", "desc": "Далекий зв'язок, резервний канал. Менш схильний до перешкод." },
+          { "name": "868/915 МГц", "desc": "ELRS, керування. Стандарт для FPV-дронів." },
+          { "name": "1.2 ГГц", "desc": "Аналогове відео. Дальній зв'язок, але погана якість." },
+          { "name": "2.4 ГГц", "desc": "Керування, побутовий діапазон. Найпоширеніший." },
+          { "name": "5.8 ГГц", "desc": "Аналогове/цифрове відео. Висока якість, але малий радіус." },
+          { "name": "6+ ГГц", "desc": "Сучасні цифрові системи. Стійкі до РЕБ, але дорогі." }
+        ]
+      },
+      {
+        "title": "Тактики застосування",
+        "items": [
+          { "name": "Розвідка", "desc": "Знайти ціль, визначити координати, передати артилерії." },
+          { "name": "Коригування", "desc": "Направити артилерію на ціль, скоригувати вогонь." },
+          { "name": "Удар", "desc": "Знищити ціль (FPV, бомбер, камікадзе)." },
+          { "name": "Ретрансляція", "desc": "Забезпечити зв'язок для інших дронів на великій відстані." },
+          { "name": "Рій (swarm)", "desc": "Групова атака кількома дронами одночасно." },
+          { "name": "Засідка", "desc": "Чекати на ціль у повітрі (Lancet, Shahed)." },
+          { "name": "Приманка", "desc": "Відвернути ППО (Parody, Gerbera)." }
+        ]
+      },
+      {
+        "title": "Протидія БПЛА (C-UAS)",
+        "items": [
+          { "name": "РЕБ", "desc": "Глушіння сигналів. Основна пасивна протидія." },
+          { "name": "FPV-перехоплювачі", "desc": "Таран у повітрі. Sting, P1-SUN, Taras-P." },
+          { "name": "ЗРК/ПЗРК", "desc": "Ракети. Дорого, але ефективно." },
+          { "name": "Стрілецька зброя", "desc": "Кулемети, зенітні установки. Дешево, але малоефективно." },
+          { "name": "Сітки", "desc": "Фізичний захист. Натягнуті над позиціями." },
+          { "name": "Лазерна зброя", "desc": "Сучасні системи. Випалює дрон лазером." }
+        ]
+      },
+      {
+        "title": "Орієнтовні ціни",
+        "items": [
+          { "name": "FPV", "desc": "$300–2000. Найдешевші, масові." },
+          { "name": "Mavic-клас", "desc": "$2000–5000. Комерційні, але ефективні." },
+          { "name": "Розвідник", "desc": "$5000–50 000. Leleka, Shark, Furia." },
+          { "name": "Ударний", "desc": "$10 000–100 000. Bayraktar TB2, UJ-22." },
+          { "name": "Камікадзе великий", "desc": "$30 000–200 000. Shahed, Lancet." },
+          { "name": "Стратегічний", "desc": "$1 млн+. Крилаті та балістичні ракети." }
+        ]
+      },
+      {
+        "title": "Чек-ліст перед вильотом",
+        "items": [
+          { "name": "Заряд акумулятора", "desc": "Перевір, що батарея заряджена. Краще мати резервну." },
+          { "name": "Перевірка GPS/зв'язку", "desc": "Переконайся, що супутники знайдені, зв'язок стабільний." },
+          { "name": "Перевірка камери", "desc": "Перевір, що відео передається, оптика чиста." },
+          { "name": "Погодні умови", "desc": "Вітер, дощ, температура. Не літай у сильний вітер." },
+          { "name": "План маршруту", "desc": "Знай, куди летиш, де ціль, як повертатися." },
+          { "name": "Резервна частота", "desc": "Май резервний канал зв'язку, якщо основний заглушать." },
+          { "name": "Пункт повернення", "desc": "Переконайся, що автоповернення налаштоване правильно." }
+        ]
+      },
+      {
+        "title": "Екстрені ситуації",
+        "items": [
+          { "name": "Втрата зв'язку", "desc": "Дрон має автоповернення на базу. Не панікуй." },
+          { "name": "Втрата GPS", "desc": "Перехід на інерціальну навігацію. Дрон продовжить політ." },
+          { "name": "Захоплення ворожим FPV", "desc": "Маневр ухилення. Різка зміна висоти та курсу." },
+          { "name": "Глушіння РЕБ", "desc": "Перехід на резервну частоту або автоповернення." },
+          { "name": "Відмова двигуна", "desc": "Планування на ціль. Для камікадзе — це нормально." }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "title": "Cheatsheet",
+    "sections": [
+      {
+        "title": "UAV Types",
+        "items": [
+          { "name": "FPV", "desc": "Kamikaze drone with video goggles. Controlled by operator in first person. High maneuverability, precision, low cost." },
+          { "name": "Bomber", "desc": "Bomber drone. Drops munitions from altitude (Mavic, Vampire, Baba Yaga). Works on areas." },
+          { "name": "Recon", "desc": "Reconnaissance UAV (Shark, Leleka, Furia). Flies high, sees far, corrects artillery." },
+          { "name": "Loitering", "desc": "Flies along route, finds target and attacks (Lancet, Shahed). Can loiter over target." },
+          { "name": "Interceptor", "desc": "Shoots down other drones in the air (Sting, P1-SUN). Used for air defense." }
+        ]
+      },
+      {
+        "title": "Terms",
+        "items": [
+          { "name": "EW", "desc": "Electronic Warfare. Jams GPS, video, control. Main threat to UAVs." },
+          { "name": "Radar", "desc": "Radio detection station. Detects objects at range. Works by radio wave reflection." },
+          { "name": "RCS", "desc": "Radar Cross Section. The smaller — the harder to detect drone on radar." },
+          { "name": "CEP", "desc": "Circular Error Probable. Accuracy indicator. The smaller — the more precise." },
+          { "name": "INS", "desc": "Inertial Navigation System. Allows flying without GPS (by gyroscopes and accelerometers)." },
+          { "name": "GNSS", "desc": "Global Navigation Satellite System (GPS, GLONASS, Galileo, BeiDou)." }
+        ]
+      },
+      {
+        "title": "Classification by Size",
+        "items": [
+          { "name": "Micro", "desc": "Up to 2 kg. Mavic, FPV, short-range recon. Operator's hands, short range." },
+          { "name": "Mini", "desc": "2–10 kg. Leleka, Shark, Furia. Catapult, tactical range." },
+          { "name": "Medium", "desc": "10–50 kg. PD-2, Raybird. Operational range, reconnaissance." },
+          { "name": "Large", "desc": "50–200 kg. Bayraktar TB2, UJ-22. Operational-strategic range." },
+          { "name": "Strategic", "desc": "Over 200 kg. Tu-141, Palianytsia. Strikes on deep rear." }
+        ]
+      },
+      {
+        "title": "Classification by Range",
+        "items": [
+          { "name": "Short Range", "desc": "Up to 10 km. FPV, Mavic. Tactical level, battlefield." },
+          { "name": "Tactical", "desc": "10–50 km. Leleka, Shark. Brigade level." },
+          { "name": "Operational", "desc": "50–200 km. PD-2, Raybird. Operational level." },
+          { "name": "Operational-Strategic", "desc": "200–1000 km. UJ-22, Liutyi. Deep rear." },
+          { "name": "Strategic", "desc": "Over 1000 km. Tu-141, Palianytsia. Strategic level." }
+        ]
+      },
+      {
+        "title": "Warhead Types (WH)",
+        "items": [
+          { "name": "HE-Frag (OF)", "desc": "Universal. Strikes personnel and light equipment with fragments and shock wave." },
+          { "name": "Cumulative (HEAT)", "desc": "Against armor. Creates a narrow jet that penetrates armor." },
+          { "name": "Tandem", "desc": "Two warheads: first removes ERA, second penetrates main armor." },
+          { "name": "Thermobaric", "desc": "Against shelters. Explosion with lots of heat and pressure, burns oxygen." },
+          { "name": "Incendiary", "desc": "Against depots. Causes fires, destroys material stocks." },
+          { "name": "Cluster", "desc": "Against areas. Scatters submunitions over a large territory." },
+          { "name": "EFP (Strike Core)", "desc": "Against light armor. Forms a compact metal core that penetrates armor." }
+        ]
+      },
+      {
+        "title": "Guidance Types",
+        "items": [
+          { "name": "Inertial (INS)", "desc": "Without GPS. Works by gyroscopes. EW-resistant, but has error." },
+          { "name": "Satellite (GPS/GLONASS)", "desc": "Precise, but vulnerable to EW. Easily jammed." },
+          { "name": "Optical (DSMAC)", "desc": "By terrain. Compares images with reference. EW-resistant." },
+          { "name": "Thermal (IR)", "desc": "By temperature. Works at night and in bad weather." },
+          { "name": "Laser", "desc": "Target illumination by laser. Requires operator with laser designator." },
+          { "name": "Radar (ARH)", "desc": "By radio contrast. Works on metal objects (ships, tanks)." },
+          { "name": "Computer Vision (AI)", "desc": "Object recognition. Modern drones find target by silhouette themselves." }
+        ]
+      },
+      {
+        "title": "Engine Types",
+        "items": [
+          { "name": "Electric", "desc": "Quiet, but short range. FPV, Mavic, light recon." },
+          { "name": "Piston (ICE)", "desc": "Long range. Shahed, Leleka (some), Raybird." },
+          { "name": "Turbojet", "desc": "High speed. UJ-25, Palianytsia, missiles." },
+          { "name": "Turboprop", "desc": "Economical at long distances. Bayraktar TB2, strategic UAVs." },
+          { "name": "Pulsejet", "desc": "Cheap, but loud. Trembita, Iranian missiles." },
+          { "name": "Solid-fuel (SRM)", "desc": "Missiles. Ballistic, anti-air, anti-tank." }
+        ]
+      },
+      {
+        "title": "Launch Methods",
+        "items": [
+          { "name": "Hand Launch", "desc": "Light drones (up to 5 kg). Operator runs and throws." },
+          { "name": "Catapult", "desc": "Medium drones (5–20 kg). Rubber, pneumatic or mechanical." },
+          { "name": "Rail", "desc": "Heavy drones. Launch along guide with booster." },
+          { "name": "Runway", "desc": "Aircraft-type drones. Requires flat surface (asphalt, ground)." },
+          { "name": "Container (TLC)", "desc": "Missiles. Launch from transport-launch container." },
+          { "name": "Air Launch", "desc": "From aircraft or helicopter. For large missiles and drones." }
+        ]
+      },
+      {
+        "title": "Landing Methods",
+        "items": [
+          { "name": "Belly Landing", "desc": "Light drones. Land on belly, often with parachute." },
+          { "name": "Parachute", "desc": "Standard for most UAVs. Safe, but requires space." },
+          { "name": "Aircraft-type", "desc": "Medium drones. Land on landing gear, like a real aircraft." },
+          { "name": "VTOL (Vertical)", "desc": "Modern drones. Land vertically, no runway needed." },
+          { "name": "No Return", "desc": "Kamikaze. Drone explodes on target." }
+        ]
+      },
+      {
+        "title": "Radio Frequencies",
+        "items": [
+          { "name": "433 MHz", "desc": "Long-range comm, backup channel. Less prone to interference." },
+          { "name": "868/915 MHz", "desc": "ELRS, control. Standard for FPV drones." },
+          { "name": "1.2 GHz", "desc": "Analog video. Long-range, but poor quality." },
+          { "name": "2.4 GHz", "desc": "Control, consumer band. Most common." },
+          { "name": "5.8 GHz", "desc": "Analog/digital video. High quality, but short range." },
+          { "name": "6+ GHz", "desc": "Modern digital systems. EW-resistant, but expensive." }
+        ]
+      },
+      {
+        "title": "Tactics",
+        "items": [
+          { "name": "Reconnaissance", "desc": "Find target, determine coordinates, pass to artillery." },
+          { "name": "Correction", "desc": "Direct artillery to target, adjust fire." },
+          { "name": "Strike", "desc": "Destroy target (FPV, bomber, kamikaze)." },
+          { "name": "Relay", "desc": "Provide comms for other drones at long range." },
+          { "name": "Swarm", "desc": "Group attack by several drones simultaneously." },
+          { "name": "Ambush", "desc": "Wait for target in the air (Lancet, Shahed)." },
+          { "name": "Decoy", "desc": "Distract air defense (Parody, Gerbera)." }
+        ]
+      },
+      {
+        "title": "Counter-UAS (C-UAS)",
+        "items": [
+          { "name": "EW", "desc": "Jamming signals. Main passive countermeasure." },
+          { "name": "FPV Interceptors", "desc": "Ramming in the air. Sting, P1-SUN, Taras-P." },
+          { "name": "SAM/MANPADS", "desc": "Missiles. Expensive, but effective." },
+          { "name": "Small Arms", "desc": "Machine guns, anti-aircraft mounts. Cheap, but low effective." },
+          { "name": "Nets", "desc": "Physical protection. Stretched over positions." },
+          { "name": "Laser Weapons", "desc": "Modern systems. Burns drone with laser." }
+        ]
+      },
+      {
+        "title": "Estimated Prices",
+        "items": [
+          { "name": "FPV", "desc": "$300–2000. Cheapest, mass-produced." },
+          { "name": "Mavic-class", "desc": "$2000–5000. Commercial, but effective." },
+          { "name": "Recon", "desc": "$5000–50 000. Leleka, Shark, Furia." },
+          { "name": "Attack", "desc": "$10 000–100 000. Bayraktar TB2, UJ-22." },
+          { "name": "Heavy Kamikaze", "desc": "$30 000–200 000. Shahed, Lancet." },
+          { "name": "Strategic", "desc": "$1M+. Cruise and ballistic missiles." }
+        ]
+      },
+      {
+        "title": "Pre-Flight Checklist",
+        "items": [
+          { "name": "Battery Charge", "desc": "Check that battery is charged. Better to have spare." },
+          { "name": "GPS/Comms Check", "desc": "Make sure satellites are found, comms stable." },
+          { "name": "Camera Check", "desc": "Check that video is transmitted, optics clean." },
+          { "name": "Weather Conditions", "desc": "Wind, rain, temperature. Don't fly in strong wind." },
+          { "name": "Flight Plan", "desc": "Know where you fly, where target is, how to return." },
+          { "name": "Backup Frequency", "desc": "Have backup comm channel in case main is jammed." },
+          { "name": "Return Point", "desc": "Make sure auto-return is configured correctly." }
+        ]
+      },
+      {
+        "title": "Emergency Situations",
+        "items": [
+          { "name": "Loss of Comms", "desc": "Drone has auto-return to base. Don't panic." },
+          { "name": "GPS Loss", "desc": "Switch to inertial navigation. Drone will continue flight." },
+          { "name": "Capture by Enemy FPV", "desc": "Evasive maneuver. Sharp change in altitude and course." },
+          { "name": "EW Jamming", "desc": "Switch to backup frequency or auto-return." },
+          { "name": "Engine Failure", "desc": "Glide to target. For kamikaze — this is normal." }
+        ]
+      }
+    ]
+  }
 }
-
-// Викликати при старті
-loadCheatsheet();
