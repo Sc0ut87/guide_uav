@@ -1,0 +1,35 @@
+// ============================================================
+// ЗАВАНТАЖЕННЯ ПАМ'ЯТКИ З GITHUB (cheatsheet.json)
+// ============================================================
+function loadCheatsheet() {
+    // 1. Спочатку з localStorage (щоб працювало офлайн)
+    const cached = localStorage.getItem('bpla_cheatsheet');
+    if (cached) {
+        try {
+            CHEATSHEET = JSON.parse(cached);
+            console.log('✅ Пам\'ятку завантажено з кешу');
+        } catch (e) {
+            console.warn('Помилка читання кешу пам\'ятки:', e);
+        }
+    }
+    
+    // 2. Потім з GitHub (у фоні)
+    fetch('https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/cheatsheet.json?t=' + Date.now())
+        .then(r => r.json())
+        .then(data => {
+            CHEATSHEET = data;
+            localStorage.setItem('bpla_cheatsheet', JSON.stringify(data));
+            console.log('✅ Пам\'ятку оновлено з GitHub');
+            
+            // Якщо вікно пам'ятки відкрите — перерендерити
+            if (document.getElementById('cheatsheetModal')?.style.display === 'block') {
+                renderCheatsheet();
+            }
+        })
+        .catch(err => {
+            console.warn('Не вдалося завантажити cheatsheet.json (використовуємо кеш):', err);
+        });
+}
+
+// Викликати при старті
+loadCheatsheet();
