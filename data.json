@@ -1,5 +1,5 @@
 {
-   "version": "1.11",
+   "version": "1.12",
   "ua": [
     {
       "id": "neptun",
@@ -427,10 +427,10 @@
     {
       "id": "uj26",
       "img": "images/uj26.jpg",
-      "imgs": [
-        "images/acc956ff1ea70035.jpg",
-        "images/beaver-2.jpg",
-        "images/beaver-3.jpg"
+         "imgs": [
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/uj26-2.jpg",
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/uj26-3.jpg"
+           ],
       ],
       "n": "UJ-26 БОБЕР",
       "nr": "UJ-26 BEAVER",
