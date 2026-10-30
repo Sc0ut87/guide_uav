@@ -427,10 +427,11 @@
     {
       "id": "uj26",
       "img": "images/uj26.jpg",
-         "imgs": [
-        images/uj26-2.jpg",
-        images/uj26-3.jpg"
-           ],
+          "imgs": [
+        "images/uj26.jpg",
+        "images/uj26-2.jpg",
+        "images/uj26-3.jpg"
+      ],
       "n": "UJ-26 БОБЕР",
       "nr": "UJ-26 BEAVER",
       "t": "long",
