@@ -1,5 +1,5 @@
 {
-   "version": "1.13",
+   "version": "1.14",
   "ua": [
     {
       "id": "neptun",
@@ -10687,8 +10687,8 @@
     "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/loko-2.jpg",
     "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/loko-3.jpg"
   ],
-  "n": "НРК LOKO",
-  "nr": "LOKO UGV",
+  "n": "ЛОКО",
+  "nr": "LOKO",
   "t": "nrk-ua",
   "tl": "Наземний роботизований комплекс (НРК) — важкий логістичний / евакуаційний",
   "tl_en": "Ground Robotic Complex (GRC) — Heavy Logistics / Evacuation",
