@@ -1,5 +1,5 @@
 {
-   "version": "1.15",
+   "version": "1.16",
   "ua": [
     {
       "id": "neptun",
@@ -7500,6 +7500,10 @@
     {
       "id": "gereon",
       "img": "images/gereon.jpg",
+        "imgs": [
+    "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/gereon-2.jpg",
+    "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/gereon-3.jpg"
+  ],
       "n": "ГЕРЕОН",
       "nr": "GEREON",
       "t": "nrk-ua",
