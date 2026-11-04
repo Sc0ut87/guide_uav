@@ -1,5 +1,5 @@
 {
-   "version": "1.17",
+   "version": "1.18",
   "ua": [
     {
       "id": "neptun",
@@ -7687,6 +7687,10 @@
     {
       "id": "varkhan_air3f",
       "img": "images/varkhan.jpg",
+              "imgs": [
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/varkhan_air3f-2.jpg",
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/varkhan_air3f-3.jpg"
+       
       "n": "Вархан",
       "nr": "VARKHAN",
       "t": "nrk-ua",
