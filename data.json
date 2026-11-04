@@ -1,5 +1,5 @@
 {
-   "version": "1.16",
+   "version": "1.17",
   "ua": [
     {
       "id": "neptun",
@@ -7596,6 +7596,10 @@
     {
       "id": "phantom",
       "img": "images/df3203ba055e4920.jpg",
+        "imgs": [
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/phantom-2.jpg",
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/phantom-3.jpg"
+           ], 
       "n": "Фантом",
       "nr": "Phantom",
       "t": "nrk-ua",
