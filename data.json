@@ -1,5 +1,5 @@
 {
-   "version": "1.24",
+   "version": "1.25",
   "ua": [
     {
       "id": "neptun",
@@ -8053,6 +8053,10 @@
     {
       "id": "riko_imla",
       "img": "images/riko.jpg",
+        "imgs": [
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/riko_imla-2.jpg",
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/riko_imla-3.jpg"
+       ],
       "n": "Ріко",
       "nr": "RIKO",
       "t": "nrk-ua",
@@ -8154,6 +8158,10 @@
     {
       "id": "mangust_4x4",
       "img": "images/mangust.jpg",
+        "imgs": [
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/mangust_4x4-2.jpg",
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/mangust_4x4-3.jpg"
+       ],
       "n": "Мангуст 4×4",
       "nr": "MANGUST 4×4",
       "t": "nrk-ua",
