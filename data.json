@@ -1,5 +1,5 @@
 {
-   "version": "1.23",
+   "version": "1.24",
   "ua": [
     {
       "id": "neptun",
@@ -15069,7 +15069,7 @@
     "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/scarabey-3.jpg"
   ],
   "n": "СКАРАБЕЙ СД 138",
-  "nr": "SCARAB SD 138",
+  "nr": "SCARABEY SD 138",
   "t": "attack",
   "tl": "Ударний / логістичний (важкий октокоптер)",
   "tl_en": "Attack / Logistics (Heavy Octocopter)",
