@@ -1,5 +1,5 @@
 {
-   "version": "1.27",
+   "version": "1.28",
   "ua": [
     {
       "id": "neptun",
@@ -8293,6 +8293,10 @@
     {
       "id": "zmiy",
       "img": "images/9ad803900b242402.jpg",
+       "imgs": [
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/zmiy-2.jpg",
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/zmiy-3.jpg"
+           ],
       "n": "Змій",
       "nr": "Zmiy",
       "t": "nrk-ua",
