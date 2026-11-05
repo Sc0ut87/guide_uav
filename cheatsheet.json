@@ -1889,7 +1889,7 @@
             ],
             "tips": "Спостерігай 5–10 хвилин. Перевіряй на міни-пастки. Використовуй палицю або кішку для перевірки. Одягай рукавиці."
           },
-          {
+                    {
             "name": "Робота з трофейними дронами",
             "desc": "Що робити з ворожим дроном, який впав, але не вибухнув.",
             "why": "Трофейні дрони містять цінну інформацію про електроніку, прошивки та технології ворога. Але вони можуть бути заміновані або мати вбудовані маячки.",
@@ -1900,8 +1900,20 @@
               "Використовувати трофейний дрон — він може бути з маячком."
             ],
             "tips": "Не чіпай дрон. Виклич саперів. Передай дрон технічній розвідці. Не використовуй трофейні дрони в бою."
+          }, // <--- ОСЬ ТУТ ПОТРІБНА КОМА!
+          {
+            "name": "Маркування акумуляторів",
+            "desc": "Як позначати батареї (кольором, маркером, стікерами), щоб не переплутати заряджені, розряджені та пошкоджені.",
+            "why": "На війні акумулятори виглядають однаково. Якщо взяти розряджений або пошкоджений (наприклад, після падіння) замість свіжого, дрон впаде в найвідповідальніший момент. Крім того, пошкоджений LiPo може спалахнути.",
+            "example": "Оператор використовує кольорові стяжки: зелена — 100% заряд, жовта — 50%, червона — розряджена/на зарядку, чорна — пошкоджена. Він бере зелену і точно знає, що долетить до цілі й повернеться.",
+            "mistakes": [
+              "Покладатися лише на пам'ять — в бою це ненадійно.",
+              "Маркувати батареї звичайним скотчем — він відклеюється від холоду й вологи.",
+              "Змішувати заряджені та розряджені батареї в одному ящику."
+            ],
+            "tips": "Використовуй кольорові ізоляційні стрічки або стяжки. Пиши номер комірки перманентним маркером. Пошкоджені батареї одразу відкладай в окремий вогнестійкий контейнер і маркуй червоним хрестом."
           }
-        ]
+        ] // <--- ОСЬ ТУТ ЗАКРИВАЄТЬСЯ МАСИВ ITEMS
       },
       {
         "title": "Типові ситуації на фронті",
@@ -3957,7 +3969,7 @@
             ],
             "tips": "Observe for 5–10 minutes. Check for booby traps. Use a stick or a cat's paw to check. Wear gloves."
           },
-          {
+           {
             "name": "Working with Captured Drones",
             "desc": "What to do with an enemy drone that crashed but didn't explode.",
             "why": "Captured drones contain valuable information about electronics, firmware, and enemy technology. But they can be booby-trapped or have built-in beacons.",
@@ -3968,8 +3980,20 @@
               "Using a captured drone — it may have a beacon."
             ],
             "tips": "Don't touch the drone. Call sappers. Hand the drone to technical intelligence. Don't use captured drones in combat."
+          }, // <--- ОСЬ ТУТ ПОТРІБНА КОМА!
+          {
+            "name": "Battery Marking",
+            "desc": "How to label batteries (by color, marker, stickers) so you don't mix up charged, discharged, and damaged ones.",
+            "why": "In combat, batteries look identical. If you take a discharged or damaged one (e.g., after a crash) instead of a fresh one, the drone will fall at the most critical moment. Also, a damaged LiPo can catch fire.",
+            "example": "The operator uses colored zip ties: green — 100% charge, yellow — 50%, red — discharged/needs charging, black — damaged. He takes a green one and knows for sure it will reach the target and return.",
+            "mistakes": [
+              "Relying only on memory — unreliable in combat.",
+              "Marking batteries with regular tape — it peels off in cold and wet conditions.",
+              "Mixing charged and discharged batteries in the same box."
+            ],
+            "tips": "Use colored electrical tape or zip ties. Write the cell number with a permanent marker. Immediately put damaged batteries in a separate fireproof container and mark them with a red cross."
           }
-        ]
+        ] // <--- ОСЬ ТУТ ЗАКРИВАЄТЬСЯ МАСИВ ITEMS
       },
       {
         "title": "Typical Frontline Situations",
