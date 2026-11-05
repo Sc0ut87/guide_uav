@@ -1900,7 +1900,7 @@
               "Використовувати трофейний дрон — він може бути з маячком."
             ],
             "tips": "Не чіпай дрон. Виклич саперів. Передай дрон технічній розвідці. Не використовуй трофейні дрони в бою."
-          }, // <--- ОСЬ ТУТ ПОТРІБНА КОМА!
+          },
           {
             "name": "Маркування акумуляторів",
             "desc": "Як позначати батареї (кольором, маркером, стікерами), щоб не переплутати заряджені, розряджені та пошкоджені.",
@@ -1913,7 +1913,7 @@
             ],
             "tips": "Використовуй кольорові ізоляційні стрічки або стяжки. Пиши номер комірки перманентним маркером. Пошкоджені батареї одразу відкладай в окремий вогнестійкий контейнер і маркуй червоним хрестом."
           }
-        ] // <--- ОСЬ ТУТ ЗАКРИВАЄТЬСЯ МАСИВ ITEMS
+        ]
       },
       {
         "title": "Типові ситуації на фронті",
@@ -3980,7 +3980,7 @@
               "Using a captured drone — it may have a beacon."
             ],
             "tips": "Don't touch the drone. Call sappers. Hand the drone to technical intelligence. Don't use captured drones in combat."
-          }, // <--- ОСЬ ТУТ ПОТРІБНА КОМА!
+          }, 
           {
             "name": "Battery Marking",
             "desc": "How to label batteries (by color, marker, stickers) so you don't mix up charged, discharged, and damaged ones.",
@@ -3993,7 +3993,7 @@
             ],
             "tips": "Use colored electrical tape or zip ties. Write the cell number with a permanent marker. Immediately put damaged batteries in a separate fireproof container and mark them with a red cross."
           }
-        ] // <--- ОСЬ ТУТ ЗАКРИВАЄТЬСЯ МАСИВ ITEMS
+        ]
       },
       {
         "title": "Typical Frontline Situations",
