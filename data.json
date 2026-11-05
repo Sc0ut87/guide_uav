@@ -1,5 +1,5 @@
 {
-   "version": "1.21",
+   "version": "1.22",
   "ua": [
     {
       "id": "neptun",
@@ -1716,9 +1716,9 @@
   "h_en": "—",
   "eng": "Електричні (6 двигунів, 30-дюймова рама)",
   "eng_en": "Electric (6 motors, 30-inch frame)",
-  "mods": "Black Stork (базовий), лінійка Ratel: Owl A (ударний), Owl R (розвідувальний), Sparrow 10, Sparrow 7, Sparrow OF, Squid-100H",
-  "mods_en": "Black Stork (base), Ratel lineup: Owl A (attack), Owl R (recon), Sparrow 10, Sparrow 7, Sparrow OF, Squid-100H",
-  "d": "Black Stork («Чорний лелека») — це важка 30-дюймова багатоцільова безпілотна повітряна платформа від українського виробника Ratel Robotics. Апарат створено для виконання ударних місій (бомбер), логістичних завдань (доставка вантажів на передову) та повітряної розвідки. Головною конструктивною особливістю дрона є повна інтеграція з терміналом Starlink, що забезпечує стабільний цифровий зв'язок та передачу відеосигналу в реальному часі безпосередньо через супутник. Це робить його неуразливим до наземних засобів РЕБ та знімає обмеження радіогоризонту чи рельєфу місцевості. Платформа представлена на початку листопада 2026 року. Основні ТТХ: важка багатоцільова платформа (удар / логістика / розвідка), 30-дюймова платформа, корисне навантаження до 10 кг, час польоту до 50 хвилин, дальність до 15 км. Оптика: оптична система для цілодобової роботи (день/ніч), навігація — модуль StabX (робота без GPS), зв'язок — система Starlink (передача відео та керування). Призначення: ударні місії, перевезення вантажів (логістика), розвідка. Платформа входить до нової лінійки Ratel разом з ударним Owl A, розвідувальним Owl R та лінійкою FPV-дронів (Sparrow 10, Sparrow 7, Sparrow OF, Squid-100H). Офіційних детальніших характеристик (маса, швидкість, точні габарити тощо) компанія поки не публікувала — наведена інформація базується на офіційному анонсі виробника.",
+  "mods": "Black Stork (базовий), лінійка Ratel:  A (ударний),  R (розвідувальний), Sparrow 10, Sparrow 7, Sparrow OF, Squid-100H",
+  "mods_en": "Black Stork (base), Ratel lineup:  A (attack),  R (recon), Sparrow 10, Sparrow 7, Sparrow OF, Squid-100H",
+  "d": "Black Stork («Чорний лелека») — це важка 30-дюймова багатоцільова безпілотна повітряна платформа від українського виробника Ratel Robotics. Апарат створено для виконання ударних місій (бомбер), логістичних завдань (доставка вантажів на передову) та повітряної розвідки. Головною конструктивною особливістю дрона є повна інтеграція з терміналом Starlink, що забезпечує стабільний цифровий зв'язок та передачу відеосигналу в реальному часі безпосередньо через супутник. Це робить його неуразливим до наземних засобів РЕБ та знімає обмеження радіогоризонту чи рельєфу місцевості. Платформа представлена на початку листопада 2026 року. Основні ТТХ: важка багатоцільова платформа (удар / логістика / розвідка), 30-дюймова платформа, корисне навантаження до 10 кг, час польоту до 50 хвилин, дальність до 15 км. Оптика: оптична система для цілодобової роботи (день/ніч), навігація — модуль StabX (робота без GPS), зв'язок — система Starlink (передача відео та керування). Призначення: ударні місії, перевезення вантажів (логістика), розвідка. Платформа входить до нової лінійки Ratel разом з ударним  A, розвідувальним Owl R та лінійкою FPV-дронів (Sparrow 10, Sparrow 7, Sparrow OF, Squid-100H). Офіційних детальніших характеристик (маса, швидкість, точні габарити тощо) компанія поки не публікувала — наведена інформація базується на офіційному анонсі виробника.",
   "d_en": "Black Stork is a heavy 30-inch multi-purpose unmanned aerial platform from the Ukrainian manufacturer Ratel Robotics. The vehicle is designed for strike missions (bomber), logistics tasks (delivery of cargo to the front line), and aerial reconnaissance. The main design feature of the drone is full integration with the Starlink terminal, which provides stable digital communication and real-time video transmission directly via satellite. This makes it immune to ground-based EW means and removes the limitations of the radio horizon or terrain. The platform was presented in early November 2026. Main specifications: heavy multi-purpose platform (strike / logistics / recon), 30-inch platform, payload up to 10 kg, flight time up to 50 minutes, range up to 15 km. Optics: optical system for 24/7 operation (day/night), navigation — StabX module (GPS-free operation), communication — Starlink system (video and control transmission). Applications: strike missions, cargo transport (logistics), reconnaissance. The platform is part of the new Ratel lineup along with the strike Owl A, reconnaissance Owl R, and the FPV drone line (Sparrow 10, Sparrow 7, Sparrow OF, Squid-100H). The company has not yet published official detailed specifications (weight, speed, exact dimensions, etc.) — the information is based on the manufacturer's official announcement.",
   "f": [
     "Розробник: Ratel Robotics (Україна)",
@@ -4056,7 +4056,7 @@
     "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/owl_r-2.jpg",
     "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/owl_r-3.jpg"
   ],
-  "n": "ОУЛ Р",
+  "n": "ОУЛ-Р",
   "nr": "OWL R",
   "t": "recon",
   "tl": "Розвідка (тактична, VTOL)",
