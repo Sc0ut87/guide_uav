@@ -1,5 +1,5 @@
 {
-   "version": "1.19",
+   "version": "1.20",
   "ua": [
     {
       "id": "neptun",
@@ -11147,7 +11147,11 @@
     },
     {
       "id": "apus",
-      "img": "images/apus.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/apus.jpg",
+       "imgs": [
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/apus-2.jpg",
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/apus-3.jpg"
+           ],
       "n": "АПУС-1",
       "nr": "APUS-1",
       "t": "attack",
