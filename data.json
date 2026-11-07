@@ -1,5 +1,5 @@
 {
-   "version": "1.28",
+   "version": "1.29",
   "ua": [
     {
       "id": "neptun",
@@ -4207,7 +4207,7 @@
     {
       "id": "spys",
       "img": "images/spys.jpg",
-      "n": "СПИС (SPYS)",
+      "n": "СПИС",
       "nr": "SPYS",
       "t": "fpv",
       "tl": "Дрон-перехоплювач",
