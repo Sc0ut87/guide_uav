@@ -1,5 +1,5 @@
 {
-   "version": "1.29",
+   "version": "1.30",
   "ua": [
     {
       "id": "neptun",
@@ -3157,10 +3157,10 @@
   ],
   "n": "Х-12 (реактивний перехоплювач)",
   "nr": "X-12",
-  "t": "fast",
+  "t": "attack",
   "tl": "Реактивний дрон-перехоплювач літакового типу (турбореактивний)",
   "tl_en": "Jet-powered fixed-wing interceptor drone (turbojet)",
-  "tg": ["fpv", "intercept", "attack", "fast", "new"],
+  "tg": ["fpv", "intercept", "attack", "new"],
   "r": "126 км (дальність польоту)",
   "r_en": "126 km (flight range)",
   "kn": "не розголошується (бойова частина / корисне навантаження)",
@@ -17620,10 +17620,9 @@
       "img": "images/astra.jpg",
       "n": "Астра-ПВО",
       "nr": "Astra-PVO",
-      "t": "fast",
+      "t": "attack",
       "tl": "Зенітний дрон-перехоплювач",
       "tg": [
-        "fast",
         "attack",
         "new"
       ],
