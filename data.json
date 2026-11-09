@@ -1,5 +1,5 @@
 {
-   "version": "1.30",
+   "version": "1.31",
   "ua": [
     {
       "id": "neptun",
@@ -3155,7 +3155,7 @@
     "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/x12-2.jpg",
     "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/x12-3.jpg"
   ],
-  "n": "Х-12 (реактивний перехоплювач)",
+  "n": "Х-12",
   "nr": "X-12",
   "t": "attack",
   "tl": "Реактивний дрон-перехоплювач літакового типу (турбореактивний)",
