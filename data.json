@@ -1,5 +1,5 @@
 {
-   "version": "1.31",
+   "version": "1.32",
   "ua": [
     {
       "id": "neptun",
@@ -96,7 +96,7 @@
   "t": "long",
   "tl": "Крилата ракета середньої/великої дальності (повітря/земля/море)",
   "tl_en": "Medium/Long-Range Cruise Missile (Air/Ground/Sea-launched)",
-  "tg": ["raketa-ua", "long", "new"],
+  "tg": ["raketa-ua"],
   "r": "понад 926 км (500 морських миль) при повітряному запуску з середньої/великої висоти; ~555 км (300 морських миль) при низьковисотному польоті",
   "r_en": "over 926 km (500 nm) when air-launched from medium/high altitude; ~555 km (300 nm) at low-altitude flight",
   "kn": "45 кг (100 lb) стандартно; Block 40 — 45–113 кг (100–250 lb)",
@@ -12173,10 +12173,7 @@
       "nr": "R-77M / K-77M / Izdeliye 180",
       "t": "long",
       "tl": "Керована ракета «повітря — повітря» середньої/великої дальності",
-      "tg": [
-        "raketa-ru",
-        "new"
-      ],
+      "tg": ["raketa-ru"],
       "r": "до 190–200 км (заявна, висотні цілі)",
       "kn": "≈ 22 кг",
       "zm": "≈ 190 кг",
@@ -12291,7 +12288,7 @@
       "t": "long",
       "tl": "Крилата ракета наземного базування",
       "tl_en": "Ground-launched Cruise Missile",
-      "tg": ["raketa-ru", "new"],
+      "tg": ["raketa-ru"],
       "r": "до 1200 км (за оцінками ГУР — 600–1200 км залежно від конфігурації)",
       "r_en": "up to 1200 km (HUR estimates — 600–1200 km depending on configuration)",
       "kn": "50 кг або 100 кг (осколково-фугасна, проникна або термобарична)",
