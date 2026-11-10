@@ -1,5 +1,5 @@
 {
-   "version": "1.33",
+   "version": "1.34",
   "ua": [
     {
       "id": "neptun",
@@ -510,13 +510,9 @@
       "img": "images/zorelit4.jpg",
       "n": "ЗОРЕЛІТ v4",
       "nr": "ZORELIT V4",
-      "t": "attack",
+      "t": "interceptor",
       "tl": "Зенітний FPV-перехоплювач",
-      "tg": [
-        "attack",
-        "intercept",
-        "new"
-      ],
+      "tg": ["interceptor"],
       "r": "45–47 км (до 65–70 км у версії Long Range)",
       "kn": "300–600 г",
       "zm": "—",
@@ -556,13 +552,9 @@
       "img": "images/zorelit5.jpg",
       "n": "ЗОРЕЛІТ v5",
       "nr": "ZORELIT V5",
-      "t": "attack",
+      "t": "interceptor",
       "tl": "Зенітний FPV-перехоплювач",
-      "tg": [
-        "attack",
-        "intercept",
-        "new"
-      ],
+      "tg": ["interceptor"],
       "r": "до 47 км",
       "kn": "300–600 г",
       "zm": "—",
@@ -6886,10 +6878,10 @@
   ],
   "n": "СКВІД-100H",
   "nr": "SQUID-100H",
-  "t": "fpv",
+  "t": "interceptor",
   "tl": "Дрон-перехоплювач (FPV, високошвидкісний)",
   "tl_en": "Interceptor Drone (FPV, high-speed)",
-  "tg": ["fpv", "attack", "new"],
+  "tg": ["interceptor"],
   "r": "до 30 км (бойовий радіус)",
   "r_en": "up to 30 km (combat radius)",
   "kn": "до 1,2 кг (бойова частина)",
@@ -7182,13 +7174,9 @@
       "img": "images/striker.jpg",
       "n": "СТРАЙКЕР МІНІ",
       "nr": "STRIKER MINI",
-      "t": "kamikaze",
-      "tl": "Дрон-перехоплювач літакового типу",
-      "tg": [
-        "intercept",
-        "attack",
-        "new"
-      ],
+      "t": "interceptor",
+      "tl": "Дрон-перехоплювач",
+      "tg": ["interceptor"],
       "r": "до 25 км",
       "kn": "до 0,55 кг",
       "zm": "4,55 кг",
