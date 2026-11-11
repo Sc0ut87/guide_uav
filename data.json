@@ -1,5 +1,5 @@
 {
-   "version": "1.36",
+   "version": "1.37",
   "ua": [
     {
       "id": "neptun",
@@ -12917,10 +12917,10 @@
       "img": "images/molniya.jpg",
       "n": "Молния-1",
       "nr": "Molniya-1",
-      "t": "fpv",
-      "tl": "FPV / Барраж. БП",
+      "t": "loiter",
+      "tl": "Барраж. БП / камікадзе",
       "tg": [
-        "fpv",
+        "loiter",
         "attack"
       ],
       "r": "30-35 км",
@@ -12956,10 +12956,10 @@
       "img": "images/molniya-2.jpg",
       "n": "Молния-2",
       "nr": "Molniya-2",
-      "t": "fpv",
-      "tl": "FPV / Барраж. БП",
+      "t": "loiter",
+      "tl": "Камікадзе / Барраж. БП",
       "tg": [
-        "fpv",
+        "loiter",
         "attack"
       ],
       "r": "40-50 км (до 230+ км з Starlink)",
@@ -15058,11 +15058,7 @@
       "nr": "Molniya-13 / Lightning 13",
       "t": "attack",
       "tl": "Ударний (важкий FPV)",
-      "tg": [
-        "attack",
-        "fpv",
-        "new"
-      ],
+      "tg": ["attack","new"],
       "r": "до 50 км",
       "kn": "до 13 кг",
       "zm": "~25–30 кг",
