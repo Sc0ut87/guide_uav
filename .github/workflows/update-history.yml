@@ -1,12 +1,10 @@
 name: Update History
 
-# Коли запускати робота
 on:
   push:
     paths:
-      - 'data.json'   # тільки коли змінюється data.json
+      - 'data.json'
 
-# Права на запис у репозиторій
 permissions:
   contents: write
 
@@ -15,13 +13,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Завантажуємо репозиторій (2 останні коміти — щоб порівняти)
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 2
 
-      # 2. Отримуємо старий data.json (з попереднього коміту)
       - name: Get previous data.json
         run: |
           if git rev-parse HEAD~1 >/dev/null 2>&1; then
@@ -30,7 +26,6 @@ jobs:
             echo "{}" > old_data.json
           fi
 
-      # 3. Порівнюємо і оновлюємо history.json
       - name: Compare and update history
         run: |
           node <<'EOF'
@@ -51,18 +46,54 @@ jobs:
           const oldMap = new Map(oldDrones.map(d => [d.id, d]));
           const newMap = new Map(newDrones.map(d => [d.id, d]));
 
-          // 🆕 Додані дрони
           const added = newDrones
             .filter(d => !oldMap.has(d.id))
             .map(d => d.n || d.nr || d.id);
 
-          // ➖ Видалені дрони
           const removed = oldDrones
             .filter(d => !newMap.has(d.id))
             .map(d => d.n || d.nr || d.id);
 
-          // 🔄 Оновлені дрони (детально по полях)
           const updated = [];
+          
+          // Словник людських назв
+          const fieldNames = {
+            'n': { uk: 'Назва (укр)', en: 'Name (UK)' },
+            'nr': { uk: 'Назва (англ)', en: 'Name (EN)' },
+            't': { uk: 'Тип (категорія)', en: 'Type (category)' },
+            'tl': { uk: 'Тип (опис)', en: 'Type (description)' },
+            'tl_en': { uk: 'Тип (опис EN)', en: 'Type (description EN)' },
+            'tg': { uk: 'Теги', en: 'Tags' },
+            'r': { uk: 'Дальність', en: 'Range' },
+            'r_en': { uk: 'Дальність (EN)', en: 'Range (EN)' },
+            'kn': { uk: 'Навантаження', en: 'Payload' },
+            'kn_en': { uk: 'Навантаження (EN)', en: 'Payload (EN)' },
+            'zm': { uk: 'Маса', en: 'Weight' },
+            'zm_en': { uk: 'Маса (EN)', en: 'Weight (EN)' },
+            'sp': { uk: 'Швидкість', en: 'Speed' },
+            'w': { uk: 'Шасі/Розмах', en: 'Chassis/Wingspan' },
+            'l': { uk: 'Довжина/Габарити', en: 'Length/Dimensions' },
+            'y': { uk: 'Рік', en: 'Year' },
+            'st': { uk: 'Статус', en: 'Status' },
+            'st_en': { uk: 'Статус (EN)', en: 'Status (EN)' },
+            'ft': { uk: 'Час польоту', en: 'Flight time' },
+            'ft_en': { uk: 'Час польоту (EN)', en: 'Flight time (EN)' },
+            'h': { uk: 'Висота', en: 'Altitude' },
+            'h_en': { uk: 'Висота (EN)', en: 'Altitude (EN)' },
+            'eng': { uk: 'Двигун', en: 'Engine' },
+            'eng_en': { uk: 'Двигун (EN)', en: 'Engine (EN)' },
+            'mods': { uk: 'Модифікації', en: 'Modifications' },
+            'mods_en': { uk: 'Модифікації (EN)', en: 'Modifications (EN)' },
+            'd': { uk: 'Опис', en: 'Description' },
+            'd_en': { uk: 'Опис (EN)', en: 'Description (EN)' },
+            'f': { uk: 'Характеристики', en: 'Features' },
+            'f_en': { uk: 'Характеристики (EN)', en: 'Features (EN)' },
+            'img': { uk: 'Головне фото', en: 'Main photo' },
+            'imgs': { uk: 'Галерея фото', en: 'Photo gallery' },
+            'c': { uk: 'Країна', en: 'Country' },
+            'i': { uk: 'Іконка', en: 'Icon' }
+          };
+
           newDrones.forEach(newD => {
             const oldD = oldMap.get(newD.id);
             if (!oldD) return;
@@ -83,47 +114,9 @@ jobs:
               }
 
               if (oldVal !== newVal) {
-    // 👇 СЛОВНИК ЛЮДСЬКИХ НАЗВ 👇
-    const fieldNames = {
-        'n': { uk: 'Назва (укр)', en: 'Name (UK)' },
-        'nr': { uk: 'Назва (англ)', en: 'Name (EN)' },
-        't': { uk: 'Тип (категорія)', en: 'Type (category)' },
-        'tl': { uk: 'Тип (опис)', en: 'Type (description)' },
-        'tl_en': { uk: 'Тип (опис EN)', en: 'Type (description EN)' },
-        'tg': { uk: 'Теги', en: 'Tags' },
-        'r': { uk: 'Дальність', en: 'Range' },
-        'r_en': { uk: 'Дальність (EN)', en: 'Range (EN)' },
-        'kn': { uk: 'Навантаження', en: 'Payload' },
-        'kn_en': { uk: 'Навантаження (EN)', en: 'Payload (EN)' },
-        'zm': { uk: 'Маса', en: 'Weight' },
-        'zm_en': { uk: 'Маса (EN)', en: 'Weight (EN)' },
-        'sp': { uk: 'Швидкість', en: 'Speed' },
-        'w': { uk: 'Шасі/Розмах', en: 'Chassis/Wingspan' },
-        'l': { uk: 'Довжина/Габарити', en: 'Length/Dimensions' },
-        'y': { uk: 'Рік', en: 'Year' },
-        'st': { uk: 'Статус', en: 'Status' },
-        'st_en': { uk: 'Статус (EN)', en: 'Status (EN)' },
-        'ft': { uk: 'Час польоту', en: 'Flight time' },
-        'ft_en': { uk: 'Час польоту (EN)', en: 'Flight time (EN)' },
-        'h': { uk: 'Висота', en: 'Altitude' },
-        'h_en': { uk: 'Висота (EN)', en: 'Altitude (EN)' },
-        'eng': { uk: 'Двигун', en: 'Engine' },
-        'eng_en': { uk: 'Двигун (EN)', en: 'Engine (EN)' },
-        'mods': { uk: 'Модифікації', en: 'Modifications' },
-        'mods_en': { uk: 'Модифікації (EN)', en: 'Modifications (EN)' },
-        'd': { uk: 'Опис', en: 'Description' },
-        'd_en': { uk: 'Опис (EN)', en: 'Description (EN)' },
-        'f': { uk: 'Характеристики', en: 'Features' },
-        'f_en': { uk: 'Характеристики (EN)', en: 'Features (EN)' },
-        'img': { uk: 'Головне фото', en: 'Main photo' },
-        'imgs': { uk: 'Галерея фото', en: 'Photo gallery' },
-        'c': { uk: 'Країна', en: 'Country' },
-        'i': { uk: 'Іконка', en: 'Icon' }
-    };
-
-    const label = fieldNames[key] || { uk: key, en: key };
-    changedFields.push(label);
-}
+                const label = fieldNames[key] || { uk: key, en: key };
+                changedFields.push(label);
+              }
             });
 
             if (changedFields.length > 0) {
@@ -134,13 +127,11 @@ jobs:
             }
           });
 
-          // Якщо змін немає — виходимо
           if (added.length === 0 && removed.length === 0 && updated.length === 0) {
             console.log('ℹ️ Змін у data.json немає — history.json не оновлюємо');
             process.exit(0);
           }
 
-          // Додаємо новий запис у початок історії
           historyFile.history.unshift({
             date: new Date().toISOString(),
             version: newData.version || '?',
@@ -153,7 +144,6 @@ jobs:
             }
           });
 
-          // Обмежуємо до 200 записів (щоб файл не ріс безкінечно)
           if (historyFile.history.length > 200) {
             historyFile.history = historyFile.history.slice(0, 200);
           }
@@ -163,7 +153,6 @@ jobs:
           console.log(`   Додано: ${added.length}, Видалено: ${removed.length}, Оновлено: ${updated.length}`);
           EOF
 
-      # 4. Комітимо зміни в history.json
       - name: Commit history.json
         run: |
           git config user.name "github-actions[bot]"
