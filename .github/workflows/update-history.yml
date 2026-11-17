@@ -56,7 +56,6 @@ jobs:
 
           const updated = [];
           
-          // Словник людських назв
           const fieldNames = {
             'n': { uk: 'Назва (укр)', en: 'Name (UK)' },
             'nr': { uk: 'Назва (англ)', en: 'Name (EN)' },
@@ -127,23 +126,71 @@ jobs:
             }
           });
 
+          // Якщо змін немає — виходимо
           if (added.length === 0 && removed.length === 0 && updated.length === 0) {
             console.log('ℹ️ Змін у data.json немає — history.json не оновлюємо');
             process.exit(0);
           }
 
-          historyFile.history.unshift({
-            date: new Date().toISOString(),
-            version: newData.version || '?',
-            added: added,
-            removed: removed,
-            updated: updated,
-            versionChange: {
-              from: oldData.version || '?',
-              to: newData.version || '?'
+          // ГРУПУВАННЯ ЗА ВЕРСІЄЮ
+          const newVersion = newData.version || '?';
+          
+          // Шукаємо, чи вже є запис для цієї версії в history
+          let existingEntry = historyFile.history.find(h => h.version === newVersion);
+          
+          if (existingEntry) {
+            console.log(`📝 Дописуємо зміни до існуючої версії ${newVersion}`);
+            
+            // Додаємо нові дрони (уникаючи дублікатів)
+            added.forEach(name => {
+              if (!existingEntry.added.includes(name)) existingEntry.added.push(name);
+            });
+            
+            // Додаємо видалені (уникаючи дублікатів)
+            removed.forEach(name => {
+              if (!existingEntry.removed.includes(name)) existingEntry.removed.push(name);
+            });
+            
+            // Оновлюємо записи (якщо дрон вже є в updated — об'єднуємо поля)
+            updated.forEach(newUpdate => {
+              const existingUpdate = existingEntry.updated.find(u => u.name === newUpdate.name);
+              if (existingUpdate) {
+                newUpdate.fields.forEach(field => {
+                  const exists = existingUpdate.fields.some(f => f.uk === field.uk);
+                  if (!exists) existingUpdate.fields.push(field);
+                });
+              } else {
+                existingEntry.updated.push(newUpdate);
+              }
+            });
+            
+            // Оновлюємо дату на найсвіжішу
+            existingEntry.date = new Date().toISOString();
+            
+            // Якщо змінилася версія (наприклад, була 1.44, стала 1.45) — оновлюємо
+            if (oldData.version !== newVersion) {
+              existingEntry.versionChange = {
+                from: oldData.version || '?',
+                to: newVersion
+              };
             }
-          });
+          } else {
+            // Якщо запису для цієї версії ще немає — створюємо новий
+            console.log(`🆕 Створюємо новий запис для версії ${newVersion}`);
+            historyFile.history.unshift({
+              date: new Date().toISOString(),
+              version: newVersion,
+              added: added,
+              removed: removed,
+              updated: updated,
+              versionChange: {
+                from: oldData.version || '?',
+                to: newVersion
+              }
+            });
+          }
 
+          // Обмежуємо до 200 записів
           if (historyFile.history.length > 200) {
             historyFile.history = historyFile.history.slice(0, 200);
           }
