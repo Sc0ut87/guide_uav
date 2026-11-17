@@ -1,0 +1,139 @@
+name: Update History
+
+# Коли запускати робота
+on:
+  push:
+    paths:
+      - 'data.json'   # тільки коли змінюється data.json
+
+# Права на запис у репозиторій
+permissions:
+  contents: write
+
+jobs:
+  update-history:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Завантажуємо репозиторій (2 останні коміти — щоб порівняти)
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      # 2. Отримуємо старий data.json (з попереднього коміту)
+      - name: Get previous data.json
+        run: |
+          if git rev-parse HEAD~1 >/dev/null 2>&1; then
+            git show HEAD~1:data.json > old_data.json 2>/dev/null || echo "{}" > old_data.json
+          else
+            echo "{}" > old_data.json
+          fi
+
+      # 3. Порівнюємо і оновлюємо history.json
+      - name: Compare and update history
+        run: |
+          node <<'EOF'
+          const fs = require('fs');
+
+          function safeRead(path, fallback) {
+            try { return JSON.parse(fs.readFileSync(path, 'utf8')); }
+            catch (e) { return fallback; }
+          }
+
+          const oldData = safeRead('old_data.json', {});
+          const newData = safeRead('data.json', {});
+          const historyFile = safeRead('history.json', { history: [] });
+
+          const oldDrones = [...(oldData.ua || []), ...(oldData.ru || [])];
+          const newDrones = [...(newData.ua || []), ...(newData.ru || [])];
+
+          const oldMap = new Map(oldDrones.map(d => [d.id, d]));
+          const newMap = new Map(newDrones.map(d => [d.id, d]));
+
+          // 🆕 Додані дрони
+          const added = newDrones
+            .filter(d => !oldMap.has(d.id))
+            .map(d => d.n || d.nr || d.id);
+
+          // ➖ Видалені дрони
+          const removed = oldDrones
+            .filter(d => !newMap.has(d.id))
+            .map(d => d.n || d.nr || d.id);
+
+          // 🔄 Оновлені дрони (детально по полях)
+          const updated = [];
+          newDrones.forEach(newD => {
+            const oldD = oldMap.get(newD.id);
+            if (!oldD) return;
+
+            const changedFields = [];
+            const allKeys = new Set([...Object.keys(oldD), ...Object.keys(newD)]);
+
+            allKeys.forEach(key => {
+              if (key === 'id') return;
+
+              let oldVal, newVal;
+              if (Array.isArray(oldD[key]) || Array.isArray(newD[key])) {
+                oldVal = JSON.stringify(oldD[key] || []);
+                newVal = JSON.stringify(newD[key] || []);
+              } else {
+                oldVal = JSON.stringify(oldD[key] || '');
+                newVal = JSON.stringify(newD[key] || '');
+              }
+
+              if (oldVal !== newVal) {
+                changedFields.push({ uk: key, en: key });
+              }
+            });
+
+            if (changedFields.length > 0) {
+              updated.push({
+                name: newD.n || newD.nr || newD.id,
+                fields: changedFields
+              });
+            }
+          });
+
+          // Якщо змін немає — виходимо
+          if (added.length === 0 && removed.length === 0 && updated.length === 0) {
+            console.log('ℹ️ Змін у data.json немає — history.json не оновлюємо');
+            process.exit(0);
+          }
+
+          // Додаємо новий запис у початок історії
+          historyFile.history.unshift({
+            date: new Date().toISOString(),
+            version: newData.version || '?',
+            added: added,
+            removed: removed,
+            updated: updated,
+            versionChange: {
+              from: oldData.version || '?',
+              to: newData.version || '?'
+            }
+          });
+
+          // Обмежуємо до 200 записів (щоб файл не ріс безкінечно)
+          if (historyFile.history.length > 200) {
+            historyFile.history = historyFile.history.slice(0, 200);
+          }
+
+          fs.writeFileSync('history.json', JSON.stringify(historyFile, null, 2));
+          console.log('✅ history.json оновлено');
+          console.log(`   Додано: ${added.length}, Видалено: ${removed.length}, Оновлено: ${updated.length}`);
+          EOF
+
+      # 4. Комітимо зміни в history.json
+      - name: Commit history.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add history.json
+          if git diff --staged --quiet; then
+            echo "ℹ️ Немає змін для коміту"
+          else
+            git commit -m "🤖 Auto-update history.json"
+            git push
+            echo "✅ history.json закомічено"
+          fi
