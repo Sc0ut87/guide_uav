@@ -83,8 +83,47 @@ jobs:
               }
 
               if (oldVal !== newVal) {
-                changedFields.push({ uk: key, en: key });
-              }
+    // 👇 СЛОВНИК ЛЮДСЬКИХ НАЗВ 👇
+    const fieldNames = {
+        'n': { uk: 'Назва (укр)', en: 'Name (UK)' },
+        'nr': { uk: 'Назва (англ)', en: 'Name (EN)' },
+        't': { uk: 'Тип (категорія)', en: 'Type (category)' },
+        'tl': { uk: 'Тип (опис)', en: 'Type (description)' },
+        'tl_en': { uk: 'Тип (опис EN)', en: 'Type (description EN)' },
+        'tg': { uk: 'Теги', en: 'Tags' },
+        'r': { uk: 'Дальність', en: 'Range' },
+        'r_en': { uk: 'Дальність (EN)', en: 'Range (EN)' },
+        'kn': { uk: 'Навантаження', en: 'Payload' },
+        'kn_en': { uk: 'Навантаження (EN)', en: 'Payload (EN)' },
+        'zm': { uk: 'Маса', en: 'Weight' },
+        'zm_en': { uk: 'Маса (EN)', en: 'Weight (EN)' },
+        'sp': { uk: 'Швидкість', en: 'Speed' },
+        'w': { uk: 'Шасі/Розмах', en: 'Chassis/Wingspan' },
+        'l': { uk: 'Довжина/Габарити', en: 'Length/Dimensions' },
+        'y': { uk: 'Рік', en: 'Year' },
+        'st': { uk: 'Статус', en: 'Status' },
+        'st_en': { uk: 'Статус (EN)', en: 'Status (EN)' },
+        'ft': { uk: 'Час польоту', en: 'Flight time' },
+        'ft_en': { uk: 'Час польоту (EN)', en: 'Flight time (EN)' },
+        'h': { uk: 'Висота', en: 'Altitude' },
+        'h_en': { uk: 'Висота (EN)', en: 'Altitude (EN)' },
+        'eng': { uk: 'Двигун', en: 'Engine' },
+        'eng_en': { uk: 'Двигун (EN)', en: 'Engine (EN)' },
+        'mods': { uk: 'Модифікації', en: 'Modifications' },
+        'mods_en': { uk: 'Модифікації (EN)', en: 'Modifications (EN)' },
+        'd': { uk: 'Опис', en: 'Description' },
+        'd_en': { uk: 'Опис (EN)', en: 'Description (EN)' },
+        'f': { uk: 'Характеристики', en: 'Features' },
+        'f_en': { uk: 'Характеристики (EN)', en: 'Features (EN)' },
+        'img': { uk: 'Головне фото', en: 'Main photo' },
+        'imgs': { uk: 'Галерея фото', en: 'Photo gallery' },
+        'c': { uk: 'Країна', en: 'Country' },
+        'i': { uk: 'Іконка', en: 'Icon' }
+    };
+
+    const label = fieldNames[key] || { uk: key, en: key };
+    changedFields.push(label);
+}
             });
 
             if (changedFields.length > 0) {
