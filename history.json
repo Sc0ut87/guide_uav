@@ -1,25 +1,12 @@
 {
   "history": [
     {
-      "date": "2026-11-17T09:05:29.877Z",
+      "date": "2026-11-17T11:05:00.000Z",
       "version": "1.44",
-      "added": [],
+      "added": ["Початкова база (177 одиниць)"],
       "removed": [],
-      "updated": [
-        {
-          "name": "ФП-1",
-          "fields": [
-            {
-              "uk": "r",
-              "en": "r"
-            }
-          ]
-        }
-      ],
-      "versionChange": {
-        "from": "1.43",
-        "to": "1.44"
-      }
+      "updated": [],
+      "versionChange": { "from": "1.0", "to": "1.44" }
     }
   ]
 }
