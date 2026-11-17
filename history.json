@@ -1,6 +1,27 @@
 {
   "history": [
     {
+      "date": "2026-11-17T10:03:33.502Z",
+      "version": "1.46",
+      "added": [],
+      "removed": [],
+      "updated": [
+        {
+          "name": "АЛЕКСА СПАТІУМ",
+          "fields": [
+            {
+              "uk": "Навантаження",
+              "en": "Payload"
+            }
+          ]
+        }
+      ],
+      "versionChange": {
+        "from": "1.45",
+        "to": "1.46"
+      }
+    },
+    {
       "date": "2026-11-17T09:55:28.694Z",
       "version": "1.45",
       "added": [],
