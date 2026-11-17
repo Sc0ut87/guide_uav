@@ -1,3 +1,25 @@
 {
-  "history": []
+  "history": [
+    {
+      "date": "2026-11-17T09:05:29.877Z",
+      "version": "1.44",
+      "added": [],
+      "removed": [],
+      "updated": [
+        {
+          "name": "ФП-1",
+          "fields": [
+            {
+              "uk": "r",
+              "en": "r"
+            }
+          ]
+        }
+      ],
+      "versionChange": {
+        "from": "1.43",
+        "to": "1.44"
+      }
+    }
+  ]
 }
