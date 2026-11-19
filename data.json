@@ -1,5 +1,5 @@
 {
-   "version": "1.49",
+   "version": "1.50",
   "ua": [
     {
       "id": "neptun",
@@ -15112,8 +15112,8 @@
     "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/zastupnik-2.jpg",
     "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/zastupnik-3.jpg"
   ],
-  "n": "Заступник",
-  "nr": "Zastupnik",
+  "n": "ЗАСТУПНИК",
+  "nr": "ZASTUPNIK",
   "t": "interceptor",
   "tl": "Дрон-перехоплювач (тактична ППО)",
   "tl_en": "Interceptor Drone (Tactical Air Defense)",
