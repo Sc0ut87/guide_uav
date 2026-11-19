@@ -1,5 +1,5 @@
 {
-   "version": "1.48",
+   "version": "1.49",
   "ua": [
     {
       "id": "neptun",
@@ -15105,6 +15105,65 @@
       ],
       "i": "🦅"
     },
+     {
+  "id": "zastupnik",
+  "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/zastupnik.jpg",
+  "imgs": [
+    "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/zastupnik-2.jpg",
+    "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/zastupnik-3.jpg"
+  ],
+  "n": "Заступник",
+  "nr": "Zastupnik",
+  "t": "interceptor",
+  "tl": "Дрон-перехоплювач (тактична ППО)",
+  "tl_en": "Interceptor Drone (Tactical Air Defense)",
+  "tg": ["interceptor"],
+  "r": "до 20 км",
+  "r_en": "up to 20 km",
+  "kn": "0,8 кг (осколково-фугасна)",
+  "kn_en": "0.8 kg (fragmentation-high-explosive)",
+  "zm": "не вказано",
+  "sp": "до 300 км/год (максимальна), близько 120 км/год (крейсерська)",
+  "sp_en": "up to 300 km/h (max), ~120 km/h (cruise)",
+  "w": "не вказано",
+  "w_en": "not specified",
+  "l": "не вказано",
+  "l_en": "not specified",
+  "y": "2024–2026",
+  "st": "Бойове застосування / серійне виробництво",
+  "st_en": "Combat use / serial production",
+  "ft": "до 25 хвилин",
+  "ft_en": "up to 25 minutes",
+  "h": "не вказано",
+  "h_en": "not specified",
+  "eng": "не вказано",
+  "eng_en": "not specified",
+  "mods": "не вказано",
+  "d": "Російський БПЛА «Заступник» — це спеціалізований дрон-перехоплювач, розроблений для боротьби з українськими безпілотниками літакового типу («Майя», «Рубака», FP-1 тощо). Апарат позиціонується як відносно недорогий та масовий засіб тактичної протиповітряної оборони. Завдяки високій швидкості зближення він здатний перехоплювати повільніші розвідувальні та ударні БПЛА літакового типу на близьких дистанціях. Запускається з компактного транспортно-пускового контейнера (ТПК). Оснащений оптико-електронною системою (з тепловізійним каналом) для автоматичного або напівавтоматичного супроводження цілі. Ураження відбувається шляхом фізичного зближення та підриву осколково-фугасної бойової частини у безпосередній близькості до цілі.",
+  "d_en": "The Russian UAV 'Zastupnik' is a specialized interceptor drone designed to counter Ukrainian fixed-wing drones (such as 'Maya', 'Rubaka', FP-1, etc.). The vehicle is positioned as a relatively inexpensive and mass-produced tactical air defense asset. Due to its high closing speed, it is capable of intercepting slower reconnaissance and strike fixed-wing UAVs at close ranges. It is launched from a compact transport-launch container (TLC). It is equipped with an optoelectronic system (including a thermal imaging channel) for automatic or semi-automatic target tracking. Destruction occurs through physical proximity and detonation of a fragmentation-high-explosive warhead in close proximity to the target.",
+  "f": [
+    "Тип: дрон-перехоплювач (тактична ППО)",
+    "Максимальна швидкість: до 300 км/год",
+    "Крейсерська швидкість: близько 120 км/год",
+    "Максимальна дальність: до 20 км",
+    "Тривалість польоту: до 25 хвилин",
+    "Бойова частина: осколково-фугасна, 0,8 кг",
+    "Спосіб запуску: з транспортно-пускового контейнера (ТПК)",
+    "Наведення: оптико-електронна система з тепловізійним каналом"
+  ],
+  "f_en": [
+    "Type: interceptor drone (tactical air defense)",
+    "Max speed: up to 300 km/h",
+    "Cruise speed: ~120 km/h",
+    "Max range: up to 20 km",
+    "Flight endurance: up to 25 minutes",
+    "Warhead: fragmentation-high-explosive, 0.8 kg",
+    "Launch method: from a transport-launch container (TLC)",
+    "Guidance: optoelectronic system with thermal imaging channel"
+  ],
+  "i": "🛡️",
+  "c": "ru"
+},
     {
       "id": "takhion",
       "img": "images/76d18e07130398ea.jpg",
