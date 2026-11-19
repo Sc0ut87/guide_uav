@@ -1,5 +1,5 @@
 {
-   "version": "1.50",
+   "version": "1.51",
   "ua": [
     {
       "id": "neptun",
@@ -15138,7 +15138,8 @@
   "h_en": "not specified",
   "eng": "не вказано",
   "eng_en": "not specified",
-  "mods": "не вказано",
+  "mods": "ЗАСТУПНИК",
+     "mods_en": "ZASTUPNIK",    
   "d": "Російський БПЛА «Заступник» — це спеціалізований дрон-перехоплювач, розроблений для боротьби з українськими безпілотниками літакового типу («Майя», «Рубака», FP-1 тощо). Апарат позиціонується як відносно недорогий та масовий засіб тактичної протиповітряної оборони. Завдяки високій швидкості зближення він здатний перехоплювати повільніші розвідувальні та ударні БПЛА літакового типу на близьких дистанціях. Запускається з компактного транспортно-пускового контейнера (ТПК). Оснащений оптико-електронною системою (з тепловізійним каналом) для автоматичного або напівавтоматичного супроводження цілі. Ураження відбувається шляхом фізичного зближення та підриву осколково-фугасної бойової частини у безпосередній близькості до цілі.",
   "d_en": "The Russian UAV 'Zastupnik' is a specialized interceptor drone designed to counter Ukrainian fixed-wing drones (such as 'Maya', 'Rubaka', FP-1, etc.). The vehicle is positioned as a relatively inexpensive and mass-produced tactical air defense asset. Due to its high closing speed, it is capable of intercepting slower reconnaissance and strike fixed-wing UAVs at close ranges. It is launched from a compact transport-launch container (TLC). It is equipped with an optoelectronic system (including a thermal imaging channel) for automatic or semi-automatic target tracking. Destruction occurs through physical proximity and detonation of a fragmentation-high-explosive warhead in close proximity to the target.",
   "f": [
