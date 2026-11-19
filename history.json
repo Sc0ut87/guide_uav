@@ -1,6 +1,31 @@
 {
   "history": [
     {
+      "date": "2026-11-19T17:41:40.568Z",
+      "version": "1.48",
+      "added": [],
+      "removed": [],
+      "updated": [
+        {
+          "name": "СПИС",
+          "fields": [
+            {
+              "uk": "Навантаження",
+              "en": "Payload"
+            },
+            {
+              "uk": "Навантаження (EN)",
+              "en": "Payload (EN)"
+            }
+          ]
+        }
+      ],
+      "versionChange": {
+        "from": "1.47",
+        "to": "1.48"
+      }
+    },
+    {
       "date": "2026-11-17T10:12:22.111Z",
       "version": "1.47",
       "added": [],
