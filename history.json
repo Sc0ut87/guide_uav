@@ -1,6 +1,31 @@
 {
   "history": [
     {
+      "date": "2026-11-19T22:41:19.630Z",
+      "version": "1.50",
+      "added": [],
+      "removed": [],
+      "updated": [
+        {
+          "name": "ЗАСТУПНИК",
+          "fields": [
+            {
+              "uk": "Назва (укр)",
+              "en": "Name (UK)"
+            },
+            {
+              "uk": "Назва (англ)",
+              "en": "Name (EN)"
+            }
+          ]
+        }
+      ],
+      "versionChange": {
+        "from": "1.49",
+        "to": "1.50"
+      }
+    },
+    {
       "date": "2026-11-19T21:26:09.299Z",
       "version": "1.49",
       "added": [
