@@ -1,14 +1,42 @@
 {
   "history": [
     {
+      "date": "2026-11-19T21:26:09.299Z",
+      "version": "1.49",
+      "added": [
+        "Заступник"
+      ],
+      "removed": [],
+      "updated": [],
+      "versionChange": {
+        "from": "1.48",
+        "to": "1.49"
+      }
+    },
+    {
       "date": "2026-11-19T17:41:40.568Z",
       "version": "1.48",
       "added": [],
       "removed": [],
       "updated": [
-        { "name": "СПИС", "fields": [{"uk": "Навантаження", "en": "Payload"}, {"uk": "Навантаження (EN)", "en": "Payload (EN)"}] }
+        {
+          "name": "СПИС",
+          "fields": [
+            {
+              "uk": "Навантаження",
+              "en": "Payload"
+            },
+            {
+              "uk": "Навантаження (EN)",
+              "en": "Payload (EN)"
+            }
+          ]
+        }
       ],
-      "versionChange": { "from": "1.47", "to": "1.48" }
+      "versionChange": {
+        "from": "1.47",
+        "to": "1.48"
+      }
     },
     {
       "date": "2026-11-17T10:12:22.111Z",
@@ -16,9 +44,20 @@
       "added": [],
       "removed": [],
       "updated": [
-        { "name": "СПИС", "fields": [{"uk": "Навантаження", "en": "Payload"}] }
+        {
+          "name": "СПИС",
+          "fields": [
+            {
+              "uk": "Навантаження",
+              "en": "Payload"
+            }
+          ]
+        }
       ],
-      "versionChange": { "from": "1.46", "to": "1.47" }
+      "versionChange": {
+        "from": "1.46",
+        "to": "1.47"
+      }
     },
     {
       "date": "2026-11-17T10:03:33.502Z",
@@ -26,9 +65,20 @@
       "added": [],
       "removed": [],
       "updated": [
-        { "name": "АЛЕКСА СПАТІУМ", "fields": [{"uk": "Навантаження", "en": "Payload"}] }
+        {
+          "name": "АЛЕКСА СПАТІУМ",
+          "fields": [
+            {
+              "uk": "Навантаження",
+              "en": "Payload"
+            }
+          ]
+        }
       ],
-      "versionChange": { "from": "1.45", "to": "1.46" }
+      "versionChange": {
+        "from": "1.45",
+        "to": "1.46"
+      }
     },
     {
       "date": "2026-11-17T09:55:28.694Z",
@@ -36,55 +86,145 @@
       "added": [],
       "removed": [],
       "updated": [
-        { "name": "СПИС", "fields": [{"uk": "Дальність", "en": "Range"}, {"uk": "Навантаження", "en": "Payload"}, {"uk": "Маса", "en": "Weight"}, {"uk": "Швидкість", "en": "Speed"}] },
-        { "name": "Ратель Р1", "fields": [{"uk": "Опис", "en": "Description"}] }
+        {
+          "name": "СПИС",
+          "fields": [
+            {
+              "uk": "Дальність",
+              "en": "Range"
+            },
+            {
+              "uk": "Навантаження",
+              "en": "Payload"
+            },
+            {
+              "uk": "Маса",
+              "en": "Weight"
+            },
+            {
+              "uk": "Швидкість",
+              "en": "Speed"
+            }
+          ]
+        },
+        {
+          "name": "Ратель Р1",
+          "fields": [
+            {
+              "uk": "Опис",
+              "en": "Description"
+            }
+          ]
+        }
       ],
-      "versionChange": { "from": "1.44", "to": "1.45" }
+      "versionChange": {
+        "from": "1.44",
+        "to": "1.45"
+      }
     },
-       {
+    {
       "date": "2026-11-17T11:05:00.000Z",
       "version": "1.44",
       "added": [],
       "removed": [],
       "updated": [],
-      "versionChange": { "from": "1.43", "to": "1.44" }
+      "versionChange": {
+        "from": "1.43",
+        "to": "1.44"
+      }
     },
     {
       "date": "2026-11-14T06:12:00.000Z",
       "version": "1.43",
-      "added": ["AGM-188A РАСТІ ДАГГЕР", "ФРІЮАВ VTOL", "СКАЙВАЙПЕР", "БЛЕК СТОРК", "Х-12"],
+      "added": [
+        "AGM-188A РАСТІ ДАГГЕР",
+        "ФРІЮАВ VTOL",
+        "СКАЙВАЙПЕР",
+        "БЛЕК СТОРК",
+        "Х-12"
+      ],
       "removed": [],
       "updated": [
-        { "name": "РЕЙДЕР-2", "fields": [{"uk": "Додано", "en": "Added"}] },
-        { "name": "ТРЕМБІТА", "fields": [{"uk": "Висота", "en": "Altitude"}] }
+        {
+          "name": "РЕЙДЕР-2",
+          "fields": [
+            {
+              "uk": "Додано",
+              "en": "Added"
+            }
+          ]
+        },
+        {
+          "name": "ТРЕМБІТА",
+          "fields": [
+            {
+              "uk": "Висота",
+              "en": "Altitude"
+            }
+          ]
+        }
       ],
-      "versionChange": { "from": "1.42", "to": "1.43" }
+      "versionChange": {
+        "from": "1.42",
+        "to": "1.43"
+      }
     },
     {
       "date": "2026-11-13T23:42:00.000Z",
       "version": "1.42",
-      "added": ["VIDSICH", "BZIK", "PRIMOCO ONE 150"],
+      "added": [
+        "VIDSICH",
+        "BZIK",
+        "PRIMOCO ONE 150"
+      ],
       "removed": [],
       "updated": [
-        { "name": "TREMBITA", "fields": [{"uk": "Опис", "en": "Description"}] }
+        {
+          "name": "TREMBITA",
+          "fields": [
+            {
+              "uk": "Опис",
+              "en": "Description"
+            }
+          ]
+        }
       ],
-      "versionChange": { "from": "1.40", "to": "1.42" }
+      "versionChange": {
+        "from": "1.40",
+        "to": "1.42"
+      }
     },
     {
       "date": "2026-11-13T23:06:00.000Z",
       "version": "1.40",
-      "added": ["FREEUAV VTOL", "LASAR LF400", "ENDEAVOR VTOL"],
+      "added": [
+        "FREEUAV VTOL",
+        "LASAR LF400",
+        "ENDEAVOR VTOL"
+      ],
       "removed": [],
       "updated": [],
-      "versionChange": { "from": "1.38", "to": "1.40" }
+      "versionChange": {
+        "from": "1.38",
+        "to": "1.40"
+      }
     },
     {
       "date": "2026-11-12T20:41:00.000Z",
       "version": "1.38",
-      "added": ["TWISTER", "ASTERO ISR", "ARES", "BIVOJ (BI-250)", "ZHUK"],
+      "added": [
+        "TWISTER",
+        "ASTERO ISR",
+        "ARES",
+        "BIVOJ (BI-250)",
+        "ZHUK"
+      ],
       "removed": [],
       "updated": [],
-      "versionChange": { "from": "1.37", "to": "1.38" }
+      "versionChange": {
+        "from": "1.37",
+        "to": "1.38"
+      }
     },
     {
       "date": "2026-11-11T01:54:00.000Z",
@@ -92,9 +232,20 @@
       "added": [],
       "removed": [],
       "updated": [
-        { "name": "РАРОГ krl-60", "fields": [{"uk": "tg", "en": "tg"}] }
+        {
+          "name": "РАРОГ krl-60",
+          "fields": [
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        }
       ],
-      "versionChange": { "from": "1.35", "to": "1.36" }
+      "versionChange": {
+        "from": "1.35",
+        "to": "1.36"
+      }
     },
     {
       "date": "2026-11-11T01:49:00.000Z",
@@ -102,19 +253,146 @@
       "added": [],
       "removed": [],
       "updated": [
-        { "name": "ПТАШКА", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "ЗУМ 3.0", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "Славік", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "СПИС", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "Ван Панч", "fields": [{"uk": "Тип", "en": "Type"}] },
-        { "name": "Крук", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "ОКТОПУС-100", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "РАРОГ krl-60", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "Обрій", "fields": [{"uk": "tg", "en": "tg"}] },
-        { "name": "АПУС-1", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "СКАЙДІО X2", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] }
+        {
+          "name": "ПТАШКА",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "ЗУМ 3.0",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "Славік",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "СПИС",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "Ван Панч",
+          "fields": [
+            {
+              "uk": "Тип",
+              "en": "Type"
+            }
+          ]
+        },
+        {
+          "name": "Крук",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "ОКТОПУС-100",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "РАРОГ krl-60",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "Обрій",
+          "fields": [
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "АПУС-1",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "СКАЙДІО X2",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        }
       ],
-      "versionChange": { "from": "1.34", "to": "1.35" }
+      "versionChange": {
+        "from": "1.34",
+        "to": "1.35"
+      }
     },
     {
       "date": "2026-11-11T00:52:00.000Z",
@@ -122,12 +400,67 @@
       "added": [],
       "removed": [],
       "updated": [
-        { "name": "ЗОРЕЛІТ v4", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "ЗОРЕЛІТ v5", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "СКВІД-100H", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "СТРАЙКЕР МІНІ", "fields": [{"uk": "t", "en": "t"}, {"uk": "Тип", "en": "Type"}, {"uk": "tg", "en": "tg"}] }
+        {
+          "name": "ЗОРЕЛІТ v4",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "ЗОРЕЛІТ v5",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "СКВІД-100H",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "СТРАЙКЕР МІНІ",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "Тип",
+              "en": "Type"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        }
       ],
-      "versionChange": { "from": "1.33", "to": "1.34" }
+      "versionChange": {
+        "from": "1.33",
+        "to": "1.34"
+      }
     },
     {
       "date": "2026-11-11T00:44:00.000Z",
@@ -135,55 +468,566 @@
       "added": [],
       "removed": [],
       "updated": [
-        { "name": "UB80D15-EFP", "fields": [{"uk": "tg", "en": "tg"}] },
-        { "name": "П1-САН / ПІСЮН", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "ЗІРКА", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "Блек Бьорд", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "ДЕНСЕР 4.5.0", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "Х-ЛОК", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "ТАРАС-П", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "Ласт Шадоу (T200)", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "СКАЙВАЙПЕР", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "Колібрі 10\"", "fields": [{"uk": "tg", "en": "tg"}] },
-        { "name": "Стріла", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "ЛІНЗА 3.0", "fields": [{"uk": "tg", "en": "tg"}] },
-        { "name": "Стінг", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "Скажений", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "Х-12", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "Лупиніс-10-TFL-1", "fields": [{"uk": "tg", "en": "tg"}] },
-        { "name": "Ван Панч", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "ДЗИҐА", "fields": [{"uk": "tg", "en": "tg"}] },
-        { "name": "ДЕДЛАЙНЕР Q1", "fields": [{"uk": "tg", "en": "tg"}] },
-        { "name": "БАБАБУМ 15 OPTIC", "fields": [{"uk": "tg", "en": "tg"}] },
-        { "name": "ДРОЗД", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "ЛІТАВР", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "Кошмарик", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "ГЕНЕРАЛ ЧЕРЕШНЯ BULLET", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "БЕСОМАР 3210", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "AQV-120 «Скальпель»", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "МЕРОПС-АС3", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "Д1Л-ДАК (ДІЛДАК)", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "УЕБ-1", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "ТАЛІОН", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "Салют", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "Спайдер / Каракурт", "fields": [{"uk": "tg", "en": "tg"}] },
-        { "name": "ЛАУРУС", "fields": [{"uk": "tg", "en": "tg"}] },
-        { "name": "АЛЕКСА СПАТІУМ", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "Сокол І", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "Малиш", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "Бумеранг", "fields": [{"uk": "tg", "en": "tg"}] },
-        { "name": "ЛИС-2", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "Овод", "fields": [{"uk": "tg", "en": "tg"}] },
-        { "name": "Упырь", "fields": [{"uk": "tg", "en": "tg"}] },
-        { "name": "Князь Вандал Новгородский", "fields": [{"uk": "tg", "en": "tg"}] },
-        { "name": "Ёлка", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "ВТ-40 (Судный день)", "fields": [{"uk": "tg", "en": "tg"}] },
-        { "name": "УББ-М", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "Архангел 2.0", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "Гарпия", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] },
-        { "name": "Астра-ПВО", "fields": [{"uk": "t", "en": "t"}, {"uk": "tg", "en": "tg"}] }
+        {
+          "name": "UB80D15-EFP",
+          "fields": [
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "П1-САН / ПІСЮН",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "ЗІРКА",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "Блек Бьорд",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "ДЕНСЕР 4.5.0",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "Х-ЛОК",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "ТАРАС-П",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "Ласт Шадоу (T200)",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "СКАЙВАЙПЕР",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "Колібрі 10\"",
+          "fields": [
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "Стріла",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "ЛІНЗА 3.0",
+          "fields": [
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "Стінг",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "Скажений",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "Х-12",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "Лупиніс-10-TFL-1",
+          "fields": [
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "Ван Панч",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "ДЗИҐА",
+          "fields": [
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "ДЕДЛАЙНЕР Q1",
+          "fields": [
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "БАБАБУМ 15 OPTIC",
+          "fields": [
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "ДРОЗД",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "ЛІТАВР",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "Кошмарик",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "ГЕНЕРАЛ ЧЕРЕШНЯ BULLET",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "БЕСОМАР 3210",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "AQV-120 «Скальпель»",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "МЕРОПС-АС3",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "Д1Л-ДАК (ДІЛДАК)",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "УЕБ-1",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "ТАЛІОН",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "Салют",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "Спайдер / Каракурт",
+          "fields": [
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "ЛАУРУС",
+          "fields": [
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "АЛЕКСА СПАТІУМ",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "Сокол І",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "Малиш",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "Бумеранг",
+          "fields": [
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "ЛИС-2",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "Овод",
+          "fields": [
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "Упырь",
+          "fields": [
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "Князь Вандал Новгородский",
+          "fields": [
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "Ёлка",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "ВТ-40 (Судный день)",
+          "fields": [
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "УББ-М",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "Архангел 2.0",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "Гарпия",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        },
+        {
+          "name": "Астра-ПВО",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            },
+            {
+              "uk": "tg",
+              "en": "tg"
+            }
+          ]
+        }
       ],
-      "versionChange": { "from": "1.32", "to": "1.33" }
+      "versionChange": {
+        "from": "1.32",
+        "to": "1.33"
+      }
     },
     {
       "date": "2026-11-10T17:03:00.000Z",
@@ -191,7 +1035,10 @@
       "added": [],
       "removed": [],
       "updated": [],
-      "versionChange": { "from": "1.31", "to": "1.32" }
+      "versionChange": {
+        "from": "1.31",
+        "to": "1.32"
+      }
     },
     {
       "date": "2026-11-10T01:54:00.000Z",
@@ -199,9 +1046,20 @@
       "added": [],
       "removed": [],
       "updated": [
-        { "name": "Х-12", "fields": [{"uk": "Назва (укр)", "en": "Name (ukr)"}] }
+        {
+          "name": "Х-12",
+          "fields": [
+            {
+              "uk": "Назва (укр)",
+              "en": "Name (ukr)"
+            }
+          ]
+        }
       ],
-      "versionChange": { "from": "1.30", "to": "1.31" }
+      "versionChange": {
+        "from": "1.30",
+        "to": "1.31"
+      }
     },
     {
       "date": "2026-11-10T01:49:00.000Z",
@@ -209,10 +1067,29 @@
       "added": [],
       "removed": [],
       "updated": [
-        { "name": "Х-12 (реактивний перехоплювач)", "fields": [{"uk": "t", "en": "t"}] },
-        { "name": "Астра-ПВО", "fields": [{"uk": "t", "en": "t"}] }
+        {
+          "name": "Х-12 (реактивний перехоплювач)",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            }
+          ]
+        },
+        {
+          "name": "Астра-ПВО",
+          "fields": [
+            {
+              "uk": "t",
+              "en": "t"
+            }
+          ]
+        }
       ],
-      "versionChange": { "from": "1.29", "to": "1.30" }
+      "versionChange": {
+        "from": "1.29",
+        "to": "1.30"
+      }
     },
     {
       "date": "2026-11-07T23:58:00.000Z",
@@ -220,19 +1097,79 @@
       "added": [],
       "removed": [],
       "updated": [
-        { "name": "СПИС", "fields": [{"uk": "Назва (укр)", "en": "Name (ukr)"}] }
+        {
+          "name": "СПИС",
+          "fields": [
+            {
+              "uk": "Назва (укр)",
+              "en": "Name (ukr)"
+            }
+          ]
+        }
       ],
-      "versionChange": { "from": "1.28", "to": "1.29" }
+      "versionChange": {
+        "from": "1.28",
+        "to": "1.29"
+      }
     },
     {
       "date": "2026-11-07T23:43:00.000Z",
       "version": "1.28",
-      "added": ["AGM-188A РАСТІ ДАГГЕР", "СКАЙВАЙПЕР", "БЛЕК СТОРК", "Х-12 (реактивний перехоплювач)", "ОУЛ-Р"],
+      "added": [
+        "AGM-188A РАСТІ ДАГГЕР",
+        "СКАЙВАЙПЕР",
+        "БЛЕК СТОРК",
+        "Х-12 (реактивний перехоплювач)",
+        "ОУЛ-Р"
+      ],
       "removed": [],
       "updated": [
-        { "name": "Курьер", "fields": [{"uk": "Назва (англ)", "en": "Name (eng)"}, {"uk": "Маса", "en": "Weight"}, {"uk": "Швидкість", "en": "Speed"}, {"uk": "Рік", "en": "Year"}, {"uk": "Час польоту", "en": "Flight time"}, {"uk": "Модифікації", "en": "Modifications"}, {"uk": "Двигун", "en": "Engine"}, {"uk": "Висота", "en": "Altitude"}, {"uk": "Галерея фото", "en": "Photo gallery"}] }
+        {
+          "name": "Курьер",
+          "fields": [
+            {
+              "uk": "Назва (англ)",
+              "en": "Name (eng)"
+            },
+            {
+              "uk": "Маса",
+              "en": "Weight"
+            },
+            {
+              "uk": "Швидкість",
+              "en": "Speed"
+            },
+            {
+              "uk": "Рік",
+              "en": "Year"
+            },
+            {
+              "uk": "Час польоту",
+              "en": "Flight time"
+            },
+            {
+              "uk": "Модифікації",
+              "en": "Modifications"
+            },
+            {
+              "uk": "Двигун",
+              "en": "Engine"
+            },
+            {
+              "uk": "Висота",
+              "en": "Altitude"
+            },
+            {
+              "uk": "Галерея фото",
+              "en": "Photo gallery"
+            }
+          ]
+        }
       ],
-      "versionChange": { "from": "1.27", "to": "1.28" }
+      "versionChange": {
+        "from": "1.27",
+        "to": "1.28"
+      }
     },
     {
       "date": "2026-11-05T23:14:00.000Z",
@@ -240,9 +1177,20 @@
       "added": [],
       "removed": [],
       "updated": [
-        { "name": "Zmiy", "fields": [{"uk": "Галерея фото", "en": "Photo gallery"}] }
+        {
+          "name": "Zmiy",
+          "fields": [
+            {
+              "uk": "Галерея фото",
+              "en": "Photo gallery"
+            }
+          ]
+        }
       ],
-      "versionChange": { "from": "1.27", "to": "1.28" }
+      "versionChange": {
+        "from": "1.27",
+        "to": "1.28"
+      }
     },
     {
       "date": "2026-11-05T22:37:00.000Z",
@@ -250,7 +1198,10 @@
       "added": [],
       "removed": [],
       "updated": [],
-      "versionChange": { "from": "1.26", "to": "1.27" }
+      "versionChange": {
+        "from": "1.26",
+        "to": "1.27"
+      }
     },
     {
       "date": "2026-11-05T22:29:00.000Z",
@@ -258,10 +1209,41 @@
       "added": [],
       "removed": [],
       "updated": [
-        { "name": "Ardal", "fields": [{"uk": "Галерея фото", "en": "Photo gallery"}] },
-        { "name": "Kuryer", "fields": [{"uk": "Швидкість", "en": "Speed"}, {"uk": "Маса", "en": "Weight"}, {"uk": "Галерея фото", "en": "Photo gallery"}, {"uk": "Модифікації", "en": "Modifications"}] }
+        {
+          "name": "Ardal",
+          "fields": [
+            {
+              "uk": "Галерея фото",
+              "en": "Photo gallery"
+            }
+          ]
+        },
+        {
+          "name": "Kuryer",
+          "fields": [
+            {
+              "uk": "Швидкість",
+              "en": "Speed"
+            },
+            {
+              "uk": "Маса",
+              "en": "Weight"
+            },
+            {
+              "uk": "Галерея фото",
+              "en": "Photo gallery"
+            },
+            {
+              "uk": "Модифікації",
+              "en": "Modifications"
+            }
+          ]
+        }
       ],
-      "versionChange": { "from": "1.25", "to": "1.26" }
+      "versionChange": {
+        "from": "1.25",
+        "to": "1.26"
+      }
     }
   ]
 }
