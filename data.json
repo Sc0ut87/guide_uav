@@ -1,5 +1,5 @@
 {
-   "version": "1.55",
+   "version": "1.56",
   "ua": [
     {
       "id": "neptun",
@@ -13550,8 +13550,8 @@
   "h_en": "not specified",
   "eng": "малошумні двигуни (базові, на базі гідроциклів та швидкісних катерів)",
   "eng_en": "low-noise engines (standard, jet-ski-based, and speedboat-based)",
-  "mods": "Група 1  — стандартні, Група 2 — на базі гідроциклів), Група 3 — на базі швидкісних катерів), Група 4 — важка далекобійна)",
-  "mods_en": "Group 1 — standard), Group 2 — jet-ski-based), Group 3 — speedboat-based), Group 4 — heavy long-range)",
+  "mods": "Група 1  — стандартні, Група 2 — на базі гідроциклів, Група 3 — на базі швидкісних катерів, Група 4 — важка далекобійна",
+  "mods_en": "Group 1 — standard, Group 2 — jet-ski-based, Group 3 — speedboat-based, Group 4 — heavy long-range",
   "d": "Barracuda («Барракуда») — українська модульна багатоцільова безекіпажна надводна платформа, розроблена спільно компанією 2DefAi.tech та військовослужбовцями 40-ї окремої бригади морської піхоти (берегової оборони) ВМС ЗСУ. Включає 9 модифікацій у 4 технологічних групах: Група 1 (Barracuda 1–3: носій 4–8 FPV, кулеметно-РЕБ платформа, камікадзе з БЧ 250–400 кг; швидкість до 70 км/год, дальність 350–400 км); Група 2 на базі гідроциклів (Barracuda 4–6: носій 4 FPV, легкий камікадзе з БЧ 70–250 кг, вогнева підтримка з гранатометами/ПТРК; швидкість до 110 км/год, дальність 300–350 км); Група 3 на базі швидкісних катерів (Barracuda 7–8: вантажно-евакуаційний до 250 кг та важкий камікадзе з БЧ 100–400 кг; швидкість до 110 км/год, дальність 300–350 км); Група 4 (Barracuda 9: важка далекобійна платформа з корисним навантаженням та БЧ до 1000 кг, швидкістю до 55 км/год і дальністю до 700 км). Оснащений алгоритмами ШІ для автотрекінгу та навігації в умовах РЕБ, має низьку радіолокаційну й акустичну помітність, підтримує роботу без супутникових систем на коротких дистанціях та в річкових руслах.",
   "d_en": "Barracuda is a Ukrainian modular multi-purpose unmanned surface vehicle platform jointly developed by 2DefAi.tech and servicemen of the 40th Separate Coastal Defense Marine Brigade of the Ukrainian Navy. It comprises 9 modifications divided into 4 technological groups: Group 1 (Barracuda 1–3: carrier of 4–8 FPV drones, machine-gun/EW platform, kamikaze with 250–400 kg warhead; speed up to 70 km/h, range 350–400 km); Group 2 jet-ski-based (Barracuda 4–6: carrier of 4 FPVs, light kamikaze with 70–250 kg warhead, fire support with grenade launchers/ATGMs; speed up to 110 km/h, range 300–350 km); Group 3 speedboat-based (Barracuda 7–8: cargo/evacuation up to 250 kg and heavy kamikaze with 100–400 kg warhead; speed up to 110 km/h, range 300–350 km); Group 4 (Barracuda 9: heavy long-range platform with payload and warhead up to 1000 kg, speed up to 55 km/h, range up to 700 km). Equipped with AI algorithms for auto-tracking and navigation under EW jamming, low radar/acoustic signature, and capable of operating without satellite systems at short ranges and in riverbeds.",
   "f": [
@@ -13573,6 +13573,70 @@
     "Group 3 (Barracuda 7, 8 — speedboat-based): up to 110 km/h, range 300–350 km (cargo/evacuation up to 250 kg; 100–400 kg warhead)",
     "Group 4 (Barracuda 9 — heavy long-range): up to 55 km/h, range up to 700 km, payload / warhead up to 1000 kg",
     "AI & Navigation: target auto-tracking, object recognition, autonomous operation under EW and without satellite comms"
+  ],
+  "i": "🌊",
+  "c": "ua"
+},
+     {
+  "id": "mobidik",
+  "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/mobidik.jpg",
+  "imgs": [
+    "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/mobidik-2.jpg",
+    "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/mobidik-3.jpg"
+  ],
+  "n": "МОБІДІК",
+  "nr": "MOBIDIK",
+  "t": "bma-ua",
+  "tl": "Безекіпажний морський апарат (БМА)",
+  "tl_en": "Unmanned Surface Vehicle (USV)",
+  "tg": [
+    "bma-ua"
+  ],
+  "r": "до 1400 км",
+  "r_en": "up to 1400 km",
+  "kn": "до 300 кг (БЧ камікадзе) / дрони-перехоплювачі / БПЛА MORRIGAN / реактивний дрон-ракета",
+  "kn_en": "up to 300 kg (kamikaze warhead) / interceptor drones / MORRIGAN UAVs / jet missile-drone",
+  "zm": "MD-1 (5× БПЛА-перехоплювачів літакового типу) / MD-2 (8× квадрокоптерів-перехоплювачів) / MD-3 (ударні БПЛА MORRIGAN) / MD-4 (стратегічний реактивний дрон-ракета) / MD-5 (кулемет Browning M2 + 2 керовані ракети) / MD-6 (БЧ 300 кг + FPV-дрони)",
+  "sp": "до 65 км/год максимальна",
+  "sp_en": "up to 65 km/h max",
+  "w": "не вказано",
+  "w_en": "not specified",
+  "l": "не вказано",
+  "l_en": "not specified",
+  "y": "2026",
+  "st": "Представлений (червень 2026)",
+  "st_en": "Unveiled (June 2026)",
+  "ft": "до 120 годин (5 діб)",
+  "ft_en": "up to 120 hours (5 days)",
+  "h": "не вказано",
+  "h_en": "not specified",
+  "eng": "не вказано",
+  "eng_en": "not specified",
+  "mods": "Категорія ППО: MD-1 (5 перехоплювачів літакового типу), MD-2 (8 квадрокоптерів-перехоплювачів); Категорія ударів середньої та стратегічної дальності: MD-3 (БПЛА MORRIGAN), MD-4 (стратегічний реактивний дрон-ракета); Категорія фізичного штурму та прямої атаки: MD-5 (Browning M2 + 2 керовані ракети), MD-6 (камікадзе БЧ 300 кг + FPV)",
+  "mods_en": "Air Defense category: MD-1 (5 fixed-wing interceptors), MD-2 (8 quadcopter interceptors); Medium & Strategic Strike category: MD-3 (MORRIGAN strike UAVs), MD-4 (strategic jet missile-drone); Physical Assault & Direct Attack category: MD-5 (Browning M2 + 2 guided missiles), MD-6 (kamikaze 300 kg warhead + FPVs)",
+  "d": "MOBIDIK («Мобідік») — український багатоцільовий модульний морський безпілотний комплекс, розроблений компанією «Аварід» (Avarid) і представлений у червні 2026 року. Має дальність ходу до 1400 км, максимальну швидкість до 65 км/год, автономність до 120 годин (5 діб) та морехідність при висоті хвиль до 1,2 м. Платформа налічує 6 бойових модифікацій у 3 категоріях: 1) Морська ППО: MD-1 (5 дронів-перехоплювачів літакового типу) та MD-2 (8 дронів-перехоплювачів квадрокоптерного типу); 2) Удари середньої та стратегічної дальності: MD-3 (ударні БПЛА середньої дальності MORRIGAN) та MD-4 (запуск стратегічного реактивного дрона-ракети); 3) Фізичний штурм та пряма атака: MD-5 (великокаліберний кулемет Browning M2 та 2 керовані ракети) та MD-6 (камікадзе з БЧ 300 кг і власними FPV-дронами для дорозвідки чи захисту).",
+  "d_en": "MOBIDIK is a Ukrainian multi-purpose modular unmanned surface vehicle complex developed by Avarid and unveiled in June 2026. It features a range of up to 1400 km, a maximum speed of up to 65 km/h, an endurance of up to 120 hours (5 days), and seaworthiness in wave heights up to 1.2 m. The platform comprises 6 combat modifications across 3 categories: 1) Naval Air Defense: MD-1 (5 fixed-wing interceptor drones) and MD-2 (8 quadcopter interceptor drones); 2) Medium & Strategic Strike: MD-3 (MORRIGAN medium-range strike UAVs) and MD-4 (launch of a strategic jet missile-drone); 3) Physical Assault & Direct Attack: MD-5 (Browning M2 heavy machine gun and 2 guided missiles) and MD-6 (kamikaze with a 300 kg warhead and onboard FPV drones for reconnaissance or self-defense).",
+  "f": [
+    "Тип: безекіпажний морський апарат (БМА)",
+    "Розробник: «Аварід» (Avarid), представлений у червні 2026 року",
+    "Автономність роботи: до 120 годин (5 діб)",
+    "Максимальна дальність ходу: до 1400 км",
+    "Максимальна швидкість: до 65 км/год",
+    "Морехідність: стабільна робота при висоті хвиль до 1,2 м",
+    "Категорія 1 — Морська ППО: MD-1 (5× перехоплювачів літакового типу), MD-2 (8× квадрокоптерів-перехоплювачів)",
+    "Категорія 2 — Удари середньої та стратегічної дальності: MD-3 (ударні БПЛА MORRIGAN), MD-4 (стратегічний реактивний дрон-ракета)",
+    "Категорія 3 — Фізичний штурм та пряма атака: MD-5 (кулемет Browning M2 + 2 керовані ракети), MD-6 (камікадзе, БЧ 300 кг + FPV-дрони)"
+  ],
+  "f_en": [
+    "Type: Unmanned Surface Vehicle (USV)",
+    "Developer: Avarid, unveiled in June 2026",
+    "Endurance: up to 120 hours (5 days)",
+    "Max range: up to 1400 km",
+    "Max speed: up to 65 km/h",
+    "Seaworthiness: stable operation in wave heights up to 1.2 m",
+    "Category 1 — Naval Air Defense: MD-1 (5× fixed-wing interceptors), MD-2 (8× quadcopter interceptors)",
+    "Category 2 — Medium & Strategic Strike: MD-3 (MORRIGAN strike UAVs), MD-4 (strategic jet missile-drone)",
+    "Category 3 — Physical Assault & Direct Attack: MD-5 (Browning M2 heavy machine gun + 2 guided missiles), MD-6 (kamikaze, 300 kg warhead + FPV drones)"
   ],
   "i": "🌊",
   "c": "ua"
