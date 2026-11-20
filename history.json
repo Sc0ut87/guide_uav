@@ -1,6 +1,19 @@
 {
   "history": [
     {
+      "date": "2026-11-20T23:21:20.065Z",
+      "version": "1.59",
+      "added": [
+        "МАРІЧКА"
+      ],
+      "removed": [],
+      "updated": [],
+      "versionChange": {
+        "from": "1.58",
+        "to": "1.59"
+      }
+    },
+    {
       "date": "2026-11-20T22:21:24.051Z",
       "version": "1.58",
       "added": [],
@@ -33,12 +46,10 @@
               "uk": "Швидкість",
               "en": "Speed"
             },
-            
             {
               "uk": "Шасі/Розмах",
               "en": "Chassis/Wingspan"
             },
-            
             {
               "uk": "Час польоту",
               "en": "Flight time"
@@ -72,12 +83,10 @@
               "uk": "Шасі/Розмах",
               "en": "Chassis/Wingspan"
             },
-            
             {
               "uk": "Довжина/Габарити",
               "en": "Length/Dimensions"
             },
-            
             {
               "uk": "Висота",
               "en": "Altitude"
@@ -127,12 +136,10 @@
               "uk": "Швидкість",
               "en": "Speed"
             },
-            
             {
               "uk": "Шасі/Розмах",
               "en": "Chassis/Wingspan"
             },
-            
             {
               "uk": "Двигун",
               "en": "Engine"
