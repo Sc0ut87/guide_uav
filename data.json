@@ -1,5 +1,5 @@
 {
-   "version": "1.58",
+   "version": "1.59",
   "ua": [
     {
       "id": "neptun",
@@ -13648,7 +13648,74 @@
     ],
     "i": "🌊",
     "c": "ua"
-  }
+  },
+     {
+  "id": "marichka",
+  "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/marichka.jpg",
+  "imgs": [
+    "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/marichka-2.jpg",
+    "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/marichka-3.jpg"
+  ],
+  "n": "МАРІЧКА",
+  "nr": "MARICHKA",
+  "t": "bma-ua",
+  "tl": "Важкий безекіпажний підводний апарат (UUV)",
+  "tl_en": "Heavy Unmanned Underwater Vehicle (UUV)",
+  "tg": ["bma-ua"],
+  "r": "до 1000 км",
+  "r_en": "up to 1000 km",
+  "kn": "близько 1 тонни (бойова частина)",
+  "kn_en": "about 1 ton (warhead)",
+  "zm": "не вказано",
+  "zm_en": "not specified",
+  "sp": "до 10 км/год",
+  "sp_en": "up to 10 km/h",
+  "w": "близько 1 м (діаметр)",
+  "w_en": "about 1 m (diameter)",
+  "l": "6 м",
+  "l_en": "6 m",
+  "y": "2023–2026",
+  "st": "Випробування / доопрацювання (не застосовувався у бою)",
+  "st_en": "Testing / refinement (not combat-proven)",
+  "ft": "до 7 діб у режимі очікування",
+  "ft_en": "up to 7 days in standby mode",
+  "h": "не вказано",
+  "h_en": "not specified",
+  "eng": "малошумна силова установка (тип не вказано)",
+  "eng_en": "low-noise powerplant (type not specified)",
+  "mods": "Камікадзе (ураження кораблів/мостів/портів), розвідувальна (за умови встановлення обладнання)",
+  "mods_en": "Kamikaze (anti-ship/bridge/port), reconnaissance (with equipment)",
+  "d": "«Марічка» — український важкий безекіпажний підводний апарат, розроблений компанією «Акватехнік». Призначений для ураження великих надводних кораблів, портової інфраструктури та мостів. Ключові особливості: дальність до 1000 км, корисне навантаження близько 1 тонни, низька акустична помітність завдяки спеціальним матеріалам корпусу та малошумним двигунам. Оснащений інерціальною навігаційною системою, що не залежить від GPS. Здатний зупинятися у заданих координатах і перебувати в режимі очікування до 7 діб. Станом на початок 2026 року проходив випробування, у бойових операціях не застосовувався.",
+  "d_en": "Marichka is a Ukrainian heavy unmanned underwater vehicle developed by Akvatekhnik. Designed to strike large surface ships, port infrastructure, and bridges. Key features: range up to 1000 km, payload about 1 ton, low acoustic signature due to special hull materials and low-noise engines. Equipped with an inertial navigation system independent of GPS. Capable of stopping at predefined coordinates and remaining on standby for up to 7 days. As of early 2026, it was undergoing testing and had not been used in combat.",
+  "f": [
+    "Тип: важкий безекіпажний підводний апарат (UUV)",
+    "Розробник: «Акватехнік» (Akvatekhnik)",
+    "Довжина: 6 м",
+    "Діаметр: близько 1 м",
+    "Дальність ходу: до 1000 км",
+    "Корисне навантаження (бойова частина): близько 1 тонни",
+    "Максимальна швидкість: до 10 км/год",
+    "Автономність: до 7 діб у режимі очікування",
+    "Навігація: інерціальна (без GPS)",
+    "Особливості: низька акустична помітність, спеціальні матеріали корпусу",
+    "Статус: випробування/доопрацювання, не застосовувався у бою"
+  ],
+  "f_en": [
+    "Type: Heavy Unmanned Underwater Vehicle (UUV)",
+    "Developer: Akvatekhnik",
+    "Length: 6 m",
+    "Diameter: about 1 m",
+    "Range: up to 1000 km",
+    "Payload (warhead): about 1 ton",
+    "Max speed: up to 10 km/h",
+    "Endurance: up to 7 days in standby mode",
+    "Navigation: inertial (GPS-independent)",
+    "Features: low acoustic signature, special hull materials",
+    "Status: testing/refinement, not combat-proven"
+  ],
+  "i": "🌊",
+  "c": "ua"
+}
      ],
   "ru": [
     {
