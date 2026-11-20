@@ -1,5 +1,5 @@
 {
-   "version": "1.54",
+   "version": "1.55",
   "ua": [
     {
       "id": "neptun",
@@ -13513,6 +13513,66 @@
     "Seaworthiness: up to sea state 3 (wave height up to 1.25 m)",
     "Armament: 2× AIM-9M/X or R-73 missiles / machine gun turret / kamikaze warhead",
     "Navigation & Comms: Starlink, GNSS, encrypted radio, thermal/daylight optics"
+  ],
+  "i": "🌊",
+  "c": "ua"
+},
+     {
+  "id": "barracuda",
+  "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/barracuda.jpg",
+  "imgs": [
+    "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/barracuda-2.jpg",
+    "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/barracuda-3.jpg"
+  ],
+  "n": "БАРРАКУДА",
+  "nr": "BARRACUDA",
+  "t": "bma-ua",
+  "tl": "Безекіпажний морський апарат (БМА)",
+  "tl_en": "Unmanned Surface Vehicle (USV)",
+  "tg": ["bma-ua"],
+  "r": "300–700 км (залежно від модифікації)",
+  "r_en": "300–700 km (depending on modification)",
+  "kn": "до 1000 кг (БЧ 70–1000 кг, носій 4–8 FPV)",
+  "kn_en": "up to 1000 kg (warhead 70–1000 kg, carrier of 4–8 FPV)",
+  "zm": "4–8 FPV-дронів / кулемети / РЕБ / гранатомети / ПТРК / БЧ камікадзе (70–1000 кг)",
+  "sp": "55–110 км/год максимальна (залежно від групи)",
+  "sp_en": "55–110 km/h max (depending on group)",
+  "w": "не вказано",
+  "w_en": "not specified",
+  "l": "не вказано",
+  "l_en": "not specified",
+  "y": "2024–2026",
+  "st": "Бойове застосування / серійне виробництво",
+  "st_en": "Combat use / serial production",
+  "ft": "не вказано",
+  "ft_en": "not specified",
+  "h": "не вказано",
+  "h_en": "not specified",
+  "eng": "малошумні двигуни (базові, на базі гідроциклів та швидкісних катерів)",
+  "eng_en": "low-noise engines (standard, jet-ski-based, and speedboat-based)",
+  "mods": "Група 1  — стандартні, Група 2 — на базі гідроциклів), Група 3 — на базі швидкісних катерів), Група 4 — важка далекобійна)",
+  "mods_en": "Group 1 — standard), Group 2 — jet-ski-based), Group 3 — speedboat-based), Group 4 — heavy long-range)",
+  "d": "Barracuda («Барракуда») — українська модульна багатоцільова безекіпажна надводна платформа, розроблена спільно компанією 2DefAi.tech та військовослужбовцями 40-ї окремої бригади морської піхоти (берегової оборони) ВМС ЗСУ. Включає 9 модифікацій у 4 технологічних групах: Група 1 (Barracuda 1–3: носій 4–8 FPV, кулеметно-РЕБ платформа, камікадзе з БЧ 250–400 кг; швидкість до 70 км/год, дальність 350–400 км); Група 2 на базі гідроциклів (Barracuda 4–6: носій 4 FPV, легкий камікадзе з БЧ 70–250 кг, вогнева підтримка з гранатометами/ПТРК; швидкість до 110 км/год, дальність 300–350 км); Група 3 на базі швидкісних катерів (Barracuda 7–8: вантажно-евакуаційний до 250 кг та важкий камікадзе з БЧ 100–400 кг; швидкість до 110 км/год, дальність 300–350 км); Група 4 (Barracuda 9: важка далекобійна платформа з корисним навантаженням та БЧ до 1000 кг, швидкістю до 55 км/год і дальністю до 700 км). Оснащений алгоритмами ШІ для автотрекінгу та навігації в умовах РЕБ, має низьку радіолокаційну й акустичну помітність, підтримує роботу без супутникових систем на коротких дистанціях та в річкових руслах.",
+  "d_en": "Barracuda is a Ukrainian modular multi-purpose unmanned surface vehicle platform jointly developed by 2DefAi.tech and servicemen of the 40th Separate Coastal Defense Marine Brigade of the Ukrainian Navy. It comprises 9 modifications divided into 4 technological groups: Group 1 (Barracuda 1–3: carrier of 4–8 FPV drones, machine-gun/EW platform, kamikaze with 250–400 kg warhead; speed up to 70 km/h, range 350–400 km); Group 2 jet-ski-based (Barracuda 4–6: carrier of 4 FPVs, light kamikaze with 70–250 kg warhead, fire support with grenade launchers/ATGMs; speed up to 110 km/h, range 300–350 km); Group 3 speedboat-based (Barracuda 7–8: cargo/evacuation up to 250 kg and heavy kamikaze with 100–400 kg warhead; speed up to 110 km/h, range 300–350 km); Group 4 (Barracuda 9: heavy long-range platform with payload and warhead up to 1000 kg, speed up to 55 km/h, range up to 700 km). Equipped with AI algorithms for auto-tracking and navigation under EW jamming, low radar/acoustic signature, and capable of operating without satellite systems at short ranges and in riverbeds.",
+  "f": [
+    "Тип: безекіпажний морський катер (БЕК)",
+    "Розробники: 2DefAi.tech та 40-ва ОБрБО (МП) ВМС ЗСУ",
+    "Кількість модифікацій: 9 моделей у 4 технологічних групах",
+    "Група 1 (Barracuda 1, 2, 3 — стандартні): до 70 км/год, дальність 350–400 км (носій 4–8 FPV; кулемети/РЕБ; БЧ 250–400 кг)",
+    "Група 2 (Barracuda 4, 5, 6 — гідроцикли): до 110 км/год, дальність 300–350 км (носій 4 FPV; БЧ 70–250 кг; гранатомети/ПТРК)",
+    "Група 3 (Barracuda 7, 8 — швидкісні катери): до 110 км/год, дальність 300–350 км (евакуація/вантаж до 250 кг; БЧ 100–400 кг)",
+    "Група 4 (Barracuda 9 — важка далекобійна): до 55 км/год, дальність до 700 км, корисне навантаження / БЧ до 1000 кг",
+    "ШІ та навігація: автотрекінг цілей, розпізнавання об'єктів, автономна робота під дією РЕБ та без супутникового зв'язку"
+  ],
+  "f_en": [
+    "Type: Unmanned Surface Vehicle (USV)",
+    "Developers: 2DefAi.tech and 40th Separate Coastal Defense Brigade (Ukrainian Navy)",
+    "Modifications: 9 models across 4 technological groups",
+    "Group 1 (Barracuda 1, 2, 3 — standard): up to 70 km/h, range 350–400 km (4–8 FPV carrier; machine guns/EW; 250–400 kg warhead)",
+    "Group 2 (Barracuda 4, 5, 6 — jet-ski-based): up to 110 km/h, range 300–350 km (4 FPV carrier; 70–250 kg warhead; grenade launchers/ATGMs)",
+    "Group 3 (Barracuda 7, 8 — speedboat-based): up to 110 km/h, range 300–350 km (cargo/evacuation up to 250 kg; 100–400 kg warhead)",
+    "Group 4 (Barracuda 9 — heavy long-range): up to 55 km/h, range up to 700 km, payload / warhead up to 1000 kg",
+    "AI & Navigation: target auto-tracking, object recognition, autonomous operation under EW and without satellite comms"
   ],
   "i": "🌊",
   "c": "ua"
