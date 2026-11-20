@@ -72,18 +72,12 @@
               "uk": "Шасі/Розмах",
               "en": "Chassis/Wingspan"
             },
-            {
-              "uk": "w_en",
-              "en": "w_en"
-            },
+            
             {
               "uk": "Довжина/Габарити",
               "en": "Length/Dimensions"
             },
-            {
-              "uk": "l_en",
-              "en": "l_en"
-            },
+            
             {
               "uk": "Висота",
               "en": "Altitude"
@@ -133,18 +127,12 @@
               "uk": "Швидкість",
               "en": "Speed"
             },
-            {
-              "uk": "sp_en",
-              "en": "sp_en"
-            },
+            
             {
               "uk": "Шасі/Розмах",
               "en": "Chassis/Wingspan"
             },
-            {
-              "uk": "w_en",
-              "en": "w_en"
-            },
+            
             {
               "uk": "Двигун",
               "en": "Engine"
