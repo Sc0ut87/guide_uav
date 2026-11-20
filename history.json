@@ -1,6 +1,19 @@
 {
   "history": [
-        {
+    {
+      "date": "2026-11-20T19:43:52.334Z",
+      "version": "1.53",
+      "added": [
+        "СІ БЕЙБІ"
+      ],
+      "removed": [],
+      "updated": [],
+      "versionChange": {
+        "from": "1.54",
+        "to": "1.53"
+      }
+    },
+    {
       "date": "2026-11-20T18:25:13.320Z",
       "version": "1.52",
       "added": [
