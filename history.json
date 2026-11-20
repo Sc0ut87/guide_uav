@@ -33,18 +33,12 @@
               "uk": "Швидкість",
               "en": "Speed"
             },
-            {
-              "uk": "sp_en",
-              "en": "sp_en"
-            },
+            
             {
               "uk": "Шасі/Розмах",
               "en": "Chassis/Wingspan"
             },
-            {
-              "uk": "w_en",
-              "en": "w_en"
-            },
+            
             {
               "uk": "Час польоту",
               "en": "Flight time"
