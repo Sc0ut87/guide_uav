@@ -1,6 +1,31 @@
 {
   "history": [
     {
+      "date": "2026-11-20T21:23:31.705Z",
+      "version": "1.57",
+      "added": [],
+      "removed": [],
+      "updated": [
+        {
+          "name": "МОБІДІК",
+          "fields": [
+            {
+              "uk": "Маса",
+              "en": "Weight"
+            },
+            {
+              "uk": "Маса (EN)",
+              "en": "Weight (EN)"
+            }
+          ]
+        }
+      ],
+      "versionChange": {
+        "from": "1.56",
+        "to": "1.57"
+      }
+    },
+    {
       "date": "2026-11-20T21:15:49.453Z",
       "version": "1.56",
       "added": [
