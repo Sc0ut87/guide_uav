@@ -1,6 +1,19 @@
 {
   "history": [
     {
+      "date": "2026-11-20T20:57:16.749Z",
+      "version": "1.55",
+      "added": [
+        "БАРРАКУДА"
+      ],
+      "removed": [],
+      "updated": [],
+      "versionChange": {
+        "from": "1.54",
+        "to": "1.55"
+      }
+    },
+    {
       "date": "2026-11-20T20:14:14.825Z",
       "version": "1.54",
       "added": [
