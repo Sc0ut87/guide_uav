@@ -13304,9 +13304,8 @@
       ],
       "i": "🚀",
       "c": "ua"
-    }
-  ],
-   {
+    },
+     {
   "id": "magura_v5",
   "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/magura_v5.jpg",
   "imgs": [
@@ -13375,7 +13374,8 @@
   ],
   "i": "🌊",
   "c": "ua"
-},
+}
+     ],
   "ru": [
     {
       "id": "varan",
