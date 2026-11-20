@@ -1,6 +1,33 @@
 {
   "history": [
     {
+      "date": "2026-11-20T21:15:49.453Z",
+      "version": "1.56",
+      "added": [
+        "МОБІДІК"
+      ],
+      "removed": [],
+      "updated": [
+        {
+          "name": "БАРРАКУДА",
+          "fields": [
+            {
+              "uk": "Модифікації",
+              "en": "Modifications"
+            },
+            {
+              "uk": "Модифікації (EN)",
+              "en": "Modifications (EN)"
+            }
+          ]
+        }
+      ],
+      "versionChange": {
+        "from": "1.55",
+        "to": "1.56"
+      }
+    },
+    {
       "date": "2026-11-20T20:57:16.749Z",
       "version": "1.55",
       "added": [
