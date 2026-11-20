@@ -1,5 +1,5 @@
 {
-   "version": "1.52",
+   "version": "1.53",
   "ua": [
     {
       "id": "neptun",
@@ -13306,6 +13306,76 @@
       "c": "ua"
     }
   ],
+   {
+  "id": "magura_v5",
+  "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/magura_v5.jpg",
+  "imgs": [
+    "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/magura_v5-2.jpg",
+    "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/magura_v5-3.jpg"
+  ],
+  "n": "МАГУРА V5",
+  "nr": "MAGURA V5",
+  "t": "bma-ua",
+  "tl": "Безекіпажний морський апарат (БМА)",
+  "tl_en": "Unmanned Surface Vehicle (USV)",
+  "tg": ["bma-ua", "attack"],
+  "r": "до 400 морських миль (≈800 км)",
+  "r_en": "up to 400 nautical miles (≈800 km)",
+  "kn": "до 320 кг (бойова частина 200–250 кг)",
+  "kn_en": "up to 320 kg (warhead 200–250 kg)",
+  "zm": "не вказано",
+  "sp": "42 вузли (≈78 км/год) максимальна, 22 вузли (≈40 км/год) крейсерська",
+  "sp_en": "42 knots (≈78 km/h) max, 22 knots (≈40 km/h) cruise",
+  "w": "не вказано",
+  "w_en": "not specified",
+  "l": "5,5 м",
+  "l_en": "5.5 m",
+  "y": "2023–2026",
+  "st": "Бойове застосування / серійне виробництво",
+  "st_en": "Combat use / serial production",
+  "ft": "не вказано (автономність до 48 годин для V7)",
+  "ft_en": "not specified (autonomy up to 48 hours for V7)",
+  "h": "не вказано",
+  "h_en": "not specified",
+  "eng": "водометний двигун на базі гідроцикла Sea-Doo Jet Ski",
+  "eng_en": "water jet engine based on Sea-Doo Jet Ski",
+  "mods": "V5 (базова камікадзе), V7 (багатоцільова платформа)",
+  "mods_en": "V5 (basic kamikaze), V7 (multi-purpose platform)",
+  "d": "MAGURA (Maritime Autonomous Guard Unmanned Robotic Appliance) — український морський багатоцільовий надводний безпілотник, розроблений компанією UFORCE та активно використовується ГУР МОУ. Базова версія V5 оптимізована для скритних точкових ударів (дрон-камікадзе), розвідки та патрулювання. Має наднизький силует для радіолокаційної незаметності. Оснащений водометним двигуном на базі гідроцикла Sea-Doo Jet Ski. Навігація автономна (автопилот по точках) та дистанційна; інерційна система + супутникова связь (антена Starlink), зашифровані HD-відеопотоки для оператора. Орієнтовна вартість комплексу: ~$270 000 – $373 000. За даними ГУР, спецпідрозділ Group 13 з помощью цих дронів успішно уразив більше 20 надводних та повітряних цілей РФ, включаючи розвідувальний корабель «Іван Хурс», ракетний катер «Івановець», БДК «Цезар Куніков», корвет «Сергій Котов», а також авіацію (вертольоти Мі-8 та винищувачі Су-30).",
+  "d_en": "MAGURA (Maritime Autonomous Guard Unmanned Robotic Appliance) is a Ukrainian multi-purpose surface drone developed by UFORCE and actively used by the Main Directorate of Intelligence (HUR MOU). The basic V5 version is optimized for stealthy pinpoint strikes (kamikaze drone), reconnaissance, and patrolling. It has an ultra-low silhouette for radar stealth. It is equipped with a water jet engine based on a Sea-Doo Jet Ski. Navigation is autonomous (waypoint autopilot) and remote; inertial system + satellite communication (Starlink antenna), encrypted HD video streams for the operator. Estimated cost of the complex: ~$270,000 – $373,000. According to HUR, the Group 13 special unit using these drones has successfully hit more than 20 Russian surface and air targets, including the reconnaissance ship 'Ivan Khurs', the missile boat 'Ivanovets', the large landing ship 'Caesar Kunikov', the corvette 'Sergey Kotov', as well as aviation (Mi-8 helicopters and Su-30 fighters).",
+  "f": [
+    "Тип: безекіпажний морський апарат (БМА)",
+    "Довжина: 5,5 м",
+    "Ширина: 1,5 м",
+    "Висота над ватерлінією: 0,5 м",
+    "Осадка: 0,4 м",
+    "Максимальна швидкість: 42 вузли (≈78 км/год)",
+    "Крейсерська швидкість: 22 вузли (≈40 км/год)",
+    "Дальність ходу: до 400 морських миль (≈800 км)",
+    "Корисне навантаження: до 320 кг",
+    "Бойова частина: 200–250 кг (еквівалент ФАБ-100/250)",
+    "Силова установка: водометний двигун Sea-Doo Jet Ski",
+    "Навігація: інерційна + супутникова (Starlink)",
+    "Вартість: ~$270 000 – $373 000"
+  ],
+  "f_en": [
+    "Type: Unmanned Surface Vehicle (USV)",
+    "Length: 5.5 m",
+    "Width: 1.5 m",
+    "Height above waterline: 0.5 m",
+    "Draft: 0.4 m",
+    "Max speed: 42 knots (≈78 km/h)",
+    "Cruise speed: 22 knots (≈40 km/h)",
+    "Range: up to 400 nautical miles (≈800 km)",
+    "Payload: up to 320 kg",
+    "Warhead: 200–250 kg (FAB-100/250 equivalent)",
+    "Powerplant: Sea-Doo Jet Ski water jet engine",
+    "Navigation: inertial + satellite (Starlink)",
+    "Cost: ~$270,000 – $373,000"
+  ],
+  "i": "🌊",
+  "c": "ua"
+},
   "ru": [
     {
       "id": "varan",
