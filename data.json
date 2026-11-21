@@ -3,7 +3,7 @@
   "ua": [
     {
       "id": "neptun",
-      "img": "images/neptun.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/neptun.jpg",
       "n": "РК-360МЦ НЕПТУН",
       "nr": "NEPTUNE",
       "t": "long",
@@ -46,7 +46,7 @@
     },
     {
       "id": "sapsan",
-      "img": "images/sapsan.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/sapsan.jpg",
       "n": "КР1 САПСАН / ГРІМ-2",
       "nr": "SAPSAN / HRIM-2",
       "t": "long",
@@ -175,7 +175,7 @@
 },
     {
       "id": "trembita",
-      "img": "images/trembita.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/trembita.jpg",
       "n": "ТРЕМБІТА",
       "nr": "TREMBITA",
       "t": "long",
@@ -216,7 +216,7 @@
     },
     {
       "id": "ruta",
-      "img": "images/876b3906ac2b9602.jpeg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/876b3906ac2b9602.jpeg",
       "n": "РУТА",
       "nr": "RUTA / DESTINUS",
       "t": "long",
@@ -254,11 +254,11 @@
     },
     {
       "id": "vector",
-      "img": "images/vector.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/vector.jpg",
       "imgs": [
-        "images/vector.jpg",
-        "images/vector-2.jpg",
-        "images/vector-3.jpg"
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/vector.jpg",
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/vector-2.jpg",
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/vector-3.jpg"
       ],
       "n": "ВЕКТОР",
       "nr": "VECTOR",
@@ -309,7 +309,7 @@
     },
     {
       "id": "ub80d15",
-      "img": "images/ub80d15efp.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/ub80d15efp.jpg",
       "n": "UB80D15-EFP",
       "nr": "UB80D15-EFP",
       "t": "fpv",
@@ -342,7 +342,7 @@
     },
     {
       "id": "kazhan1",
-      "img": "images/kazhan1.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/kazhan1.jpg",
       "n": "КАЖАН-1",
       "nr": "KAZHAN-1",
       "t": "recon",
@@ -383,11 +383,11 @@
     },
     {
       "id": "ptashka",
-      "img": "images/ptashka.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/ptashka.jpg",
       "imgs": [
-        "images/13fd8c1011200281.jpg",
-        "images/ptashka-2.jpg",
-        "images/ptashka-3.jpg"
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/13fd8c1011200281.jpg",
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/ptashka-2.jpg",
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/ptashka-3.jpg"
       ],
       "n": "ПТАШКА",
       "nr": "PTASHKA / BIRDIE",
@@ -421,11 +421,11 @@
     },
     {
       "id": "uj26",
-      "img": "images/uj26.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/uj26.jpg",
           "imgs": [
-        "images/acc956ff1ea70035.jpg",
-        "images/uj26-2.jpg",
-        "images/uj26-3.jpg"
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/acc956ff1ea70035.jpg",
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/uj26-2.jpg",
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/uj26-3.jpg"
       ],
       "n": "UJ-26 БОБЕР",
       "nr": "UJ-26 BEAVER",
@@ -466,11 +466,11 @@
     },
     {
       "id": "p1sun",
-      "img": "images/b0b588757c13b1e7.webp",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/b0b588757c13b1e7.webp",
       "imgs": [
-        "images/b0b588757c13b1e7.webp",
-        "images/p1sun-2.jpg",
-        "images/p1sun-3.jpg"
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/b0b588757c13b1e7.webp",
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/p1sun-2.jpg",
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/p1sun-3.jpg"
       ],
       "n": "П1-САН / ПІСЮН",
       "nr": "P1-SUN",
@@ -506,7 +506,7 @@
     },
     {
       "id": "zorelit_v4",
-      "img": "images/zorelit4.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/zorelit4.jpg",
       "n": "ЗОРЕЛІТ v4",
       "nr": "ZORELIT V4",
       "t": "interceptor",
@@ -548,7 +548,7 @@
     },
     {
       "id": "zorelit_v5",
-      "img": "images/zorelit5.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/zorelit5.jpg",
       "n": "ЗОРЕЛІТ v5",
       "nr": "ZORELIT V5",
       "t": "interceptor",
@@ -661,7 +661,7 @@
 },
     {
       "id": "zirka",
-      "img": "images/zirka.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/zirka.jpg",
       "n": "ЗІРКА",
       "nr": "ZIRKA",
       "t": "interceptor",
@@ -701,11 +701,11 @@
     },
     {
       "id": "blackbird",
-      "img": "images/blackbird.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/blackbird.jpg",
       "imgs": [
-        "images/blackbird.jpg",
-        "images/blackbird-2.jpg",
-        "images/blackbird-3.jpg"
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/blackbird.jpg",
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/blackbird-2.jpg",
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/blackbird-3.jpg"
       ],
       "n": "Блек Бьорд",
       "nr": "BLACK BIRD",
@@ -749,11 +749,11 @@
     },
     {
       "id": "xwing",
-      "img": "images/xwing.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/xwing.jpg",
       "imgs": [
-        "images/xwing.jpg",
-        "images/xwing-2.jpg",
-        "images/xwing-3.jpg"
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/xwing.jpg",
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/xwing-2.jpg",
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/xwing-3.jpg"
       ],
       "n": "Х-ВІНГ",
       "nr": "X-WING",
@@ -792,11 +792,11 @@
     },
     {
       "id": "dancer450",
-      "img": "images/dancer450.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/dancer450.jpg",
       "imgs": [
-        "images/dancer.jpg",
-        "images/dancer450-2.jpg",
-        "images/dancer450-3.jpg"
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/dancer.jpg",
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/dancer450-2.jpg",
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/dancer450-3.jpg"
       ],
       "n": "ДЕНСЕР 4.5.0",
       "nr": "DANCER 4.5.0",
@@ -842,11 +842,11 @@
     },
     {
       "id": "xlock",
-      "img": "images/xlock.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/xlock.jpg",
       "imgs": [
-        "images/xlock.jpg",
-        "images/xlock-2.jpg",
-        "images/xlock-3.jpg"
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/xlock.jpg",
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/xlock-2.jpg",
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/xlock-3.jpg"
       ],
       "n": "Х-ЛОК",
       "nr": "X-LOCK",
@@ -886,11 +886,11 @@
     },
     {
       "id": "tarasp",
-      "img": "images/tarasp.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/tarasp.jpg",
       "imgs": [
-        "images/1642032d43ea59e4.webp",
-        "images/tarasp-2.jpg",
-        "images/tarasp-3.jpg"
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/1642032d43ea59e4.webp",
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/tarasp-2.jpg",
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/tarasp-3.jpg"
       ],
       "n": "ТАРАС-П",
       "nr": "TARAS-P",
@@ -936,7 +936,7 @@
     },
     {
       "id": "raybird",
-      "img": "images/raybird.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/raybird.jpg",
       "n": "РЕЙБЕРД-3",
       "nr": "RAYBIRD-3 (ACS-3)",
       "t": "recon",
@@ -972,7 +972,7 @@
     },
     {
       "id": "vampire",
-      "img": "images/vampire.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/vampire.jpg",
       "n": "ВАМПІР",
       "nr": "VAMPIRE",
       "t": "attack",
@@ -1006,7 +1006,7 @@
     },
     {
       "id": "kazhan",
-      "img": "images/kazhan.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/kazhan.jpg",
       "n": "КАЖАН",
       "nr": "KAZHAN",
       "t": "attack",
@@ -1042,7 +1042,7 @@
     },
     {
       "id": "uj25",
-      "img": "images/uj25.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/uj25.jpg",
       "n": "UJ-25 СКАЙЛАЙН",
       "nr": "UJ-25 SKYLINE",
       "t": "long",
@@ -1081,7 +1081,7 @@
     },
     {
       "id": "aq400",
-      "img": "images/aq400.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/aq400.jpg",
       "n": "AQ-400 Коса",
       "nr": "AQ-400 SCYTHE",
       "t": "long",
@@ -1130,7 +1130,7 @@
     },
     {
       "id": "zoom",
-      "img": "images/zoom.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/zoom.jpg",
       "n": "ЗУМ 3.0",
       "nr": "ZOOM 3.0",
       "t": "fpv",
@@ -1184,7 +1184,7 @@
     },
     {
       "id": "sichen",
-      "img": "images/sichen.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/sichen.jpg",
       "n": "Січень",
       "nr": "Sichen",
       "t": "long",
@@ -1232,7 +1232,7 @@
     },
     {
       "id": "lastshadow_t200",
-      "img": "images/lastshadow_t200.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/lastshadow_t200.jpg",
       "n": "Ласт Шадоу (T200)",
       "nr": "Last Shadow (T200)",
       "t": "interceptor",
@@ -1282,7 +1282,7 @@
     },
     {
       "id": "stormbird",
-      "img": "images/stormbird.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/stormbird.jpg",
       "n": "ШТОРМБЬОРД",
       "nr": "STORMBIRD",
       "t": "attack",
@@ -1423,7 +1423,7 @@
 },
     {
       "id": "zozulia",
-      "img": "images/zozulya.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/zozulya.jpg",
       "n": "ЗОЗУЛЯ",
       "nr": "ZOZULIA",
       "t": "long",
@@ -1463,7 +1463,7 @@
     },
     {
       "id": "an196",
-      "img": "images/an196.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/an196.jpg",
       "n": "Ан-196 Лютий",
       "nr": "AN-196 LIUTYI",
       "t": "long",
@@ -1512,7 +1512,7 @@
     },
     {
       "id": "lord",
-      "img": "images/lord.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/lord.jpg",
       "n": "ЛОРД 1/2",
       "nr": "LORD 1/2",
       "t": "long",
@@ -1544,7 +1544,7 @@
     },
     {
       "id": "r15",
-      "img": "images/r15.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/r15.jpg",
       "n": "Р-15",
       "nr": "R-15",
       "t": "long",
@@ -1583,7 +1583,7 @@
     },
     {
       "id": "dart",
-      "img": "images/dart250.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/dart250.jpg",
       "n": "ДАРТ 250 EW",
       "nr": "DART 250 EW",
       "t": "long",
@@ -1617,7 +1617,7 @@
     },
     {
       "id": "tb2",
-      "img": "images/tb2.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/tb2.jpg",
       "n": "БАЙРАКТАР TB2",
       "nr": "BAYRAKTAR TB2",
       "t": "attack",
@@ -1666,7 +1666,7 @@
     },
     {
       "id": "leleka",
-      "img": "images/leleka100.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/leleka100.jpg",
       "n": "ЛЕЛЕКА-100",
       "nr": "LELEKA-100",
       "t": "recon",
@@ -1792,7 +1792,7 @@
 },
     {
       "id": "pd2",
-      "img": "images/pd2.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/pd2.jpg",
       "n": "ПД-2",
       "nr": "PD-2",
       "t": "recon",
@@ -1839,7 +1839,7 @@
     },
     {
       "id": "furia",
-      "img": "images/furia.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/furia.jpg",
       "n": "А1-СМ «ФУРІЯ»",
       "nr": "A1-SM FURIA",
       "t": "recon",
@@ -1887,7 +1887,7 @@
     },
     {
       "id": "shark",
-      "img": "images/shark.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/shark.jpg",
       "n": "ШАРК",
       "nr": "SHARK",
       "t": "recon",
@@ -1932,7 +1932,7 @@
     },
     {
       "id": "shark-m",
-      "img": "images/sharkm.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/sharkm.jpg",
       "n": "ШАРК-М",
       "nr": "SHARK-M",
       "t": "long",
@@ -1973,7 +1973,7 @@
     },
     {
       "id": "uj22",
-      "img": "images/uj22.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/uj22.jpg",
       "n": "UJ-22 ЕІРБОРН",
       "nr": "UJ-22 AIRBORNE",
       "t": "recon",
@@ -2017,7 +2017,7 @@
     },
     {
       "id": "tu141",
-      "img": "images/tu141.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/tu141.jpg",
       "n": "ТУ-141 «СТРИЖ»",
       "nr": "TU-141 STRIZH",
       "t": "long",
@@ -2059,7 +2059,7 @@
     },
     {
       "id": "palianytsia",
-      "img": "images/palianytsia.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/palianytsia.jpg",
       "n": "ПАЛЯНИЦЯ (UAV-290)",
       "nr": "PALIANYTSIA (UAV-290)",
       "t": "long",
@@ -2099,7 +2099,7 @@
     },
     {
       "id": "nayan",
-      "img": "images/nayan.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/nayan.jpg",
       "n": "НАЯН",
       "nr": "NYAN",
       "t": "long",
@@ -2144,7 +2144,7 @@
     },
     {
       "id": "kolibri",
-      "img": "images/kolibri10.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/kolibri10.jpg",
       "n": "Колібрі 10\"",
       "nr": "KOLIBRI 10\"",
       "t": "fpv",
@@ -2176,7 +2176,7 @@
     },
     {
       "id": "virtus",
-      "img": "images/virtus.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/virtus.jpg",
       "n": "ВІРТУС",
       "nr": "VIRTUS",
       "t": "attack",
@@ -2225,7 +2225,7 @@
     },
     {
       "id": "anubis",
-      "img": "images/anubis.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/anubis.jpg",
       "n": "Анубіс",
       "nr": "Anubis",
       "t": "attack",
@@ -2265,7 +2265,7 @@
     },
     {
       "id": "e300",
-      "img": "images/e300.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/e300.jpg",
       "n": "е-300 ентерпрайз",
       "nr": "E-300 Enterprise",
       "t": "recon",
@@ -2303,7 +2303,7 @@
     },
     {
       "id": "slavic_vyriy",
-      "img": "images/slavic.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/slavic.jpg",
       "n": "Славік",
       "nr": "Slavic",
       "t": "fpv",
@@ -2350,7 +2350,7 @@
     },
     {
       "id": "d80",
-      "img": "images/6c55de435888e56b.webp",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/6c55de435888e56b.webp",
       "n": "ДИСКАВЕРІ",
       "nr": "D-80 DISCOVERY",
       "t": "recon",
@@ -2388,7 +2388,7 @@
     },
     {
       "id": "switchblade",
-      "img": "images/blade300.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/blade300.jpg",
       "n": "СВІтЧБЛЕЙД 300",
       "nr": "SWITCHBLADE 300",
       "t": "loiter",
@@ -2418,7 +2418,7 @@
     },
     {
       "id": "switchblade600",
-      "img": "images/blade600.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/blade600.jpg",
       "n": "світчблейд 600",
       "nr": "Switchblade 600",
       "t": "loiter",
@@ -2458,7 +2458,7 @@
     },
     {
       "id": "warmate",
-      "img": "images/warmate.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/warmate.jpg",
       "n": "ВАРМЕЙТ",
       "nr": "WARMATE",
       "t": "loiter",
@@ -2513,7 +2513,7 @@
     },
     {
       "id": "warmate3",
-      "img": "images/warmate3.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/warmate3.jpg",
       "n": "ВАРМЕЙТ 3.0",
       "nr": "WARMATE 3.0",
       "t": "loiter",
@@ -2553,7 +2553,7 @@
     },
     {
       "id": "warmate5",
-      "img": "images/warmate5.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/warmate5.jpg",
       "n": "ВАРМЕЙТ 5",
       "nr": "WARMATE 5",
       "t": "loiter",
@@ -2607,7 +2607,7 @@
     },
     {
       "id": "phoenix",
-      "img": "images/phoenix.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/phoenix.jpg",
       "n": "ФЕНІКС ГОСТ (4 МОДЕЛІ)",
       "nr": "PHOENIX GHOST",
       "t": "loiter",
@@ -2648,7 +2648,7 @@
     },
     {
       "id": "wsp110_tbi",
-      "img": "images/wsp110.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/wsp110.jpg",
       "n": "всп-110",
       "nr": "WSP-110",
       "t": "recon",
@@ -2696,7 +2696,7 @@
     },
     {
       "id": "mercury",
-      "img": "images/mercury.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/mercury.jpg",
       "n": "МЕРКУРІЙ",
       "nr": "MERCURY",
       "t": "recon",
@@ -2753,7 +2753,7 @@
     },
     {
       "id": "chaklun",
-      "img": "images/chaklun.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/chaklun.jpg",
       "n": "Чаклун",
       "nr": "Chaklun",
       "t": "recon",
@@ -2785,7 +2785,7 @@
     },
     {
       "id": "avenger5_uds",
-      "img": "images/avenger5.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/avenger5.jpg",
       "n": "Евенджер 5",
       "nr": "AVENGER 5",
       "t": "loiter",
@@ -2839,7 +2839,7 @@
     },
     {
       "id": "strila",
-      "img": "images/strila.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/strila.jpg",
       "n": "Стріла",
       "nr": "STRILA",
       "t": "interceptor",
@@ -2872,7 +2872,7 @@
     },
     {
       "id": "linsa",
-      "img": "images/linsa.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/linsa.jpg",
       "n": "ЛІНЗА 3.0",
       "nr": "LINZA 3.0",
       "t": "fpv",
@@ -2911,7 +2911,7 @@
     },
     {
       "id": "punisher",
-      "img": "images/punisher.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/punisher.jpg",
       "n": "Панішер",
       "nr": "PUNISHER",
       "t": "attack",
@@ -2949,7 +2949,7 @@
     },
     {
       "id": "spectator",
-      "img": "images/spectator.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/spectator.jpg",
       "n": "СПЕКТАТОР-М1",
       "nr": "SPECTATOR-M1",
       "t": "recon",
@@ -2992,7 +2992,7 @@
     },
     {
       "id": "fp1",
-      "img": "images/fp1.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/fp1.jpg",
       "n": "ФП-1",
       "nr": "FP-1",
       "t": "long",
@@ -3034,7 +3034,7 @@
     },
     {
       "id": "sting",
-      "img": "images/sting.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/sting.jpg",
       "n": "Стінг",
       "nr": "Sting",
       "t": "interceptor", 
@@ -3076,7 +3076,7 @@
     },
     {
       "id": "skazhenyi_uv",
-      "img": "images/skazhenyi.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/skazhenyi.jpg",
       "n": "Скажений",
       "nr": "Skazhenyi",
       "t": "interceptor", 
@@ -3125,7 +3125,7 @@
     },
     {
       "id": "valkyrie",
-      "img": "images/valkiriya.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/valkiriya.jpg",
       "n": "Валькірія",
       "nr": "Valkyrie",
       "t": "recon",
@@ -3244,7 +3244,7 @@
 },
     {
       "id": "galka",
-      "img": "images/galka.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/galka.jpg",
       "n": "ГАЛКА",
       "nr": "GALKA",
       "t": "recon",
@@ -3287,7 +3287,7 @@
     },
     {
       "id": "grim_la80",
-      "img": "images/grim_la80.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/grim_la80.jpg",
       "n": "GRIM LA-80",
       "nr": "GRIM LA-80",
       "t": "attack",
@@ -3336,7 +3336,7 @@
     },
     {
       "id": "forecaster_uds",
-      "img": "images/forecaster.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/forecaster.jpg",
       "n": "Форкастер",
       "nr": "FORECASTER",
       "t": "recon",
@@ -3386,7 +3386,7 @@
     },
     {
       "id": "rubaka",
-      "img": "images/rubaka.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/rubaka.jpg",
       "n": "РУБАКА",
       "nr": "RUBAKA",
       "t": "long",
@@ -3425,7 +3425,7 @@
     },
     {
       "id": "dovbush",
-      "img": "images/dovbush.png",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/dovbush.png",
       "n": "ДОВБУШ Т10",
       "nr": "DOVBUSH T10",
       "t": "recon",
@@ -3463,7 +3463,7 @@
     },
     {
       "id": "cargo",
-      "img": "images/cargo.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/cargo.jpg",
       "n": "КАРГО",
       "nr": "CARGO",
       "t": "long",
@@ -3507,7 +3507,7 @@
     },
     {
       "id": "sirko",
-      "img": "images/sirko.webp",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/sirko.webp",
       "n": "СІРКО",
       "nr": "SIRKO",
       "t": "recon",
@@ -3547,7 +3547,7 @@
     },
     {
       "id": "mara",
-      "img": "images/mara.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/mara.jpg",
       "n": "МАРА",
       "nr": "MARA",
       "t": "recon",
@@ -3587,7 +3587,7 @@
     },
     {
       "id": "skif",
-      "img": "images/skif.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/skif.jpg",
       "n": "СКІФ",
       "nr": "SKIF",
       "t": "recon",
@@ -3626,7 +3626,7 @@
     },
     {
       "id": "sparrow",
-      "img": "images/sparrow.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/sparrow.jpg",
       "n": "Спарроу",
       "nr": "SPARROW",
       "t": "recon",
@@ -3661,7 +3661,7 @@
     },
     {
       "id": "ram2",
-      "img": "images/ram2.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/ram2.jpg",
       "n": "РАМ II",
       "nr": "RAM II",
       "t": "loiter",
@@ -3707,7 +3707,7 @@
     },
     {
       "id": "ram2x",
-      "img": "images/ram2x.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/ram2x.jpg",
       "n": "РАМ-2X",
       "nr": "RAM-2X",
       "t": "loiter",
@@ -3745,7 +3745,7 @@
     },
     {
       "id": "gor",
-      "img": "images/gor.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/gor.jpg",
       "n": "Гор",
       "nr": "GOR",
       "t": "recon",
@@ -3784,7 +3784,7 @@
     },
     {
       "id": "sich",
-      "img": "images/sych.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/sych.jpg",
       "n": "Сич",
       "nr": "Sych",
       "t": "recon",
@@ -3824,7 +3824,7 @@
     },
     {
       "id": "lelekalr",
-      "img": "images/15bfdc31a02ace5a.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/15bfdc31a02ace5a.jpg",
       "n": "ЛЕЛЕКА LR",
       "nr": "LELEKA LR",
       "t": "recon",
@@ -3865,7 +3865,7 @@
     },
     {
       "id": "lupynis10_tfl1",
-      "img": "images/lupynis.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/lupynis.jpg",
       "n": "Лупиніс-10-TFL-1",
       "nr": "LUPYNIS-10-TFL-1",
       "t": "fpv",
@@ -3912,7 +3912,7 @@
     },
     {
       "id": "ardea",
-      "img": "images/ardea.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/ardea.jpg",
       "n": "Ардея",
       "nr": "Ardea",
       "t": "recon",
@@ -3955,7 +3955,7 @@
     },
     {
       "id": "sparrow_le",
-      "img": "images/sparrow_le.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/sparrow_le.jpg",
       "n": "SPARROW LE",
       "nr": "SPARROW LE",
       "t": "recon",
@@ -4008,7 +4008,7 @@
     },
     {
       "id": "tekever",
-      "img": "images/tekever.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/tekever.jpg",
       "n": "ТЕКЕВЕР AR3 / AR5 / ARX",
       "nr": "TEKEVER AR3 / AR5 / ARX",
       "t": "recon",
@@ -4133,7 +4133,7 @@
 },
     {
       "id": "buntar3",
-      "img": "images/2509e00daf8c664f.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/2509e00daf8c664f.jpg",
       "n": "Бунтар-3",
       "nr": "Buntar-3",
       "t": "recon",
@@ -4171,7 +4171,7 @@
     },
     {
       "id": "flyeye",
-      "img": "images/13e2c8157226e2ae.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/13e2c8157226e2ae.jpg",
       "n": "ФЛАЙ АЙ",
       "nr": "FLYEYE",
       "t": "recon",
@@ -4211,7 +4211,7 @@
     },
     {
       "id": "spys",
-      "img": "images/spys.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/spys.jpg",
       "n": "СПИС",
       "nr": "SPYS",
       "t": "interceptor",
@@ -4259,7 +4259,7 @@
     },
     {
       "id": "uj23topaz",
-      "img": "images/3230aa20f420af0f.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/3230aa20f420af0f.jpg",
       "n": "UJ-23 ТОПАЗ",
       "nr": "UJ-23 TOPAZ",
       "t": "recon",
@@ -4296,7 +4296,7 @@
     },
     {
       "id": "st35",
-      "img": "images/f40462c1eee84b4a.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/f40462c1eee84b4a.jpg",
       "n": "ГРІМ ST-35",
       "nr": "ST-35 GRIM",
       "t": "loiter",
@@ -4338,7 +4338,7 @@
     },
     {
       "id": "flycat",
-      "img": "images/flycat.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/flycat.jpg",
       "n": "Флайкет",
       "nr": "FLYCAT",
       "t": "loiter",
@@ -4390,7 +4390,7 @@
     },
     {
       "id": "one_punch",
-      "img": "images/punch.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/punch.jpg",
       "n": "Ван Панч",
       "nr": "One Punch",
        "t": "interceptor",
@@ -4433,7 +4433,7 @@
     },
     {
       "id": "bulava",
-      "img": "images/3f92849961ac9270.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/3f92849961ac9270.jpg",
       "n": "БУЛАВА",
       "nr": "BULAVA / MACE",
       "t": "loiter",
@@ -4481,7 +4481,7 @@
     },
     {
       "id": "backfire",
-      "img": "images/7870fe25c6d2e92d.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/7870fe25c6d2e92d.jpg",
       "n": "БЕКФАЙЄР",
       "nr": "BACKFIRE",
       "t": "attack",
@@ -4521,7 +4521,7 @@
     },
     {
       "id": "eosc",
-      "img": "images/90549b1cc50cec65.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/90549b1cc50cec65.jpg",
       "n": "еос-C",
       "nr": "EOS-C",
       "t": "recon",
@@ -4566,7 +4566,7 @@
     },
     {
       "id": "sokil",
-      "img": "images/sokil.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/sokil.jpg",
       "n": "Сокіл",
       "nr": "SOKIL",
       "t": "recon",
@@ -4607,7 +4607,7 @@
     },
     {
       "id": "sokil2",
-      "img": "images/sokil2.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/sokil2.jpg",
       "n": "Сокіл-2",
       "nr": "SOKIL-2",
       "t": "recon",
@@ -4646,7 +4646,7 @@
     },
     {
       "id": "sokil300",
-      "img": "images/e04ebaa361673b48.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/e04ebaa361673b48.jpg",
       "n": "Сокіл-300",
       "nr": "SOKIL-300",
       "t": "attack",
@@ -4694,7 +4694,7 @@
     },
     {
       "id": "dzyga",
-      "img": "images/dzyga.png",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/dzyga.png",
       "n": "ДЗИҐА",
       "nr": "DZYGA",
       "t": "fpv",
@@ -4733,7 +4733,7 @@
     },
     {
       "id": "penguin",
-      "img": "images/ec3be262fba58a42.webp",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/ec3be262fba58a42.webp",
       "n": "ПІНГВІН C",
       "nr": "PENGUIN C",
       "t": "recon",
@@ -4776,7 +4776,7 @@
     },
     {
       "id": "anser",
-      "img": "images/anser.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/anser.jpg",
       "n": "АНСЕР",
       "nr": "ANSER",
       "t": "recon",
@@ -4817,7 +4817,7 @@
     },
     {
       "id": "deadlinerq1",
-      "img": "images/d7df7411f951051b.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/d7df7411f951051b.jpg",
       "n": "ДЕДЛАЙНЕР Q1",
       "nr": "DEADLINER Q1",
       "t": "fpv",
@@ -4851,7 +4851,7 @@
     },
     {
       "id": "hornet",
-      "img": "images/aeb746793f11a444.jpeg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/aeb746793f11a444.jpeg",
       "n": "ШЕРШЕНЬ",
       "nr": "HORNET",
       "t": "attack",
@@ -5051,7 +5051,7 @@
 },
     {
       "id": "kruk",
-      "img": "images/2d6f0c5da02fea4c.webp",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/2d6f0c5da02fea4c.webp",
       "n": "Крук",
       "nr": "kruk",
       "t": "fpv",
@@ -5246,7 +5246,7 @@
 },
     {
       "id": "bababoom",
-      "img": "images/4074712b1ed7bc62.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/4074712b1ed7bc62.jpg",
       "n": "БАБАБУМ 15 OPTIC",
       "nr": "BABABOOM-15 OPTIC",
       "t": "fpv",
@@ -5284,7 +5284,7 @@
     },
     {
       "id": "octopus100",
-      "img": "images/octopus.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/octopus.jpg",
       "n": "ОКТОПУС-100",
       "nr": "OCTOPUS-100",
       "t": "interceptor",
@@ -5323,7 +5323,7 @@
     },
     {
       "id": "morok",
-      "img": "images/c574c46475776b07.png",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/c574c46475776b07.png",
       "n": "Морок",
       "nr": "Morok",
       "t": "long",
@@ -5360,7 +5360,7 @@
     },
     {
       "id": "fp2",
-      "img": "images/fp2.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/fp2.jpg",
       "n": "ФП-2",
       "nr": "FP-2",
       "t": "attack",
@@ -5402,7 +5402,7 @@
     },
     {
       "id": "drozd_airline",
-      "img": "images/drozd.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/drozd.jpg",
       "n": "ДРОЗД",
       "nr": "DROZD",
       "t": "interceptor", 
@@ -5538,7 +5538,7 @@
 },
     {
       "id": "f2m",
-      "img": "images/84b8f20f2736a087.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/84b8f20f2736a087.jpg",
       "n": "ф-2м",
       "nr": "F-2M",
       "t": "recon",
@@ -5574,7 +5574,7 @@
     },
     {
       "id": "r18",
-      "img": "images/24529ec86445b4f6.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/24529ec86445b4f6.jpg",
       "n": "р-18",
       "nr": "R-18",
       "t": "attack",
@@ -5611,7 +5611,7 @@
     },
     {
       "id": "r34",
-      "img": "images/r34.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/r34.jpg",
       "n": "Р-34 / Р-34-Т",
       "nr": "R-34 / R-34-T",
       "t": "attack",
@@ -5661,7 +5661,7 @@
     },
     {
       "id": "pegasus25",
-      "img": "images/898507544f9942d1.webp",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/898507544f9942d1.webp",
       "n": "ПЕГАСУС АРМС 25",
       "nr": "PEGASUS ARMS 25",
       "t": "attack",
@@ -5697,7 +5697,7 @@
     },
     {
       "id": "litavr",
-      "img": "images/litavr.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/litavr.jpg",
       "n": "ЛІТАВР",
       "nr": "LITAVR",
       "t": "interceptor",
@@ -5811,7 +5811,7 @@
 },
     {
       "id": "darts",
-      "img": "images/d6873f4ed65ba0a7.webp",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/d6873f4ed65ba0a7.webp",
       "n": "Дартс",
       "nr": "Darts",
       "t": "attack",
@@ -5854,7 +5854,7 @@
     },
     {
       "id": "dartsdm",
-      "img": "images/dartsdm.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/dartsdm.jpg",
       "n": "ДАРТС DM / 2.0",
       "nr": "DARTS DM / 2.0",
       "t": "attack",
@@ -5909,7 +5909,7 @@
     },
     {
       "id": "koshmaryk_uds",
-      "img": "images/koshmaryk.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/koshmaryk.jpg",
       "n": "Кошмарик",
       "nr": "Koshmaryk",
        "t": "fpv",
@@ -5953,7 +5953,7 @@
     },
     {
       "id": "khaba",
-      "img": "images/khaba.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/khaba.jpg",
       "n": "Хаба",
       "nr": "Khaba",
       "t": "attack",
@@ -6003,7 +6003,7 @@
     },
     {
       "id": "bullet",
-      "img": "images/bullet.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/bullet.jpg",
       "n": "ГЕНЕРАЛ ЧЕРЕШНЯ BULLET",
       "nr": "GENERAL CHERRY BULLET",
       "t": "interceptor",
@@ -6052,7 +6052,7 @@
     },
     {
       "id": "sweetheart",
-      "img": "images/sweetheart.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/sweetheart.jpg",
       "n": "СВІТХАРТ",
       "nr": "SWEETHEART",
       "t": "recon",
@@ -6095,7 +6095,7 @@
     },
     {
       "id": "r2d2",
-      "img": "images/r2d2.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/r2d2.jpg",
       "n": "R2D2",
       "nr": "R2D2",
       "t": "attack",
@@ -6230,7 +6230,7 @@
 },
     {
       "id": "uj32lastivka",
-      "img": "images/lastivka.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/lastivka.jpg",
       "n": "UJ-32 Ластівка/UJ-31 Злива",
       "nr": "UJ-32 Lastivka/UJ-31 Zlyva",
       "t": "loiter",
@@ -6278,7 +6278,7 @@
     },
     {
       "id": "elfk",
-      "img": "images/49a0154a958b4974.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/49a0154a958b4974.jpg",
       "n": "Ельф-К",
       "nr": "Elf-K",
       "t": "attack",
@@ -6322,7 +6322,7 @@
     },
     {
       "id": "nemesis",
-      "img": "images/ff27a16cd8983b4a.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/ff27a16cd8983b4a.jpg",
       "n": "НЕМЕЗІС",
       "nr": "NEMESIS",
       "t": "attack",
@@ -6367,7 +6367,7 @@
     },
     {
       "id": "besomar1100",
-      "img": "images/besomar1100.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/besomar1100.jpg",
       "n": "БЕСОМАР 1100",
       "nr": "BESOMAR 1100",
       "t": "recon",
@@ -6415,7 +6415,7 @@
     },
     {
       "id": "besomar3210",
-      "img": "images/6a25164d2d4812ff.jpeg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/6a25164d2d4812ff.jpeg",
       "n": "БЕСОМАР 3210",
       "nr": "BESOMAR 3210",
       "t":  "interceptor",
@@ -6452,7 +6452,7 @@
     },
     {
       "id": "besomar3310",
-      "img": "images/77a23f792bd9e49a.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/77a23f792bd9e49a.jpg",
       "n": "БЕСОМАР 3310",
       "nr": "BESOMAR 3310",
       "t": "attack",
@@ -6699,7 +6699,7 @@
 },
     {
       "id": "tasack",
-      "img": "images/tasack.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/tasack.jpg",
       "n": "Тесак",
       "nr": "TASACK",
       "t": "loiter",
@@ -6756,7 +6756,7 @@
     },
     {
       "id": "shpatel",
-      "img": "images/a081863926b0bef5.webp",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/a081863926b0bef5.webp",
       "n": "Шпатель",
       "nr": "Shpatel",
       "t": "loiter",
@@ -6797,7 +6797,7 @@
     },
     {
       "id": "sh2",
-      "img": "images/sh2.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/sh2.jpg",
       "n": "СХ-2",
       "nr": "SH-2",
       "t": "recon",
@@ -6845,7 +6845,7 @@
     },
     {
       "id": "stepovyi_viter",
-      "img": "images/stepovyi_viter.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/stepovyi_viter.jpg",
       "n": "Степовий вітер",
       "nr": "Steppe Wind",
       "t": "attack",
@@ -6896,7 +6896,7 @@
     },
     {
       "id": "siromakha",
-      "img": "images/siromaha.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/siromaha.jpg",
       "n": "Сіромаха",
       "nr": "Siromakha",
       "t": "attack",
@@ -7010,7 +7010,7 @@
 },
     {
       "id": "rekam32",
-      "img": "images/rekam.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/rekam.jpg",
       "n": "РеКам 3.2",
       "nr": "ReKam 3.2",
       "t": "loiter",
@@ -7059,7 +7059,7 @@
     },
     {
       "id": "haki3",
-      "img": "images/5e64a59c7f329a0e.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/5e64a59c7f329a0e.jpg",
       "n": "ХАКІ-3",
       "nr": "HAKI-3",
       "t": "attack",
@@ -7099,7 +7099,7 @@
     },
     {
       "id": "haki10",
-      "img": "images/khaki10.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/khaki10.jpg",
       "n": "ХАКІ-10",
       "nr": "HAKI-10",
       "t": "attack",
@@ -7208,7 +7208,7 @@
 },
     {
       "id": "haki20",
-      "img": "images/2b282963b6b7ada1.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/2b282963b6b7ada1.jpg",
       "n": "ХАКІ-20",
       "nr": "HAKI-20",
       "t": "long",
@@ -7337,7 +7337,7 @@
 },
     {
       "id": "flamingo",
-      "img": "images/d1a431057e46c553.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/d1a431057e46c553.jpg",
       "n": "фп-5 Фламінго",
       "nr": "FP-5 Flamingo",
       "t": "long",
@@ -7377,7 +7377,7 @@
     },
     {
       "id": "fp7",
-      "img": "images/9bce52002e375135.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/9bce52002e375135.jpg",
       "n": "фп-7",
       "nr": "FP-7",
       "t": "long",
@@ -7416,7 +7416,7 @@
     },
     {
       "id": "fp9",
-      "img": "images/0a9d14669a5892a3.png",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/0a9d14669a5892a3.png",
       "n": "фп-9",
       "nr": "FP-9",
       "t": "long",
@@ -7456,7 +7456,7 @@
     },
     {
       "id": "peklo",
-      "img": "images/92274501c3d7a9ff.webp",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/92274501c3d7a9ff.webp",
       "n": "Пекло",
       "nr": "Peklo / Hell",
       "t": "long",
@@ -7495,7 +7495,7 @@
     },
     {
       "id": "bars",
-      "img": "images/bars.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/bars.jpg",
       "n": "Барс",
       "nr": "Bars",
       "t": "long",
@@ -7536,7 +7536,7 @@
     {
       "id": "atacms",
       "c": "us",
-      "img": "images/atacms.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/atacms.jpg",
       "n": "атакмс",
       "nr": "MGM-140 ATACMS",
       "t": "long",
@@ -7740,7 +7740,7 @@
     {
       "id": "stormshadow",
       "c": "fruk",
-      "img": "images/cbff044a98da38b9.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/cbff044a98da38b9.jpg",
       "n": "шторм шедоу / скальп-EG",
       "nr": "Storm Shadow / SCALP-EG",
       "t": "long",
@@ -7778,7 +7778,7 @@
     },
     {
       "id": "areion",
-      "img": "images/e61ab69c7ba9eef8.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/e61ab69c7ba9eef8.jpg",
       "n": "АРЕЙОН",
       "nr": "AREION",
       "t": "long",
@@ -7815,7 +7815,7 @@
     },
     {
       "id": "unex_ugv",
-      "img": "images/unex_ugv.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/unex_ugv.jpg",
       "n": "ЮНЕКС UGV",
       "nr": "UNEX UGV",
       "t": "nrk-ua",
@@ -7951,7 +7951,7 @@
 },
     {
       "id": "rarog-krl60",
-      "img": "images/rarog60.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/rarog60.jpg",
       "n": "РАРОГ krl-60",
       "nr": "RAROG KRL-60",
       "t": "attack",
@@ -8067,7 +8067,7 @@
 },
     {
       "id": "scalpel",
-      "img": "images/scalpel.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/scalpel.jpg",
       "n": "AQV-120 «Скальпель»",
       "nr": "AQV-120 Scalpel",
        "t": "fpv",
@@ -8105,7 +8105,7 @@
     {
       "id": "merops",
       "c": "us",
-      "img": "images/e0a7c8428ab3707d.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/e0a7c8428ab3707d.jpg",
       "n": "МЕРОПС-АС3",
       "nr": "MEROPS-AS3",
       "t": "interceptor",
@@ -8144,11 +8144,11 @@
     },
     {
       "id": "bebradron",
-      "img": "images/bebradron.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/bebradron.jpg",
       "imgs": [
-        "images/bebradron.jpg",
-        "images/bebradron-2.jpg",
-        "images/bebradron-3.jpg"
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/bebradron.jpg",
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/bebradron-2.jpg",
+        "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/bebradron-3.jpg"
       ],
       "n": "БЕБРАДРОН",
       "nr": "BEBRADRON",
@@ -8357,7 +8357,7 @@
 },
     {
       "id": "ratel_r1",
-      "img": "images/ratel_r1.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/ratel_r1.jpg",
       "n": "Ратель Р1",
       "nr": "Ratel R1",
       "t": "recon",
@@ -8404,7 +8404,7 @@
     },
     {
       "id": "striker",
-      "img": "images/striker.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/striker.jpg",
       "n": "СТРАЙКЕР МІНІ",
       "nr": "STRIKER MINI",
       "t": "interceptor",
@@ -8440,7 +8440,7 @@
     },
     {
       "id": "d1lduck",
-      "img": "images/dillduck.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/dillduck.jpg",
       "n": "Д1Л-ДАК (ДІЛДАК)",
       "nr": "D1L-DUCK",
       "t": "interceptor",
@@ -8479,7 +8479,7 @@
     },
     {
       "id": "osiris-ueb1",
-      "img": "images/osiris.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/osiris.jpg",
       "n": "УЕБ-1",
       "nr": "OSIRIS UEB-1",
       "t": "interceptor",
@@ -8514,7 +8514,7 @@
     },
     {
       "id": "obriy",
-      "img": "images/obriy.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/obriy.jpg",
       "n": "Обрій",
       "nr": "Obriy",
       "t": "attack",
@@ -8549,7 +8549,7 @@
     },
     {
       "id": "konyk",
-      "img": "images/konyk.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/konyk.jpg",
       "imgs": [
         "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/konyk-2.jpg",
         "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/konyk-3.jpg"
@@ -8600,7 +8600,7 @@
     },
     {
       "id": "termit",
-      "img": "images/d7ed3741373783ee.webp",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/d7ed3741373783ee.webp",
         "imgs": [
         "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/termit-2.jpg",
         "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/termit-3.jpg"
@@ -8651,7 +8651,7 @@
     },
     {
       "id": "stohid",
-      "img": "images/stohid.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/stohid.jpg",
              "imgs": [
         "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/stohid-2.jpg",
         "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/stohid-3.jpg"
@@ -8694,7 +8694,7 @@
     },
     {
       "id": "visliuk",
-      "img": "images/visluk.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/visluk.jpg",
        "imgs": [
         "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/visliuk-2.jpg",
         "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/visliuk-3.jpg"
@@ -8738,7 +8738,7 @@
     },
     {
       "id": "liut",
-      "img": "images/3768329a197aa93b.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/3768329a197aa93b.jpg",
        "imgs": [
         "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/liut-2.jpg",
         "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/liut-3.jpg"
@@ -8783,7 +8783,7 @@
     },
     {
       "id": "ravlyk_uut",
-      "img": "images/ravlyk.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/ravlyk.jpg",
       "n": "Равлик",
       "nr": "Ravlyk",
       "t": "nrk-ua",
@@ -8838,7 +8838,7 @@
     },
     {
       "id": "vepr",
-      "img": "images/c4723d97e037faf9.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/c4723d97e037faf9.jpg",
       "n": "Вепр",
       "nr": "Vepr",
       "t": "nrk-ua",
@@ -8882,7 +8882,7 @@
     },
     {
       "id": "ratelh",
-      "img": "images/518602f878921e4a.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/518602f878921e4a.jpg",
       "n": "РАТЕЛЬ-H",
       "nr": "RATEL-H",
       "t": "nrk-ua",
@@ -8921,7 +8921,7 @@
     },
     {
       "id": "gereon",
-      "img": "images/gereon.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/gereon.jpg",
         "imgs": [
     "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/gereon-2.jpg",
     "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/gereon-3.jpg"
@@ -8970,7 +8970,7 @@
     },
     {
       "id": "ironclad",
-      "img": "images/2691d7fc355edc69.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/2691d7fc355edc69.jpg",
         "imgs": [
     "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/ironclad-2.jpg",
     "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/ironclad-3.jpg"
@@ -9017,7 +9017,7 @@
     },
     {
       "id": "phantom",
-      "img": "images/df3203ba055e4920.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/df3203ba055e4920.jpg",
         "imgs": [
         "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/phantom-2.jpg",
         "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/phantom-3.jpg"
@@ -9061,7 +9061,7 @@
     },
     {
       "id": "dzhankoi",
-      "img": "images/dzhankoy.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/dzhankoy.jpg",
       "n": "ДЖАНКОЙ",
       "nr": "DZHANKOI",
       "t": "nrk-ua",
@@ -9108,7 +9108,7 @@
     },
     {
       "id": "varkhan_air3f",
-      "img": "images/varkhan.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/varkhan.jpg",
               "imgs": [
         "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/varkhan_air3f-2.jpg",
         "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/varkhan_air3f-3.jpg"
@@ -9162,7 +9162,7 @@
     },
     {
       "id": "riko_imla",
-      "img": "images/riko.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/riko.jpg",
         "imgs": [
         "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/riko_imla-2.jpg",
         "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/riko_imla-3.jpg"
@@ -9213,7 +9213,7 @@
     },
     {
       "id": "frodo_6x6",
-      "img": "images/frodo.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/frodo.jpg",
       "n": "Фродо 6×6",
       "nr": "FRODO 6×6",
       "t": "nrk-ua",
@@ -9267,7 +9267,7 @@
     },
     {
       "id": "mangust_4x4",
-      "img": "images/mangust.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/mangust.jpg",
         "imgs": [
         "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/mangust_4x4-2.jpg",
         "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/mangust_4x4-3.jpg"
@@ -9318,7 +9318,7 @@
     },
     {
       "id": "wolly",
-      "img": "images/84feb70a31f48216.webp",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/84feb70a31f48216.webp",
       "n": "воллі",
       "nr": "Wolly",
       "t": "nrk-ua",
@@ -9359,7 +9359,7 @@
     },
     {
       "id": "neo1",
-      "img": "images/aa9400371e1841a1.webp",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/aa9400371e1841a1.webp",
       "n": "нео-1",
       "nr": "NEO-1",
       "t": "nrk-ua",
@@ -9402,7 +9402,7 @@
     },
     {
       "id": "zmiy",
-      "img": "images/9ad803900b242402.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/9ad803900b242402.jpg",
        "imgs": [
         "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/zmiy-2.jpg",
         "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/zmiy-3.jpg"
@@ -9446,7 +9446,7 @@
     },
     {
       "id": "prymara",
-      "img": "images/prymara.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/prymara.jpg",
       "n": "Примара",
       "nr": "Prymara",
       "t": "nrk-ua",
@@ -9488,7 +9488,7 @@
     },
     {
       "id": "maul",
-      "img": "images/6e3976c3c98755a7.webp",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/6e3976c3c98755a7.webp",
       "n": "МАУЛЬ",
       "nr": "MAUL",
       "t": "nrk-ua",
@@ -9530,7 +9530,7 @@
     },
     {
       "id": "karakurt",
-      "img": "images/fab5a374aba831a2.webp",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/fab5a374aba831a2.webp",
       "n": "КАРАКУРТ",
       "nr": "KARAKURT",
       "t": "nrk-ua",
@@ -9572,7 +9572,7 @@
     },
     {
       "id": "myrotvorets",
-      "img": "images/f704fb015328bff6.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/f704fb015328bff6.jpg",
       "n": "МИРОТВОРЕЦЬ",
       "nr": "MYROTVORETS",
       "t": "nrk-ua",
@@ -9611,7 +9611,7 @@
     },
     {
       "id": "pixel",
-      "img": "images/pixel.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/pixel.jpg",
       "n": "ПІКСЕЛЬ",
       "nr": "PIXEL",
       "t": "nrk-ua",
@@ -9649,7 +9649,7 @@
     },
     {
       "id": "rys",
-      "img": "images/314d7a5672d39f05.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/314d7a5672d39f05.jpg",
       "n": "РИСЬ",
       "nr": "RYS",
       "t": "nrk-ua",
@@ -9690,7 +9690,7 @@
     },
     {
       "id": "d21_11",
-      "img": "images/c3b39356fe452b38.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/c3b39356fe452b38.jpg",
       "n": "д-21-11",
       "nr": "D-21-11",
       "t": "nrk",
@@ -9725,7 +9725,7 @@
     },
     {
       "id": "d21",
-      "img": "images/137aeb91511a79e3.webp",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/137aeb91511a79e3.webp",
       "n": "Д-21",
       "nr": "D-21",
       "t": "nrk",
@@ -9759,7 +9759,7 @@
     },
     {
       "id": "voron",
-      "img": "images/voron.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/voron.jpg",
       "n": "ВОРОН",
       "nr": "Voron",
       "t": "nrk-ua",
@@ -9800,7 +9800,7 @@
     },
     {
       "id": "bogomol",
-      "img": "images/bogomol.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/bogomol.jpg",
       "n": "Богомол",
       "nr": "Bogomol / Mantis",
       "t": "nrk-ua",
@@ -9843,7 +9843,7 @@
     },
     {
       "id": "themis",
-      "img": "images/de8c73db53a8e70e.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/de8c73db53a8e70e.jpg",
       "n": "земіс",
       "nr": "THeMIS",
       "t": "nrk",
@@ -9887,7 +9887,7 @@
     },
     {
       "id": "trailblazer",
-      "img": "images/1ed92c0fefb93e16.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/1ed92c0fefb93e16.jpg",
       "n": "трейл блейзер",
       "nr": "TRAIL-BLAZER",
       "t": "nrk",
@@ -9929,7 +9929,7 @@
     },
     {
       "id": "bad2",
-      "img": "images/e001421e94c5ee24.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/e001421e94c5ee24.jpg",
       "n": "бед-2",
       "nr": "BAD-2",
       "t": "nrk",
@@ -9971,7 +9971,7 @@
     },
     {
       "id": "matilda",
-      "img": "images/matilda.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/matilda.jpg",
       "n": "МАТИЛЬДА",
       "nr": "MAT1LDA",
       "t": "nrk-ua",
@@ -10014,7 +10014,7 @@
     },
     {
       "id": "volyae",
-      "img": "images/c2f41138a099676d.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/c2f41138a099676d.jpg",
       "n": "ВОЛЯ-Е",
       "nr": "VOLYA-E",
       "t": "nrk",
@@ -10055,7 +10055,7 @@
     },
     {
       "id": "talion",
-      "img": "images/1f711df89aaf89ae.webp",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/1f711df89aaf89ae.webp",
       "n": "ТАЛІОН",
       "nr": "TALION",
       "t":  "interceptor",
@@ -10095,7 +10095,7 @@
     },
     {
       "id": "velykyibanderyk",
-      "img": "images/23a1b8f4f142b818.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/23a1b8f4f142b818.jpg",
       "n": "Великий Бандерик",
       "nr": "Velykyi Banderyk",
       "t": "attack",
@@ -10136,7 +10136,7 @@
     },
     {
       "id": "heidrun",
-      "img": "images/heidrun.png",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/heidrun.png",
       "n": "RQ-35 «Хейдран»",
       "nr": "Heidrun",
       "t": "recon",
@@ -10176,7 +10176,7 @@
     },
     {
       "id": "rodeur330",
-      "img": "images/rodeur.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/rodeur.jpg",
       "n": "родер 330",
       "nr": "Rodeur 330",
       "t": "loiter",
@@ -10219,7 +10219,7 @@
     },
     {
       "id": "capitan",
-      "img": "images/capitan.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/capitan.jpg",
       "n": "Капітан",
       "nr": "CAPITAN",
       "t": "attack",
@@ -10269,7 +10269,7 @@
     },
     {
       "id": "trx",
-      "img": "images/trx.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/trx.jpg",
       "n": "трх",
       "nr": "TRX",
       "t": "понад 200 хв",
@@ -10310,7 +10310,7 @@
     },
     {
       "id": "mich2000",
-      "img": "images/mich2000.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/mich2000.jpg",
       "n": "МІЧ-2000",
       "nr": "MICH 2000",
       "t": "long",
@@ -10358,7 +10358,7 @@
     },
     {
       "id": "salut",
-      "img": "images/salut.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/salut.jpg",
       "n": "Салют",
       "nr": "Salut",
       "t": "interceptor",
@@ -10393,7 +10393,7 @@
     },
     {
       "id": "corvo",
-      "img": "images/corvo.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/corvo.jpg",
       "n": "корво ppds",
       "nr": "Corvo PPDS",
       "t": "recon",
@@ -10437,7 +10437,7 @@
     },
     {
       "id": "puma",
-      "img": "images/puma.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/puma.jpg",
       "n": "ПУМА AE",
       "nr": "PUMA AE",
       "t": "recon",
@@ -10480,7 +10480,7 @@
     },
     {
       "id": "bramor",
-      "img": "images/bramor.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/bramor.jpg",
       "n": "БРАМОР C4EYE",
       "nr": "BRAMOR C4EYE",
       "t": "recon",
@@ -10530,7 +10530,7 @@
     },
     {
       "id": "thor_hammer",
-      "img": "images/hammer.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/hammer.jpg",
       "n": "Тор Хаммер",
       "nr": "Thor Hammer",
       "t": "attack",
@@ -10583,7 +10583,7 @@
     },
     {
       "id": "helsing_hx2",
-      "img": "images/hx2.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/hx2.jpg",
       "n": "ХЕЛСІНГ HX-2",
       "nr": "HELSING HX-2",
       "t": "loiter",
@@ -10623,7 +10623,7 @@
     },
     {
       "id": "ux11",
-      "img": "images/ux11.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/ux11.jpg",
       "n": "ДЕЛЕЙР UX11",
       "nr": "DELAIR UX11",
       "t": "recon",
@@ -10670,7 +10670,7 @@
     },
     {
       "id": "delair_dt26",
-      "img": "images/dt26.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/dt26.jpg",
       "n": "ДЕЛЕЙР DT26",
       "nr": "DELAIR DT26",
       "t": "recon",
@@ -10724,7 +10724,7 @@
     },
     {
       "id": "qbon888",
-      "img": "images/qbond.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/qbond.jpg",
       "n": "к'юбонд-888",
       "nr": "QBOND-888",
       "t": "recon",
@@ -10761,7 +10761,7 @@
     },
     {
       "id": "emtaladin",
-      "img": "images/aladin.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/aladin.jpg",
       "n": "АЛАДІН",
       "nr": "ALADIN",
       "t": "recon",
@@ -10807,7 +10807,7 @@
     },
     {
       "id": "cetusx",
-      "img": "images/cetusx.jpeg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/cetusx.jpeg",
       "n": "ЦЕТУС X",
       "nr": "CETUS X",
       "t": "loiter",
@@ -10925,7 +10925,7 @@
 },
     {
       "id": "quantixrecon",
-      "img": "images/quantixrecon.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/quantixrecon.jpg",
       "n": "КВАНТІКС РЕКОН",
       "nr": "QUANTIX RECON",
       "t": "recon",
@@ -11046,7 +11046,7 @@
 },
     {
       "id": "begemot",
-      "img": "images/Begemoth.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/Begemoth.jpg",
       "n": "Бегемот",
       "nr": "Begemoth",
       "t": "long",
@@ -11085,7 +11085,7 @@
     },
     {
       "id": "batyar",
-      "img": "images/batyar.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/batyar.jpg",
       "n": "Батяр",
       "nr": "Batyar",
       "t": "long",
@@ -11129,7 +11129,7 @@
     },
     {
       "id": "blyskavka1",
-      "img": "images/blyskavka1.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/blyskavka1.jpg",
       "n": "БЛИСКАВКА-1",
       "nr": "BLYSKAVKA",
       "t": "attack",
@@ -11181,7 +11181,7 @@
     },
     {
       "id": "blyskavka2",
-      "img": "images/blyskavka2.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/blyskavka2.jpg",
       "n": "Блискавка-2",
       "nr": "Blyskavka-2",
       "t": "attack",
@@ -11227,7 +11227,7 @@
     },
     {
       "id": "artemis",
-      "img": "images/artemis.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/artemis.jpg",
       "n": "АРТЕМІС ALM-20",
       "nr": "ARTEMIS ALM-20",
       "t": "long",
@@ -11280,7 +11280,7 @@
     },
     {
       "id": "cherepashka",
-      "img": "images/cherepashka.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/cherepashka.jpg",
       "n": "Черепашка",
       "nr": "Cherepashka",
       "t": "nrk-ua",
@@ -11322,7 +11322,7 @@
     },
     {
       "id": "bizon-l",
-      "img": "images/bizon-l.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/bizon-l.jpg",
       "n": "БІЗОН-Л",
       "nr": "Bizon-L",
       "t": "nrk-ua",
@@ -11372,7 +11372,7 @@
     },
     {
       "id": "protector",
-      "img": "images/protector.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/protector.jpg",
       "n": "ПРОТЕКТОР",
       "nr": "PROTECTOR",
       "t": "nrk-ua",
@@ -11430,7 +11430,7 @@
     },
     {
       "id": "kalach",
-      "img": "images/kalach.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/kalach.jpg",
       "n": "Калач",
       "nr": "Kalach",
       "t": "nrk-ua",
@@ -11471,7 +11471,7 @@
     },
     {
       "id": "numo",
-      "img": "images/numo.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/numo.jpg",
       "n": "Нумо",
       "nr": "NUMO",
       "t": "nrk-ua",
@@ -11524,7 +11524,7 @@
     },
     {
       "id": "ratel-m",
-      "img": "images/ratel-m.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/ratel-m.jpg",
       "n": "ратель-M",
       "nr": "Ratel-M",
       "t": "nrk-ua",
@@ -11563,7 +11563,7 @@
     },
     {
       "id": "ratel-s",
-      "img": "images/ratel-s.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/ratel-s.jpg",
       "n": "ратель-с",
       "nr": "Ratel-S",
       "t": "nrk-ua",
@@ -11604,7 +11604,7 @@
     },
     {
       "id": "droidtw127",
-      "img": "images/droidtw127.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/droidtw127.jpg",
       "n": "дроїд TW 12.7",
       "nr": "DevDroid TW 12.7",
       "t": "nrk-ua",
@@ -11652,7 +11652,7 @@
     },
     {
       "id": "skorpion2",
-      "img": "images/skorpion2.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/skorpion2.jpg",
       "n": "Скорпіон-2",
       "nr": "Skorpion-2",
       "t": "nrk-ua",
@@ -11697,7 +11697,7 @@
     },
     {
       "id": "skorpion3",
-      "img": "images/skorpion3.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/skorpion3.jpg",
       "n": "Скорпіон-3",
       "nr": "Skorpion-3",
       "t": "nrk-ua",
@@ -11740,7 +11740,7 @@
     },
     {
       "id": "hardy_flex",
-      "img": "images/flex.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/flex.jpg",
       "n": "х.а.р.д.і. ФЛЕКС",
       "nr": "H.A.R.D.Y. FLEX",
       "t": "nrk-ua",
@@ -11780,7 +11780,7 @@
     {
       "id": "jdam-er",
       "c": "us",
-      "img": "images/jdamer.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/jdamer.jpg",
       "n": "дждам-ER",
       "nr": "JDAM-ER",
       "t": "raketa-ua",
@@ -11822,7 +11822,7 @@
     {
       "id": "jdam-lr",
       "c": "us",
-      "img": "images/jdamlr.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/jdamlr.jpg",
       "n": "ДЖДАМ-lr",
       "nr": "JDAM-LR",
       "t": "raketa-ua",
@@ -11861,7 +11861,7 @@
     },
     {
       "id": "tanchik",
-      "img": "images/tanchik.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/tanchik.jpg",
       "n": "Танчик",
       "nr": "Tanchik",
       "t": "nrk-ua",
@@ -11905,7 +11905,7 @@
     },
     {
       "id": "droidtw40",
-      "img": "images/tw40.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/tw40.jpg",
       "n": "ДРОіД tw 40",
       "nr": "DROID TW 40",
       "t": "nrk-ua",
@@ -11948,7 +11948,7 @@
     },
     {
       "id": "terrikonx",
-      "img": "images/terrikonx.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/terrikonx.jpg",
       "n": "ТЕРИКОН-X",
       "nr": "TERRIKON-X",
       "t": "nrk-ua",
@@ -11993,7 +11993,7 @@
     },
     {
       "id": "hardy-argus",
-      "img": "images/argus.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/argus.jpg",
       "n": "х.а.р.д.і. АРГУС",
       "nr": "H.A.R.D.Y. ARGUS",
       "t": "nrk-ua",
@@ -12038,7 +12038,7 @@
     },
     {
       "id": "bandura",
-      "img": "images/bandura.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/bandura.jpg",
       "n": "Бандура",
       "nr": "Bandura",
       "t": "nrk-ua",
@@ -12082,7 +12082,7 @@
     },
     {
       "id": "koral",
-      "img": "images/koral.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/koral.jpg",
       "n": "Корал",
       "nr": "Koral",
       "t": "long",
@@ -12117,7 +12117,7 @@
     },
     {
       "id": "up277",
-      "img": "images/up277.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/up277.jpg",
       "n": "УП-277",
       "nr": "UP-277",
       "t": "long",
@@ -12160,7 +12160,7 @@
     },
     {
       "id": "bliskavka",
-      "img": "images/blyskavka.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/blyskavka.jpg",
       "n": "Блискавка",
       "nr": "Bliskavka / Bliksem",
       "t": "long",
@@ -12194,7 +12194,7 @@
     },
     {
       "id": "jassm",
-      "img": "images/agm158.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/agm158.jpg",
       "n": "агм-158 джассм",
       "nr": "AGM-158 JASSM",
       "t": "raketa-ua",
@@ -12238,7 +12238,7 @@
     },
     {
       "id": "ardal",
-      "img": "images/ardal.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/ardal.jpg",
        "imgs": [
         "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/ardal-2.jpg",
         "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/ardal-3.jpg"
@@ -12372,7 +12372,7 @@
 },
     {
       "id": "hardy_vanguard",
-      "img": "images/vanguard.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/vanguard.jpg",
       "n": "х.а.р.д.і. ВАНГАРД",
       "nr": "H.A.R.D.Y. Vanguard",
       "t": "nrk-ua",
@@ -12409,7 +12409,7 @@
     },
     {
       "id": "hardy_mul",
-      "img": "images/mul.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/mul.jpg",
       "n": "х.а.р.д.і. МУЛ",
       "nr": "H.A.R.D.Y. MUL",
       "t": "nrk-ua",
@@ -12456,7 +12456,7 @@
     },
     {
       "id": "targan200",
-      "img": "images/targan200.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/targan200.jpg",
       "n": "Тарган 200",
       "nr": "TarGun 200",
       "t": "nrk-ua",
@@ -12508,7 +12508,7 @@
     },
     {
       "id": "kozak_robot",
-      "img": "images/kozak.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/kozak.jpg",
       "n": "Козак",
       "nr": "Kozak",
       "t": "nrk-ua",
@@ -12546,7 +12546,7 @@
     },
     {
       "id": "baton",
-      "img": "images/baton.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/baton.jpg",
       "n": "Батон",
       "nr": "Baton",
       "t": "attack",
@@ -12663,7 +12663,7 @@
 },
     {
       "id": "oskar",
-      "img": "images/oskar.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/oskar.jpg",
       "n": "MV-25 оскар",
       "nr": "MV-25 OSKAR",
       "t": "attack",
@@ -12706,7 +12706,7 @@
     },
     {
       "id": "winfly_spider",
-      "img": "images/spider.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/spider.jpg",
       "n": "Спайдер / Каракурт",
       "nr": "Spider / Karakurt",
       "t": "fpv",
@@ -12835,7 +12835,7 @@
 },
     {
       "id": "poseidon",
-      "img": "images/poseidon.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/poseidon.jpg",
       "n": "Посейдон H10",
       "nr": "H10 POSEIDON",
       "t": "recon",
@@ -12927,7 +12927,7 @@
     },
     {
       "id": "skydio_x2",
-      "img": "images/skydio_x2.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/skydio_x2.jpg",
       "n": "СКАЙДІО X2",
       "nr": "SKYDIO X2",
       "t": "fpv",
@@ -12963,7 +12963,7 @@
     },
     {
       "id": "brimstone2",
-      "img": "images/brimstone2.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/brimstone2.jpg",
       "n": "БРІМСТОУН 2",
       "nr": "BRIMSTONE 2",
       "t": "attack",
@@ -13007,7 +13007,7 @@
     },
     {
       "id": "pryvid_s1",
-      "img": "images/pryvydc1.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/pryvydc1.jpg",
       "n": "Привид С1",
       "nr": "Pryvyd C1",
       "t": "recon",
@@ -13053,7 +13053,7 @@
     },
     {
       "id": "bravo",
-      "img": "images/bravo.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/bravo.jpg",
       "n": "БРАВО",
       "nr": "BRAVO",
       "t": "long",
@@ -13099,7 +13099,7 @@
     },
     {
       "id": "kilo",
-      "img": "images/kilo.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/kilo.jpg",
       "n": "КІЛО",
       "nr": "KILO",
       "t": "attack",
@@ -13141,7 +13141,7 @@
     },
     {
       "id": "laurus",
-      "img": "images/laurus.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/laurus.jpg",
       "n": "ЛАУРУС",
       "nr": "LAURUS",
       "t": "fpv",
@@ -13181,7 +13181,7 @@
     },
     {
       "id": "adis",
-      "img": "images/adis.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/adis.jpg",
       "n": "Адіс",
       "nr": "Adis",
       "t": "attack",
@@ -13227,7 +13227,7 @@
     },
     {
       "id": "perun",
-      "img": "images/perun.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/perun.jpg",
       "n": "Перун",
       "nr": "Perun",
       "t": "attack",
@@ -13267,7 +13267,7 @@
     },
     {
       "id": "alexaspatium",
-      "img": "images/alexa.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/alexa.jpg",
       "n": "АЛЕКСА СПАТІУМ",
       "nr": "ALEXA SPATIUM",
       "t": "interceptor",
@@ -13783,7 +13783,7 @@
   "ru": [
     {
       "id": "varan",
-      "img": "images/b2e2bf1edda617a6.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/b2e2bf1edda617a6.jpg",
       "n": "Варан",
       "nr": "Varan",
       "t": "nrk",
@@ -13828,7 +13828,7 @@
     },
     {
       "id": "omich",
-      "img": "images/omich.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/omich.jpg",
       "n": "Омич",
       "nr": "Omich",
       "t": "nrk",
@@ -13865,7 +13865,7 @@
     },
     {
       "id": "kh101",
-      "img": "images/x101.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/x101.jpg",
       "n": "Х-101",
       "nr": "Kh-101",
       "t": "long",
@@ -13904,7 +13904,7 @@
     },
     {
       "id": "kh555",
-      "img": "images/x555.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/x555.jpg",
       "n": "Х-555 (AS-22 Kazoo)",
       "nr": "Kh-555",
       "t": "long",
@@ -13947,7 +13947,7 @@
     },
     {
       "id": "kh55",
-      "img": "images/x55.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/x55.jpg",
       "n": "Х-55 (AS-15 Kent)",
       "nr": "Kh-55",
       "t": "long",
@@ -13996,7 +13996,7 @@
     },
     {
       "id": "r77-1",
-      "img": "images/r77-1.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/r77-1.jpg",
       "n": "Р-77-1 (РВВ-СД)",
       "nr": "R-77-1 / RVV-SD",
       "t": "long",
@@ -14034,7 +14034,7 @@
     },
     {
       "id": "r77m",
-      "img": "images/r77m.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/r77m.jpg",
       "n": "Р-77М (К-77М)",
       "nr": "R-77M / K-77M / Izdeliye 180",
       "t": "long",
@@ -14067,7 +14067,7 @@
     },
     {
       "id": "dan-t",
-      "img": "images/dant.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/dant.jpg",
       "n": "Дань-Т",
       "nr": "Dan-T",
       "t": "long",
@@ -14102,7 +14102,7 @@
     },
     {
       "id": "dan-m",
-      "img": "images/dan-m.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/dan-m.jpg",
       "n": "Дань-М",
       "nr": "Dan-M",
       "t": "attack",
@@ -14215,7 +14215,7 @@
     },
     {
       "id": "orlan10",
-      "img": "images/orlan10.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/orlan10.jpg",
       "n": "Орлан-10",
       "nr": "Orlan-10",
       "t": "recon",
@@ -14255,7 +14255,7 @@
     },
     {
       "id": "orlan3m",
-      "img": "images/orlan3m.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/orlan3m.jpg",
       "n": "Орлан-3М",
       "nr": "Orlan-3M",
       "t": "recon",
@@ -14290,7 +14290,7 @@
     },
     {
       "id": "geran2",
-      "img": "images/69513be2a1386fbe.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/69513be2a1386fbe.jpg",
       "n": "Герань-2",
       "nr": "Geran-2 (Shahed-136)",
       "t": "loiter",
@@ -14332,7 +14332,7 @@
     },
     {
       "id": "forpost",
-      "img": "images/883fef800cfe0d98.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/883fef800cfe0d98.jpg",
       "n": "Форпост",
       "nr": "Forpost",
       "t": "attack",
@@ -14371,7 +14371,7 @@
     },
     {
       "id": "orion",
-      "img": "images/orion.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/orion.jpg",
       "n": "Оріон / Оріон-Е",
       "nr": "ORION / ORION-E",
       "t": "attack",
@@ -14420,7 +14420,7 @@
     },
     {
       "id": "zala421",
-      "img": "images/afbf66063fa10ea8.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/afbf66063fa10ea8.jpg",
       "n": "Зала 421-16Е",
       "nr": "ZALA 421-16E",
       "t": "recon",
@@ -14455,7 +14455,7 @@
     },
     {
       "id": "zala_z20",
-      "img": "images/zala-z20.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/zala-z20.jpg",
       "n": "Зала Z-20 (T-20)",
       "nr": "Zala Z-20 / T-20",
       "t": "recon",
@@ -14502,7 +14502,7 @@
     },
     {
       "id": "sokol_i",
-      "img": "images/sokol-i.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/sokol-i.jpg",
       "n": "Сокол І",
       "nr": "Sokol I",
       "t": "interceptor",
@@ -14542,7 +14542,7 @@
     },
     {
       "id": "eleron3sv",
-      "img": "images/f0fb25cfc1b5201d.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/f0fb25cfc1b5201d.jpg",
       "n": "Елерон-3СВ / Т-16",
       "nr": "Eleron-3SV / T-16",
       "t": "recon",
@@ -14577,7 +14577,7 @@
     },
     {
       "id": "granat12",
-      "img": "images/granat2.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/granat2.jpg",
       "n": "Гранат-1/2",
       "nr": "Granat-1/2",
       "t": "recon",
@@ -14614,7 +14614,7 @@
     },
     {
       "id": "granat3",
-      "img": "images/568c2a395eb75cbc.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/568c2a395eb75cbc.jpg",
       "n": "Гранат-3",
       "nr": "Granat-3",
       "t": "recon",
@@ -14654,7 +14654,7 @@
     },
     {
       "id": "granat4",
-      "img": "images/8440722fae6fd5c8.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/8440722fae6fd5c8.jpg",
       "n": "Гранат-4",
       "nr": "Granat-4",
       "t": "recon",
@@ -14695,7 +14695,7 @@
     },
     {
       "id": "altius",
-      "img": "images/b389cc6bd150105f.png",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/b389cc6bd150105f.png",
       "n": "Альтиус-РУ",
       "nr": "Altius-RU",
       "t": "attack",
@@ -14732,7 +14732,7 @@
     },
     {
       "id": "sukhoi",
-      "img": "images/efdaf85530d5220b.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/efdaf85530d5220b.jpg",
       "n": "Су-70 Охотник",
       "nr": "S-70 Okhotnik-B",
       "t": "attack",
@@ -14859,7 +14859,7 @@
 },
     {
       "id": "lancet3",
-      "img": "images/lancet3.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/lancet3.jpg",
       "n": "ЛАНЦЕТ-3 / ИЗДЕЛИЕ-52",
       "nr": "LANCET-3 / IZDELIYE-52",
       "t": "attack",
@@ -14910,7 +14910,7 @@
     },
     {
       "id": "kub",
-      "img": "images/19bccb1b4e7ae1e8.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/19bccb1b4e7ae1e8.jpg",
       "n": "КУБ-БЛА",
       "nr": "KUB-BLA",
       "t": "loiter",
@@ -14946,7 +14946,7 @@
     },
     {
       "id": "molniya1",
-      "img": "images/molniya.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/molniya.jpg",
       "n": "Молния-1",
       "nr": "Molniya-1",
       "t": "loiter",
@@ -14985,7 +14985,7 @@
     },
     {
       "id": "molniya2",
-      "img": "images/molniya-2.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/molniya-2.jpg",
       "n": "Молния-2",
       "nr": "Molniya-2",
       "t": "loiter",
@@ -15023,7 +15023,7 @@
     },
     {
       "id": "vtol",
-      "img": "images/zala-t16.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/zala-t16.jpg",
       "n": "Зала Т16 VTOL",
       "nr": "ZALA T-16 VTOL",
       "t": "recon",
@@ -15065,7 +15065,7 @@
     },
     {
       "id": "ptero",
-      "img": "images/b2e4058bccba2ddc.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/b2e4058bccba2ddc.jpg",
       "n": "Птеро-G1",
       "nr": "Ptero-G1",
       "t": "recon",
@@ -15102,7 +15102,7 @@
     },
     {
       "id": "tipchak",
-      "img": "images/tipchak.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/tipchak.jpg",
       "n": "Типчак",
       "nr": "Tipchak / BLA-08",
       "t": "recon",
@@ -15138,7 +15138,7 @@
     },
     {
       "id": "zastava",
-      "img": "images/8486c723cf48df72.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/8486c723cf48df72.jpg",
       "n": "Застава",
       "nr": "Zastava",
       "t": "recon",
@@ -15173,7 +15173,7 @@
     },
     {
       "id": "gerbera",
-      "img": "images/812886db87affee6.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/812886db87affee6.jpg",
       "n": "Гербера",
       "nr": "Gerbera",
       "t": "loiter",
@@ -15213,7 +15213,7 @@
     },
     {
       "id": "soratnik",
-      "img": "images/297c1372ccfd58bf.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/297c1372ccfd58bf.jpg",
       "n": "Соратник",
       "nr": "Soratnik",
       "t": "attack",
@@ -15247,7 +15247,7 @@
     },
     {
       "id": "marker",
-      "img": "images/1088623e70b53479.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/1088623e70b53479.jpg",
       "n": "Маркер",
       "nr": "Marker",
       "t": "attack",
@@ -15282,7 +15282,7 @@
     },
     {
       "id": "sirius",
-      "img": "images/bc2b4534f67c7e3b.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/bc2b4534f67c7e3b.jpg",
       "n": "Сириус / иноходец-РУ",
       "nr": "Sirius / Inokhodets-RU",
       "t": "long",
@@ -15320,7 +15320,7 @@
     },
     {
       "id": "upyr_k",
-      "img": "images/upyrk.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/upyrk.jpg",
       "n": "Упырь-К",
       "nr": "Upyr-K",
       "t": "attack",
@@ -15449,7 +15449,7 @@
 },
     {
       "id": "italmas",
-      "img": "images/ab79bcbdbcee7eeb.webp",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/ab79bcbdbcee7eeb.webp",
       "n": "ИТАЛМАС",
       "nr": "ITALMAS",
       "t": "loiter",
@@ -15490,7 +15490,7 @@
     },
     {
       "id": "banderol",
-      "img": "images/s8000.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/s8000.jpg",
       "n": "Бандероль (S8000)",
       "nr": "Banderole (S8000)",
       "t": "attack",
@@ -15526,7 +15526,7 @@
     },
     {
       "id": "gromru",
-      "img": "images/6ba95376881852b9.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/6ba95376881852b9.jpg",
       "n": "Гром",
       "nr": "Grom",
       "t": "attack",
@@ -15566,7 +15566,7 @@
     },
     {
       "id": "geran1",
-      "img": "images/c9ad96b0f735505b.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/c9ad96b0f735505b.jpg",
       "n": "Герань-1",
       "nr": "Geran-1 (Shahed-131)",
       "t": "loiter",
@@ -15608,7 +15608,7 @@
     },
     {
       "id": "orlan30",
-      "img": "images/orlan30.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/orlan30.jpg",
       "n": "Орлан-30",
       "nr": "Orlan-30",
       "t": "recon",
@@ -15713,7 +15713,7 @@
 },
     {
       "id": "takhion",
-      "img": "images/76d18e07130398ea.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/76d18e07130398ea.jpg",
       "n": "Тахион",
       "nr": "Takhion",
       "t": "recon",
@@ -15753,7 +15753,7 @@
     },
     {
       "id": "e95m",
-      "img": "images/e95m.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/e95m.jpg",
       "n": "Е95М",
       "nr": "E95M",
       "t": "attack",
@@ -15795,7 +15795,7 @@
     },
     {
       "id": "grusha",
-      "img": "images/72cdfd8c833ffb11.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/72cdfd8c833ffb11.jpg",
       "n": "Груша",
       "nr": "Grusha",
       "t": "recon",
@@ -15835,7 +15835,7 @@
     },
     {
       "id": "lancet",
-      "img": "images/ba562c737997bc12.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/ba562c737997bc12.jpg",
       "n": "ЛАНЦЕТ",
       "nr": "LANCET",
       "t": "loiter",
@@ -15875,7 +15875,7 @@
     },
     {
       "id": "geran4",
-      "img": "images/440759f111961fd7.webp",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/440759f111961fd7.webp",
       "n": "Герань-4",
       "nr": "Geran-4",
       "t": "loiter",
@@ -15919,7 +15919,7 @@
     },
     {
       "id": "geran5",
-      "img": "images/geran5.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/geran5.jpg",
       "n": "Герань-5",
       "nr": "Geran-5",
       "t": "attack",
@@ -15963,7 +15963,7 @@
     },
     {
       "id": "korsar",
-      "img": "images/bcc22901a59e0f66.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/bcc22901a59e0f66.jpg",
       "n": "Корсар",
       "nr": "Korsar",
       "t": "recon",
@@ -16007,7 +16007,7 @@
     },
     {
       "id": "supercam",
-      "img": "images/17dcbd00758444e5.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/17dcbd00758444e5.jpg",
       "n": "СУПЕРКАМ S350",
       "nr": "SUPERCAM S350",
       "t": "recon",
@@ -16049,7 +16049,7 @@
     },
     {
       "id": "skat350m",
-      "img": "images/skat350.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/skat350.jpg",
       "n": "СКАТ-350М",
       "nr": "SKAT-350M",
       "t": "recon",
@@ -16092,7 +16092,7 @@
     },
     {
       "id": "privet82",
-      "img": "images/85e8cd675cda32af.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/85e8cd675cda32af.jpg",
       "n": "Привет-82",
       "nr": "Privet-82 / Hi-82",
       "t": "attack",
@@ -16139,7 +16139,7 @@
     },
     {
       "id": "albatros_m5",
-      "img": "images/albatros.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/albatros.jpg",
       "n": "Альбатрос М5",
       "nr": "Albatros M5",
       "t": "recon",
@@ -16186,7 +16186,7 @@
     },
     {
       "id": "supercam180",
-      "img": "images/182d350b7c19fb4d.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/182d350b7c19fb4d.jpg",
       "n": "СУПЕРКАМ S180",
       "nr": "SUPERCAM S180",
       "t": "recon",
@@ -16300,7 +16300,7 @@
 },
     {
       "id": "mangas_btg",
-      "img": "images/mangas.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/mangas.jpg",
       "n": "МАНГАС",
       "nr": "MANGAS",
       "t": "attack",
@@ -16424,7 +16424,7 @@
 },
     {
       "id": "skat450m",
-      "img": "images/69ca44e42e330cd5.webp",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/69ca44e42e330cd5.webp",
       "n": "СКАТ-450М",
       "nr": "SKAT-450M",
       "t": "recon",
@@ -16466,7 +16466,7 @@
     },
     {
       "id": "malysh_ts",
-      "img": "images/malysh.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/malysh.jpg",
       "n": "Малиш",
       "nr": "Malysh",
       "t": "interceptor",
@@ -16510,7 +16510,7 @@
     },
     {
       "id": "kub10",
-      "img": "images/kub10.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/kub10.jpg",
       "n": "КУБ-10",
       "nr": "KUB-10",
       "t": "loiter",
@@ -16558,7 +16558,7 @@
     },
     {
       "id": "ajaxv300",
-      "img": "images/ayaks300.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/ayaks300.jpg",
       "n": "Аякс В300",
       "nr": "Ajax V300",
       "t": "recon",
@@ -16603,7 +16603,7 @@
     },
     {
       "id": "kub2",
-      "img": "images/kub2.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/kub2.jpg",
       "n": "КУБ-2",
       "nr": "KUB-2",
       "t": "loiter",
@@ -16723,7 +16723,7 @@
 },
     {
       "id": "eleron16",
-      "img": "images/716bc2a0f6ea322f.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/716bc2a0f6ea322f.jpg",
       "n": "Елерон Т-16 / Валдай",
       "nr": "Eleron T-16 / Valdai",
       "t": "recon",
@@ -16767,7 +16767,7 @@
     },
     {
       "id": "eleron7",
-      "img": "images/4506769475c22aa9.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/4506769475c22aa9.jpg",
       "n": "Елерон-7",
       "nr": "Eleron-7 / T7",
       "t": "recon",
@@ -16812,7 +16812,7 @@
     },
     {
       "id": "bumerang_ru",
-      "img": "images/bumerang.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/bumerang.jpg",
       "n": "Бумеранг",
       "nr": "Bumerang",
       "t": "fpv",
@@ -16857,7 +16857,7 @@
     },
     {
       "id": "eleron10",
-      "img": "images/695194db8b8cde68.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/695194db8b8cde68.jpg",
       "n": "Елерон-10",
       "nr": "Eleron-10 / T10",
       "t": "recon",
@@ -16903,7 +16903,7 @@
     },
     {
       "id": "bm70",
-      "img": "images/a97f34616cab1b7a.webp",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/a97f34616cab1b7a.webp",
       "n": "БМ-70",
       "nr": "BM-70",
       "t": "loiter",
@@ -16949,7 +16949,7 @@
     },
     {
       "id": "delta",
-      "img": "images/delta.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/delta.jpg",
       "n": "Дельта",
       "nr": "Delta",
       "t": "loiter",
@@ -17059,7 +17059,7 @@
 },
     {
       "id": "klin",
-      "img": "images/2c06d2cf17fa26e4.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/2c06d2cf17fa26e4.jpg",
       "n": "Клин",
       "nr": "Klin",
       "t": "loiter",
@@ -17104,7 +17104,7 @@
     },
     {
       "id": "feniks3",
-      "img": "images/2f67bbba73c70e73.webp",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/2f67bbba73c70e73.webp",
       "n": "Феникс-3",
       "nr": "Phoenix-3",
       "t": "attack",
@@ -17145,7 +17145,7 @@
     },
     {
       "id": "molniya13",
-      "img": "images/9f61b433ae789633.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/9f61b433ae789633.jpg",
       "n": "Молния-13",
       "nr": "Molniya-13 / Lightning 13",
       "t": "attack",
@@ -17191,7 +17191,7 @@
     },
             {
       "id": "v2u",
-      "img": "images/v2u.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/v2u.jpg",
       "n": "в2у",
       "nr": "V2U",
       "t": "attack",
@@ -17239,7 +17239,7 @@
     },
     {
       "id": "ruspe",
-      "img": "images/rusp.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/rusp.jpg",
       "n": "РУС-ПЭ",
       "nr": "Rus-PE",
       "t": "loiter",
@@ -17286,7 +17286,7 @@
     },
     {
       "id": "kartograf",
-      "img": "images/3c2230541838cfa5.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/3c2230541838cfa5.jpg",
       "n": "Картограф",
       "nr": "Kartograf / Ptero-G0",
       "t": "recon",
@@ -17325,7 +17325,7 @@
     },
     {
       "id": "parody",
-      "img": "images/8aa8171eb9e54dc8.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/8aa8171eb9e54dc8.jpg",
       "n": "Пародия",
       "nr": "Parody",
       "t": "recon",
@@ -17364,7 +17364,7 @@
     },
     {
       "id": "feniks_taip",
-      "img": "images/feniks.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/feniks.jpg",
       "n": "ФЕНИКС",
       "nr": "FENIKS",
       "t": "recon",
@@ -17404,7 +17404,7 @@
     },
     {
       "id": "merlinvr",
-      "img": "images/2a0cebe9f6704c20.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/2a0cebe9f6704c20.jpg",
       "n": "Мерлин-ВР",
       "nr": "Merlin-VR",
       "t": "recon",
@@ -17448,7 +17448,7 @@
     },
     {
       "id": "pchelka",
-      "img": "images/pchelka.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/pchelka.jpg",
       "n": "Пчелка",
       "nr": "Pchelka",
       "t": "recon",
@@ -17493,7 +17493,7 @@
     },
     {
       "id": "chernika1",
-      "img": "images/7dc8d6c63f7b66a2.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/7dc8d6c63f7b66a2.jpg",
       "n": "Черника-1",
       "nr": "Chernika-1",
       "t": "attack",
@@ -17534,7 +17534,7 @@
     },
     {
       "id": "chernika2",
-      "img": "images/50bcdd84d89915ac.jpeg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/50bcdd84d89915ac.jpeg",
       "n": "Черника-2",
       "nr": "Chernika-2",
       "t": "attack",
@@ -17578,7 +17578,7 @@
     },
     {
       "id": "veshiyoleg",
-      "img": "images/kvo.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/kvo.jpg",
       "n": "Князь Вещий Олег",
       "nr": "Knyaz Veshchiy Oleg",
       "t": "recon",
@@ -17617,7 +17617,7 @@
     },
     {
       "id": "sarich2",
-      "img": "images/sarich2.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/sarich2.jpg",
       "n": "Сарич-2",
       "nr": "Sarich-2",
       "t": "recon",
@@ -17662,7 +17662,7 @@
     },
     {
       "id": "lys2",
-      "img": "images/lys2.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/lys2.jpg",
       "n": "ЛИС-2",
       "nr": "LYS-2",
       "t": "interceptor",
@@ -17709,7 +17709,7 @@
     },
     {
       "id": "ovod",
-      "img": "images/9c826faca1d72a55.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/9c826faca1d72a55.jpg",
       "n": "Овод",
       "nr": "Ovod",
       "t": "fpv",
@@ -17751,7 +17751,7 @@
     },
     {
       "id": "upir",
-      "img": "images/232934fa910af3ed.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/232934fa910af3ed.jpg",
       "n": "Упырь",
       "nr": "Upyr",
       "t": "fpv",
@@ -17789,7 +17789,7 @@
     },
     {
       "id": "lastochka",
-      "img": "images/lastochka-m.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/lastochka-m.jpg",
       "n": "Ласточка-М",
       "nr": "Lastochka-M",
       "t": "attack",
@@ -17830,7 +17830,7 @@
     },
     {
       "id": "knyazvandal",
-      "img": "images/e65b48c89d0b11ad.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/e65b48c89d0b11ad.jpg",
       "n": "Князь Вандал Новгородский",
       "nr": "Knyaz Vandal Novgorodskiy",
       "t": "fpv",
@@ -17867,7 +17867,7 @@
     },
     {
       "id": "yolka",
-      "img": "images/9354c2fa2fa3257b.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/9354c2fa2fa3257b.jpg",
       "n": "Ёлка",
       "nr": "Yolka",
       "t": "interceptor",
@@ -17906,7 +17906,7 @@
     },
     {
       "id": "vt40",
-      "img": "images/a1ac0ae192da47b2.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/a1ac0ae192da47b2.jpg",
       "n": "ВТ-40 (Судный день)",
       "nr": "VT-40 (Sudny Den)",
       "t": "fpv",
@@ -17947,7 +17947,7 @@
     },
     {
       "id": "vt40_2",
-      "img": "images/vt40_2.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/vt40_2.jpg",
       "n": "ВТ-40-2",
       "nr": "VT-40-2",
       "t": "attack",
@@ -17988,7 +17988,7 @@
     },
     {
       "id": "golub_stratim",
-      "img": "images/golub.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/golub.jpg",
       "n": "Голуб",
       "nr": "Golub",
       "t": "attack",
@@ -18034,7 +18034,7 @@
     },
     {
       "id": "oko3",
-      "img": "images/875490feb5af3e3f.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/875490feb5af3e3f.jpg",
       "n": "Око-3",
       "nr": "Oko-3",
       "t": "recon",
@@ -18074,7 +18074,7 @@
     },
     {
       "id": "lovkiy",
-      "img": "images/lovkiy.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/lovkiy.jpg",
       "n": "Ловкий",
       "nr": "Lovkiy / Nimble",
       "t": "recon",
@@ -18113,7 +18113,7 @@
     },
     {
       "id": "shahed107",
-      "img": "images/e6aee20e0036238a.webp",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/e6aee20e0036238a.webp",
       "n": "ШАХЕД-107",
       "nr": "SHAHED-107",
       "t": "attack",
@@ -18161,7 +18161,7 @@
     },
     {
       "id": "kalibr",
-      "img": "images/7dd30f8cbbeb6171.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/7dd30f8cbbeb6171.jpg",
       "n": "3М-14 «Калибр»",
       "nr": "Kalibr",
       "t": "long",
@@ -18208,7 +18208,7 @@
     },
     {
       "id": "kinzhal",
-      "img": "images/x47.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/x47.jpg",
       "n": "Х-47М2 «Кинджал»",
       "nr": "Kinzhal",
       "t": "long",
@@ -18247,7 +18247,7 @@
     },
     {
       "id": "iskander",
-      "img": "images/1a2101eb65234f8b.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/1a2101eb65234f8b.jpg",
       "n": "9К720 «искандер-М»",
       "nr": "Iskander-M",
       "t": "long",
@@ -18287,7 +18287,7 @@
     },
     {
       "id": "kn23",
-      "img": "images/kn23.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/kn23.jpg",
       "n": "КН-23",
       "nr": "KN-23",
       "t": "long",
@@ -18328,7 +18328,7 @@
     },
     {
       "id": "kn24",
-      "img": "images/282db1cf27930808.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/282db1cf27930808.jpg",
       "n": "КН-24 (Хвасонг-11B)",
       "nr": "KN-24",
       "t": "long",
@@ -18371,7 +18371,7 @@
     },
     {
       "id": "kh59",
-      "img": "images/fd4b06373430470a.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/fd4b06373430470a.jpg",
       "n": "Х-59 «Овод»",
       "nr": "Kh-59",
       "t": "long",
@@ -18412,7 +18412,7 @@
     },
     {
       "id": "kh69",
-      "img": "images/x-69.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/x-69.jpg",
       "n": "Х-69",
       "nr": "Kh-69",
       "t": "long",
@@ -18455,7 +18455,7 @@
     },
     {
       "id": "oniks",
-      "img": "images/a68980c30863ca32.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/a68980c30863ca32.jpg",
       "n": "П-800 «Оникс»",
       "nr": "Oniks",
       "t": "long",
@@ -18498,7 +18498,7 @@
     },
     {
       "id": "zircon",
-      "img": "images/6f87d29fab453813.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/6f87d29fab453813.jpg",
       "n": "3М22 «Циркон»",
       "nr": "Zircon",
       "t": "long",
@@ -18543,7 +18543,7 @@
     },
     {
       "id": "oreshnik",
-      "img": "images/b9758c93f0c0b74a.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/b9758c93f0c0b74a.jpg",
       "n": "Орешник (РС-26 «Рубеж»)",
       "nr": "Oreshnik",
       "t": "long",
@@ -18589,7 +18589,7 @@
     },
     {
       "id": "m728",
-      "img": "images/701b1b7867bb640f.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/701b1b7867bb640f.jpg",
       "n": "9М728 «искандер-К»",
       "nr": "Iskander-K",
       "t": "long",
@@ -18633,7 +18633,7 @@
     },
     {
       "id": "m729",
-      "img": "images/49b6ced95be4b96e.webp",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/49b6ced95be4b96e.webp",
       "n": "9М729 (ssc-8)",
       "nr": "9M729",
       "t": "long",
@@ -18677,7 +18677,7 @@
     },
     {
       "id": "kh22",
-      "img": "images/f464a7fdd5bc4119.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/f464a7fdd5bc4119.jpg",
       "n": "Х-22 «Буря»",
       "nr": "Kh-22",
       "t": "long",
@@ -18721,7 +18721,7 @@
     },
     {
       "id": "kh32",
-      "img": "images/kh32.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/kh32.jpg",
       "n": "Х-32",
       "nr": "Kh-32",
       "t": "long",
@@ -18766,7 +18766,7 @@
     },
     {
       "id": "kh35",
-      "img": "images/458e5e5f4b4f5125.webp",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/458e5e5f4b4f5125.webp",
       "n": "Х-35 «Уран»",
       "nr": "Kh-35",
       "t": "long",
@@ -18810,7 +18810,7 @@
     },
     {
       "id": "rm48u",
-      "img": "images/c08d61efa818f003.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/c08d61efa818f003.jpg",
       "n": "РМ-48У",
       "nr": "RM-48U",
       "t": "long",
@@ -18855,7 +18855,7 @@
     },
     {
       "id": "kn30",
-      "img": "images/kn30.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/kn30.jpg",
       "n": "КН-30",
       "nr": "KN-30",
       "t": "raketa",
@@ -18891,7 +18891,7 @@
     },
     {
       "id": "monohrom",
-      "img": "images/monohrom.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/monohrom.jpg",
       "n": "С-71М «Монохром»",
       "nr": "Monochrome",
       "t": "attack",
@@ -18927,7 +18927,7 @@
     },
     {
       "id": "omich2",
-      "img": "images/omich2.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/omich2.jpg",
       "n": "Омич-2",
       "nr": "Omich-2",
       "t": "nrk-ru",
@@ -18970,7 +18970,7 @@
     },
     {
       "id": "impuls",
-      "img": "images/impuls.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/impuls.jpg",
       "n": "Импульс",
       "nr": "Impuls",
       "t": "nrk-ru",
@@ -19013,7 +19013,7 @@
     },
     {
       "id": "impulsm",
-      "img": "images/impulsm.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/impulsm.jpg",
       "n": "Импульс-М",
       "nr": "Impuls-M",
       "t": "nrk-ru",
@@ -19060,7 +19060,7 @@
     },
     {
       "id": "kuryer",
-      "img": "images/583987a74295db78.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/583987a74295db78.jpg",
        "imgs": [
         "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/kuryer-2.jpg",
         "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/kuryer-3.jpg"
@@ -19102,7 +19102,7 @@
     },
     {
       "id": "bratishka",
-      "img": "images/bratishka.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/bratishka.jpg",
       "n": "Братишка",
       "nr": "Bratishka",
       "t": "nrk-ru",
@@ -19147,7 +19147,7 @@
     },
     {
       "id": "veteran",
-      "img": "images/a512613efe0a200c.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/a512613efe0a200c.jpg",
       "n": "СЭМ-350 Ветеран",
       "nr": "SEM-350 Veteran",
       "t": "nrk",
@@ -19184,7 +19184,7 @@
     },
     {
       "id": "depesha",
-      "img": "images/c0b47059e6083fec.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/c0b47059e6083fec.jpg",
       "n": "Депеша",
       "nr": "Depesha",
       "t": "nrk",
@@ -19222,7 +19222,7 @@
     },
     {
       "id": "shturmovik",
-      "img": "images/fd0eda0c38c2bb1e.webp",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/fd0eda0c38c2bb1e.webp",
       "n": "Штурмовик",
       "nr": "Shturmovik",
       "t": "nrk",
@@ -19261,7 +19261,7 @@
     },
     {
       "id": "argus",
-      "img": "images/7f348f2adb5273e3.jpeg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/7f348f2adb5273e3.jpeg",
       "n": "Аргус / Муравей",
       "nr": "Argus / Muravey",
       "t": "nrk",
@@ -19296,7 +19296,7 @@
     },
     {
       "id": "nerekhta",
-      "img": "images/5d8e8c9e23097cf6.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/5d8e8c9e23097cf6.jpg",
       "n": "Нерехта",
       "nr": "Nerekhta",
       "t": "nrk",
@@ -19334,7 +19334,7 @@
     },
     {
       "id": "lyagushka",
-      "img": "images/752c305263bb364c.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/752c305263bb364c.jpg",
       "n": "Лягушка",
       "nr": "Lyagushka",
       "t": "nrk",
@@ -19373,7 +19373,7 @@
     },
     {
       "id": "ubbm_nik",
-      "img": "images/ubbm.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/ubbm.jpg",
       "n": "УББ-М",
       "nr": "UBB-M",
       "t": "interceptor",
@@ -19418,7 +19418,7 @@
     },
     {
       "id": "arkhangel_v2",
-      "img": "images/arkhangel.png",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/arkhangel.png",
       "n": "Архангел 2.0",
       "nr": "Arkhangel V.2",
       "t": "interceptor",
@@ -19453,7 +19453,7 @@
     },
     {
       "id": "harpia",
-      "img": "images/harpiya.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/harpiya.jpg",
       "n": "Гарпия",
       "nr": "Harpia",
       "t": "interceptor",
@@ -19491,7 +19491,7 @@
     },
     {
       "id": "astra_pvo",
-      "img": "images/astra.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/astra.jpg",
       "n": "Астра-ПВО",
       "nr": "Astra-PVO",
       "t": "interceptor",
@@ -19525,7 +19525,7 @@
     },
     {
       "id": "cherepakha",
-      "img": "images/cherepaha.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/cherepaha.jpg",
       "n": "Черепаха",
       "nr": "Cherepakha",
       "t": "nrk-ru",
@@ -19567,7 +19567,7 @@
     },
     {
       "id": "grom-e1",
-      "img": "images/grome1.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/grome1.jpg",
       "n": "Гром-Е1",
       "nr": "Grom-E1",
       "t": "attack",
@@ -19603,7 +19603,7 @@
     },
     {
       "id": "grom-e2",
-      "img": "images/grome2.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/grome2.jpg",
       "n": "Гром-Е2",
       "nr": "Grom-E2",
       "t": "attack",
@@ -19642,7 +19642,7 @@
     },
     {
       "id": "mohajer6",
-      "img": "images/mohajer6.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/mohajer6.jpg",
       "n": "МОХАДЖЕР-6",
       "nr": "MOHAJER-6",
       "t": "attack",
@@ -19677,7 +19677,7 @@
     },
     {
       "id": "molniya-r",
-      "img": "images/molniya-r.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/molniya-r.jpg",
       "n": "Молния-Р",
       "nr": "Molniya-R",
       "t": "recon",
@@ -19718,7 +19718,7 @@
     },
     {
       "id": "kover",
-      "img": "images/kover.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/kover.jpg",
       "n": "С-71К «Ковер»",
       "nr": "Kover",
       "t": "long",
@@ -19758,7 +19758,7 @@
     },
     {
       "id": "kab250",
-      "img": "images/kab250.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/kab250.jpg",
       "n": "КАБ-250",
       "nr": "KAB-250",
       "t": "raketa",
@@ -19798,7 +19798,7 @@
     },
     {
       "id": "kab500",
-      "img": "images/kab500.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/kab500.jpg",
       "n": "КАБ-500",
       "nr": "KAB-500",
       "t": "raketa",
@@ -19840,7 +19840,7 @@
     },
     {
       "id": "kab1500",
-      "img": "images/kab1500.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/kab1500.jpg",
       "n": "КАБ-1500",
       "nr": "KAB-1500",
       "t": "raketa",
@@ -19882,7 +19882,7 @@
     },
     {
       "id": "fab3000",
-      "img": "images/fab3000.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/fab3000.jpg",
       "n": "ФАБ-3000",
       "nr": "FAB-3000",
       "t": "raketa",
@@ -19930,7 +19930,7 @@
     },
     {
       "id": "umpb",
-      "img": "images/umpb.jpg",
+      "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/umpb.jpg",
       "n": "УМПБ Д-30СН",
       "nr": "UMPB D-30SN",
       "t": "raketa",
