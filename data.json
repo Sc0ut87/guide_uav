@@ -1,5 +1,5 @@
 {
-   "version": "1.59",
+   "version": "1.60",
   "ua": [
     {
       "id": "neptun",
@@ -13715,7 +13715,70 @@
   ],
   "i": "🌊",
   "c": "ua"
-}
+},
+       {
+    "id": "toloka_tlk_1000",
+    "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/toloka.jpg",
+    "imgs": [
+      "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/toloka-2.jpg",
+      "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/toloka-3.jpg"
+    ],
+    "n": "ТОЛОКА",
+    "nr": "TOLOKA",
+    "t": "bma-ua",
+    "tl": "Безекіпажний підводний апарат (UUV)",
+    "tl_en": "Unmanned Underwater Vehicle (UUV)",
+    "tg": ["bma-ua"],
+    "r": "до 2000 км (TLK-1000) / до 1200 км (TLK-400) / до 100 км (TLK-200)",
+    "r_en": "up to 2000 km (TLK-1000) / up to 1200 km (TLK-400) / up to 100 km (TLK-200)",
+    "kn": "до 5000 кг (TLK-1000) / 500 кг (TLK-400) / 15 кг (TLK-200)",
+    "kn_en": "up to 5000 kg (TLK-1000) / 500 kg (TLK-400) / 15 kg (TLK-200)",
+    "zm": "не вказано",
+    "zm_en": "not specified",
+    "sp": "5–15 вузлів (≈9–28 км/год) — TLK-1000",
+    "sp_en": "5–15 knots (≈9–28 km/h) — TLK-1000",
+    "w": "1,5 м (TLK-1000) / 0,4 м (TLK-400) / 0,2 м (TLK-200)",
+    "w_en": "1.5 m (TLK-1000) / 0.4 m (TLK-400) / 0.2 m (TLK-200)",
+    "l": "12 м (TLK-1000) / 12 м (TLK-400) / 2,9 м (TLK-200)",
+    "l_en": "12 m (TLK-1000) / 12 m (TLK-400) / 2.9 m (TLK-200)",
+    "y": "2025–2026",
+    "st": "У розробці / морські випробування",
+    "st_en": "In development / sea trials",
+    "ft": "до 3 місяців (TLK-1000) / до 60 днів (TLK-400) / до 15 днів (TLK-200)",
+    "ft_en": "up to 3 months (TLK-1000) / up to 60 days (TLK-400) / up to 15 days (TLK-200)",
+    "h": "до 300 м (композит) / до 30 м (метал) — TLK-1000",
+    "h_en": "up to 300 m (composite) / up to 30 m (metal) — TLK-1000",
+    "eng": "дизель-електрична (TLK-1000) / гібридна (TLK-400) / електрична (TLK-200)",
+    "eng_en": "diesel-electric (TLK-1000) / hybrid (TLK-400) / electric (TLK-200)",
+    "mods": "TLK-1000 (флагман, 5 т, 2000 км), TLK-400 (середній, 500 кг, 1200 км), TLK-200 (малий, 15 кг, 100 км)",
+    "mods_en": "TLK-1000 (flagship, 5 t, 2000 km), TLK-400 (medium, 500 kg, 1200 km), TLK-200 (small, 15 kg, 100 km)",
+    "d": "«Толока» — сімейство українських багатоцільових безекіпажних підводних апаратів (UUV), розроблених компанією Toloka за підтримки кластеру Brave1. Сімейство включає три основні моделі: флагманський TLK-1000 (важкий, для ураження великих стаціонарних об'єктів, включаючи Кримський міст), середній TLK-400 (для розвідки, мінування та ударів на середній дистанції) та малий TLK-200 (для короткодистанційних місій, розвідки та мінування). Апарати мають композитні або металеві корпуси, що забезпечує низьку акустичну й магнітну помітність. Навігація здійснюється за допомогою GNSS та AI-INS, а наведення — оптичних/тепловізійних камер, акустичних пеленгаторів та радіочастотних детекторів.",
+    "d_en": "Toloka is a family of Ukrainian multi-purpose unmanned underwater vehicles (UUVs) developed by Toloka with support from the Brave1 cluster. The family includes three main models: the flagship TLK-1000 (heavy, for striking large stationary targets including the Crimean Bridge), the medium TLK-400 (for reconnaissance, mining, and medium-range strikes), and the small TLK-200 (for short-range missions, reconnaissance, and mining). The vehicles have composite or metal hulls, providing low acoustic and magnetic signatures. Navigation is provided by GNSS and AI-INS, while targeting uses optical/thermal cameras, acoustic direction finders, and radio frequency detectors.",
+    "f": [
+      "Тип: безекіпажний підводний апарат (UUV)",
+      "Розробник: Toloka (за підтримки Brave1)",
+      "Сімейство моделей: TLK-1000, TLK-400, TLK-200",
+      "TLK-1000: 12 м, діаметр 1,5 м, 5 т, 2000 км, 5–15 вузлів, до 3 місяців",
+      "TLK-400: 12 м, діаметр 0,4 м, 500 кг, 1200 км, до 60 днів",
+      "TLK-200: 2,9 м, діаметр 0,2 м, 15 кг, 100 км, до 15 днів",
+      "Силова установка: дизель-електрична (TLK-1000), гібридна (TLK-400), електрична (TLK-200)",
+      "Навігація: GNSS, AI-INS",
+      "Статус: у розробці, морські випробування"
+    ],
+    "f_en": [
+      "Type: Unmanned Underwater Vehicle (UUV)",
+      "Developer: Toloka (with Brave1 support)",
+      "Model family: TLK-1000, TLK-400, TLK-200",
+      "TLK-1000: 12 m, diameter 1.5 m, 5 t, 2000 km, 5–15 knots, up to 3 months",
+      "TLK-400: 12 m, diameter 0.4 m, 500 kg, 1200 km, up to 60 days",
+      "TLK-200: 2.9 m, diameter 0.2 m, 15 kg, 100 km, up to 15 days",
+      "Powerplant: diesel-electric (TLK-1000), hybrid (TLK-400), electric (TLK-200)",
+      "Navigation: GNSS, AI-INS",
+      "Status: in development, sea trials"
+    ],
+    "i": "🌊",
+    "c": "ua"
+  }
      ],
   "ru": [
     {
