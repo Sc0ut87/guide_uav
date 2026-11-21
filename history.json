@@ -1,13 +1,3537 @@
 {
   "history": [
     {
-      "date": "2026-11-21T00:24:24.659Z",
+      "date": "2026-11-21T18:37:55.877Z",
       "version": "1.60",
       "added": [
         "ТОЛОКА"
       ],
       "removed": [],
-      "updated": [],
+      "updated": [
+        {
+          "name": "РК-360МЦ НЕПТУН",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "КР1 САПСАН / ГРІМ-2",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ТРЕМБІТА",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "РУТА",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ВЕКТОР",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            },
+            {
+              "uk": "Галерея фото",
+              "en": "Photo gallery"
+            }
+          ]
+        },
+        {
+          "name": "UB80D15-EFP",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "КАЖАН-1",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ПТАШКА",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            },
+            {
+              "uk": "Галерея фото",
+              "en": "Photo gallery"
+            }
+          ]
+        },
+        {
+          "name": "UJ-26 БОБЕР",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            },
+            {
+              "uk": "Галерея фото",
+              "en": "Photo gallery"
+            }
+          ]
+        },
+        {
+          "name": "П1-САН / ПІСЮН",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            },
+            {
+              "uk": "Галерея фото",
+              "en": "Photo gallery"
+            }
+          ]
+        },
+        {
+          "name": "ЗОРЕЛІТ v4",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ЗОРЕЛІТ v5",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ЗІРКА",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Блек Бьорд",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            },
+            {
+              "uk": "Галерея фото",
+              "en": "Photo gallery"
+            }
+          ]
+        },
+        {
+          "name": "Х-ВІНГ",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            },
+            {
+              "uk": "Галерея фото",
+              "en": "Photo gallery"
+            }
+          ]
+        },
+        {
+          "name": "ДЕНСЕР 4.5.0",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            },
+            {
+              "uk": "Галерея фото",
+              "en": "Photo gallery"
+            }
+          ]
+        },
+        {
+          "name": "Х-ЛОК",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            },
+            {
+              "uk": "Галерея фото",
+              "en": "Photo gallery"
+            }
+          ]
+        },
+        {
+          "name": "ТАРАС-П",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            },
+            {
+              "uk": "Галерея фото",
+              "en": "Photo gallery"
+            }
+          ]
+        },
+        {
+          "name": "РЕЙБЕРД-3",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ВАМПІР",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "КАЖАН",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "UJ-25 СКАЙЛАЙН",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "AQ-400 Коса",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ЗУМ 3.0",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Січень",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Ласт Шадоу (T200)",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ШТОРМБЬОРД",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ЗОЗУЛЯ",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Ан-196 Лютий",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ЛОРД 1/2",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Р-15",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ДАРТ 250 EW",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "БАЙРАКТАР TB2",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ЛЕЛЕКА-100",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ПД-2",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "А1-СМ «ФУРІЯ»",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ШАРК",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ШАРК-М",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "UJ-22 ЕІРБОРН",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ТУ-141 «СТРИЖ»",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ПАЛЯНИЦЯ (UAV-290)",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "НАЯН",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Колібрі 10\"",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ВІРТУС",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Анубіс",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "е-300 ентерпрайз",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Славік",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ДИСКАВЕРІ",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "СВІтЧБЛЕЙД 300",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "світчблейд 600",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ВАРМЕЙТ",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ВАРМЕЙТ 3.0",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ВАРМЕЙТ 5",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ФЕНІКС ГОСТ (4 МОДЕЛІ)",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "всп-110",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "МЕРКУРІЙ",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Чаклун",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Евенджер 5",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Стріла",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ЛІНЗА 3.0",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Панішер",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "СПЕКТАТОР-М1",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ФП-1",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Стінг",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Скажений",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Валькірія",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ГАЛКА",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "GRIM LA-80",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Форкастер",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "РУБАКА",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ДОВБУШ Т10",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "КАРГО",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "СІРКО",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "МАРА",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "СКІФ",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Спарроу",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "РАМ II",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "РАМ-2X",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Гор",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Сич",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ЛЕЛЕКА LR",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Лупиніс-10-TFL-1",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Ардея",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "SPARROW LE",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ТЕКЕВЕР AR3 / AR5 / ARX",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Бунтар-3",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ФЛАЙ АЙ",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "СПИС",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "UJ-23 ТОПАЗ",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ГРІМ ST-35",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Флайкет",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Ван Панч",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "БУЛАВА",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "БЕКФАЙЄР",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "еос-C",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Сокіл",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Сокіл-2",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Сокіл-300",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ДЗИҐА",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ПІНГВІН C",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "АНСЕР",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ДЕДЛАЙНЕР Q1",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ШЕРШЕНЬ",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Крук",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "БАБАБУМ 15 OPTIC",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ОКТОПУС-100",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Морок",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ФП-2",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ДРОЗД",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ф-2м",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "р-18",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Р-34 / Р-34-Т",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ПЕГАСУС АРМС 25",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ЛІТАВР",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Дартс",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ДАРТС DM / 2.0",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Кошмарик",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Хаба",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ГЕНЕРАЛ ЧЕРЕШНЯ BULLET",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "СВІТХАРТ",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "R2D2",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "UJ-32 Ластівка/UJ-31 Злива",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Ельф-К",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "НЕМЕЗІС",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "БЕСОМАР 1100",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "БЕСОМАР 3210",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "БЕСОМАР 3310",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Тесак",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Шпатель",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "СХ-2",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Степовий вітер",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Сіромаха",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "РеКам 3.2",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ХАКІ-3",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ХАКІ-10",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ХАКІ-20",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "фп-5 Фламінго",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "фп-7",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "фп-9",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Пекло",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Барс",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "атакмс",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "шторм шедоу / скальп-EG",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "АРЕЙОН",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ЮНЕКС UGV",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "РАРОГ krl-60",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "AQV-120 «Скальпель»",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "МЕРОПС-АС3",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "БЕБРАДРОН",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            },
+            {
+              "uk": "Галерея фото",
+              "en": "Photo gallery"
+            }
+          ]
+        },
+        {
+          "name": "Ратель Р1",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "СТРАЙКЕР МІНІ",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Д1Л-ДАК (ДІЛДАК)",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "УЕБ-1",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Обрій",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "КОНИК ВАН",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "терміт",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Стохід",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Віслюк",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Лють",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Равлик",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Вепр",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "РАТЕЛЬ-H",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ГЕРЕОН",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "АЙРОНКЛАД",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Фантом",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ДЖАНКОЙ",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Вархан",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Ріко",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Фродо 6×6",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Мангуст 4×4",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "воллі",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "нео-1",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Змій",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Примара",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "МАУЛЬ",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "КАРАКУРТ",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "МИРОТВОРЕЦЬ",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ПІКСЕЛЬ",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "РИСЬ",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "д-21-11",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Д-21",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ВОРОН",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Богомол",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "земіс",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "трейл блейзер",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "бед-2",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "МАТИЛЬДА",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ВОЛЯ-Е",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ТАЛІОН",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Великий Бандерик",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "RQ-35 «Хейдран»",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "родер 330",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Капітан",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "трх",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "МІЧ-2000",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Салют",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "корво ppds",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ПУМА AE",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "БРАМОР C4EYE",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Тор Хаммер",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ХЕЛСІНГ HX-2",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ДЕЛЕЙР UX11",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ДЕЛЕЙР DT26",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "к'юбонд-888",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "АЛАДІН",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ЦЕТУС X",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "КВАНТІКС РЕКОН",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Бегемот",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Батяр",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "БЛИСКАВКА-1",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Блискавка-2",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "АРТЕМІС ALM-20",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Черепашка",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "БІЗОН-Л",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ПРОТЕКТОР",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Калач",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Нумо",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ратель-M",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ратель-с",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "дроїд TW 12.7",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Скорпіон-2",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Скорпіон-3",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "х.а.р.д.і. ФЛЕКС",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "дждам-ER",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ДЖДАМ-lr",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Танчик",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ДРОіД tw 40",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ТЕРИКОН-X",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "х.а.р.д.і. АРГУС",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Бандура",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Корал",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "УП-277",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Блискавка",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "агм-158 джассм",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Ардал",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "х.а.р.д.і. ВАНГАРД",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "х.а.р.д.і. МУЛ",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Тарган 200",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Козак",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Батон",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "MV-25 оскар",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Спайдер / Каракурт",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Посейдон H10",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "СКАЙДІО X2",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "БРІМСТОУН 2",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Привид С1",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "БРАВО",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "КІЛО",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ЛАУРУС",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Адіс",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Перун",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "АЛЕКСА СПАТІУМ",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Варан",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Омич",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Х-101",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Х-555 (AS-22 Kazoo)",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Х-55 (AS-15 Kent)",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Р-77-1 (РВВ-СД)",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Р-77М (К-77М)",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Дань-Т",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Дань-М",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Орлан-10",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Орлан-3М",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Герань-2",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Форпост",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Оріон / Оріон-Е",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Зала 421-16Е",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Зала Z-20 (T-20)",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Сокол І",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Елерон-3СВ / Т-16",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Гранат-1/2",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Гранат-3",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Гранат-4",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Альтиус-РУ",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Су-70 Охотник",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ЛАНЦЕТ-3 / ИЗДЕЛИЕ-52",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "КУБ-БЛА",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Молния-1",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Молния-2",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Зала Т16 VTOL",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Птеро-G1",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Типчак",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Застава",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Гербера",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Соратник",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Маркер",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Сириус / иноходец-РУ",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Упырь-К",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ИТАЛМАС",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Бандероль (S8000)",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Гром",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Герань-1",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Орлан-30",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Тахион",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Е95М",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Груша",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ЛАНЦЕТ",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Герань-4",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Герань-5",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Корсар",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "СУПЕРКАМ S350",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "СКАТ-350М",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Привет-82",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Альбатрос М5",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "СУПЕРКАМ S180",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "МАНГАС",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "СКАТ-450М",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Малиш",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "КУБ-10",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Аякс В300",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "КУБ-2",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Елерон Т-16 / Валдай",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Елерон-7",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Бумеранг",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Елерон-10",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "БМ-70",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Дельта",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Клин",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Феникс-3",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Молния-13",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "в2у",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "РУС-ПЭ",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Картограф",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Пародия",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ФЕНИКС",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Мерлин-ВР",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Пчелка",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Черника-1",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Черника-2",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Князь Вещий Олег",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Сарич-2",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ЛИС-2",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Овод",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Упырь",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Ласточка-М",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Князь Вандал Новгородский",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Ёлка",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ВТ-40 (Судный день)",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ВТ-40-2",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Голуб",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Око-3",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Ловкий",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ШАХЕД-107",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "3М-14 «Калибр»",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Х-47М2 «Кинджал»",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "9К720 «искандер-М»",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "КН-23",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "КН-24 (Хвасонг-11B)",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Х-59 «Овод»",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Х-69",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "П-800 «Оникс»",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "3М22 «Циркон»",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Орешник (РС-26 «Рубеж»)",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "9М728 «искандер-К»",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "9М729 (ssc-8)",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Х-22 «Буря»",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Х-32",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Х-35 «Уран»",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "РМ-48У",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "КН-30",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "С-71М «Монохром»",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Омич-2",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Импульс",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Импульс-М",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Курьер",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Братишка",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "СЭМ-350 Ветеран",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Депеша",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Штурмовик",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Аргус / Муравей",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Нерехта",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Лягушка",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "УББ-М",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Архангел 2.0",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Гарпия",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Астра-ПВО",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Черепаха",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Гром-Е1",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Гром-Е2",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "МОХАДЖЕР-6",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "Молния-Р",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "С-71К «Ковер»",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "КАБ-250",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "КАБ-500",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "КАБ-1500",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "ФАБ-3000",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        },
+        {
+          "name": "УМПБ Д-30СН",
+          "fields": [
+            {
+              "uk": "Головне фото",
+              "en": "Main photo"
+            }
+          ]
+        }
+      ],
       "versionChange": {
         "from": "1.59",
         "to": "1.60"
