@@ -1,6 +1,19 @@
 {
   "history": [
     {
+      "date": "2026-11-21T00:24:24.659Z",
+      "version": "1.60",
+      "added": [
+        "ТОЛОКА"
+      ],
+      "removed": [],
+      "updated": [],
+      "versionChange": {
+        "from": "1.59",
+        "to": "1.60"
+      }
+    },
+    {
       "date": "2026-11-20T23:21:20.065Z",
       "version": "1.59",
       "added": [
