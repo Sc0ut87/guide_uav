@@ -1,5 +1,5 @@
 {
-   "version": "1.66",
+   "version": "1.67",
   "ua": [
     {
       "id": "neptun",
@@ -2608,7 +2608,7 @@
     {
       "id": "phoenix",
       "img": "images/phoenix.jpg",
-      "n": "ФЕНІКС ГОСТ / ПРИВИД ФЕНІКСА)",
+      "n": "ФЕНІКС ГОСТ / ПРИВИД ФЕНІКСА",
       "nr": "PHOENIX GHOST",
       "t": "loiter",
       "tl": "Барраж. БП",
@@ -2786,7 +2786,7 @@
     {
       "id": "avenger5_uds",
       "img": "images/avenger5.jpg",
-      "n": "ЕВЕНДЖЕР 5 / МЕСНИК 5",
+      "n": "ЕВЕНДЖЕР 5 / МЕСНИК",
       "nr": "AVENGER 5",
       "t": "loiter",
       "tl": "Барраж. БП / ударний",
@@ -3956,7 +3956,7 @@
     {
       "id": "sparrow_le",
       "img": "images/sparrow_le.jpg",
-      "n": "СПАРРОУ LE / ГОРОБЕЦЬ LE",
+      "n": "СПАРРОУ LE / ГОРОБЕЦЬ",
       "nr": "SPARROW LE",
       "t": "recon",
       "tl": "Розвідка (тактична)",
@@ -8975,7 +8975,7 @@
     "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/ironclad-2.jpg",
     "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/ironclad-3.jpg"
   ],
-      "n": "АЙРОНКЛАД",
+      "n": "АЙРОНКЛАД / БРОНЕНОСЕЦЬ",
       "nr": "IRONCLAD",
       "t": "nrk-ua",
       "tl": "Бойовий наземний роботизований комплекс (НРК)",
@@ -9888,7 +9888,7 @@
     {
       "id": "trailblazer",
       "img": "images/1ed92c0fefb93e16.jpg",
-      "n": "трейл блейзер",
+      "n": "трейл блейзер / НОВАТОР",
       "nr": "TRAIL-BLAZER",
       "t": "nrk",
       "tl": "Наземний робототехнічний комплекс",
@@ -12964,7 +12964,7 @@
     {
       "id": "brimstone2",
       "img": "images/brimstone2.jpg",
-      "n": "БРІМСТОУН 2",
+      "n": "БРІМСТОУН 2 / ПЕКЕЛЬНИЙ",
       "nr": "BRIMSTONE 2",
       "t": "attack",
       "tl": "Керована ракета «повітря-поверхня» / «поверхня-поверхня»",
