@@ -1,6 +1,19 @@
 {
   "history": [
     {
+      "date": "2026-11-22T21:22:19.006Z",
+      "version": "1.65",
+      "added": [
+        "БЛЕК ВІДОВ 2"
+      ],
+      "removed": [],
+      "updated": [],
+      "versionChange": {
+        "from": "1.64",
+        "to": "1.65"
+      }
+    },
+    {
       "date": "2026-11-22T21:51:00.000Z",
       "version": "1.64",
       "added": [],
@@ -9,16 +22,31 @@
         {
           "name": "КАТРАН",
           "fields": [
-            { "uk": "Шасі/Розмах", "en": "Chassis/Wingspan" },
-            { "uk": "Довжина/Габарити", "en": "Length/Dimensions" },
-            { "uk": "Висота", "en": "Altitude" },
-            { "uk": "Модифікації", "en": "Modifications" }
+            {
+              "uk": "Шасі/Розмах",
+              "en": "Chassis/Wingspan"
+            },
+            {
+              "uk": "Довжина/Габарити",
+              "en": "Length/Dimensions"
+            },
+            {
+              "uk": "Висота",
+              "en": "Altitude"
+            },
+            {
+              "uk": "Модифікації",
+              "en": "Modifications"
+            }
           ]
         },
         {
           "name": "REMUS 100",
           "fields": [
-            { "uk": "Навантаження", "en": "Payload" }
+            {
+              "uk": "Навантаження",
+              "en": "Payload"
+            }
           ]
         }
       ],
@@ -36,15 +64,42 @@
         {
           "name": "КАТРАН",
           "fields": [
-            { "uk": "Дальність", "en": "Range" },
-            { "uk": "Маса", "en": "Weight" },
-            { "uk": "Швидкість", "en": "Speed" },
-            { "uk": "Час польоту", "en": "Flight time" },
-            { "uk": "Висота", "en": "Altitude" },
-            { "uk": "Двигун", "en": "Engine" },
-            { "uk": "Модифікації", "en": "Modifications" },
-            { "uk": "Опис", "en": "Description" },
-            { "uk": "Характеристики", "en": "Features" }
+            {
+              "uk": "Дальність",
+              "en": "Range"
+            },
+            {
+              "uk": "Маса",
+              "en": "Weight"
+            },
+            {
+              "uk": "Швидкість",
+              "en": "Speed"
+            },
+            {
+              "uk": "Час польоту",
+              "en": "Flight time"
+            },
+            {
+              "uk": "Висота",
+              "en": "Altitude"
+            },
+            {
+              "uk": "Двигун",
+              "en": "Engine"
+            },
+            {
+              "uk": "Модифікації",
+              "en": "Modifications"
+            },
+            {
+              "uk": "Опис",
+              "en": "Description"
+            },
+            {
+              "uk": "Характеристики",
+              "en": "Features"
+            }
           ]
         }
       ],
@@ -64,7 +119,10 @@
         {
           "name": "REMUS 100",
           "fields": [
-            { "uk": "Галерея фото", "en": "Photo gallery" }
+            {
+              "uk": "Галерея фото",
+              "en": "Photo gallery"
+            }
           ]
         }
       ],
