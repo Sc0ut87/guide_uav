@@ -1,5 +1,5 @@
 {
-   "version": "1.65",
+   "version": "1.66",
   "ua": [
     {
       "id": "neptun",
@@ -91,7 +91,7 @@
         "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/dagger-2.jpg",
         "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/dagger-3.jpg"
            ],
-  "n": "AGM-188A РАСТІ ДАГГЕР",
+  "n": "РАСТІ ДАГГЕР / ІРЖАВИЙ КИНДЖАЛ",
   "nr": "AGM-188A RUSTY DAGGER",
   "t": "long",
   "tl": "Крилата ракета середньої/великої дальності (повітря/земля/море)",
@@ -707,7 +707,7 @@
         "images/blackbird-2.jpg",
         "images/blackbird-3.jpg"
       ],
-      "n": "Блек Бьорд",
+      "n": "БЛЕК БЬОРД / ЧОРНИЙ ПТАХ",
       "nr": "BLACK BIRD",
       "t": "interceptor",
       "tl": "Дрон-перехоплювач (реактивний)",
@@ -1233,7 +1233,7 @@
     {
       "id": "lastshadow_t200",
       "img": "images/lastshadow_t200.jpg",
-      "n": "Ласт Шадоу (T200)",
+      "n": "Ласт Шадоу (T200) / ОСТАННЯ ТІНЬ",
       "nr": "Last Shadow (T200)",
       "t": "interceptor",
       "tl": "Дрон-перехоплювач",
@@ -1283,7 +1283,7 @@
     {
       "id": "stormbird",
       "img": "images/stormbird.jpg",
-      "n": "ШТОРМБЬОРД",
+      "n": "ШТОРМБЬОРД / БУРЕВІСНИК",
       "nr": "STORMBIRD",
       "t": "attack",
       "tl": "Ударний БпАК тактичного класу (fixed-wing)",
@@ -1339,7 +1339,7 @@
     "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/skywiper-2.jpg",
     "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/skywiper-3.jpg"
   ],
-  "n": "СКАЙВАЙПЕР",
+  "n": "СКАЙВАЙПЕР / ОЧИСНИК НЕБА",
   "nr": "SKYWIPER / SKYWIPER WALL",
   "t": "interceptor",
   "tl": "Дрон-перехоплювач (кінетичний, літакового типу)",
@@ -1718,7 +1718,7 @@
     "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/black_stork-2.jpg",
     "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/black_stork-3.jpg"
   ],
-  "n": "БЛЕК СТОРК",
+  "n": "БЛЕК СТОРК / ЧОРНИЙ ЛЕЛЕКА",
   "nr": "BLACK STORK",
   "t": "attack",
   "tl": "Ударний (важкий гексакоптер-бомбер)",
@@ -2608,7 +2608,7 @@
     {
       "id": "phoenix",
       "img": "images/phoenix.jpg",
-      "n": "ФЕНІКС ГОСТ (4 МОДЕЛІ)",
+      "n": "ФЕНІКС ГОСТ / ПРИВИД ФЕНІКСА)",
       "nr": "PHOENIX GHOST",
       "t": "loiter",
       "tl": "Барраж. БП",
@@ -2786,7 +2786,7 @@
     {
       "id": "avenger5_uds",
       "img": "images/avenger5.jpg",
-      "n": "Евенджер 5",
+      "n": "ЕВЕНДЖЕР 5 / МЕСНИК 5",
       "nr": "AVENGER 5",
       "t": "loiter",
       "tl": "Барраж. БП / ударний",
@@ -2912,7 +2912,7 @@
     {
       "id": "punisher",
       "img": "images/punisher.jpg",
-      "n": "Панішер",
+      "n": "ПАНІШЕР / КАРАТЕЛЬ",
       "nr": "PUNISHER",
       "t": "attack",
       "tl": "Ударний",
@@ -2950,7 +2950,7 @@
     {
       "id": "spectator",
       "img": "images/spectator.jpg",
-      "n": "СПЕКТАТОР-М1",
+      "n": "СПЕКТАТОР-М1 / СПОСТЕРІГАЧ",
       "nr": "SPECTATOR-M1",
       "t": "recon",
       "tl": "Розвідка (тактична)",
@@ -3337,7 +3337,7 @@
     {
       "id": "forecaster_uds",
       "img": "images/forecaster.jpg",
-      "n": "Форкастер",
+      "n": "ФОРКАСТЕР / СИНОПТИК",
       "nr": "FORECASTER",
       "t": "recon",
       "tl": "Розвідка (ISTAR, mini-клас)",
@@ -3627,7 +3627,7 @@
     {
       "id": "sparrow",
       "img": "images/sparrow.jpg",
-      "n": "Спарроу",
+      "n": "СПАРРОУ / ГОРОБЕЦЬ",
       "nr": "SPARROW",
       "t": "recon",
       "tl": "Розвідка (тактична)",
@@ -3956,7 +3956,7 @@
     {
       "id": "sparrow_le",
       "img": "images/sparrow_le.jpg",
-      "n": "SPARROW LE",
+      "n": "СПАРРОУ LE / ГОРОБЕЦЬ LE",
       "nr": "SPARROW LE",
       "t": "recon",
       "tl": "Розвідка (тактична)",
@@ -4061,7 +4061,7 @@
     "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/owl_r-2.jpg",
     "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/owl_r-3.jpg"
   ],
-  "n": "ОУЛ-Р",
+  "n": "ОУЛ-Р / СОВА",
   "nr": "OWL R",
   "t": "recon",
   "tl": "Розвідка (тактична, VTOL)",
@@ -4172,7 +4172,7 @@
     {
       "id": "flyeye",
       "img": "images/13e2c8157226e2ae.jpg",
-      "n": "ФЛАЙ АЙ",
+      "n": "ФЛАЙ АЙ / ЛІТАЮЧЕ ОКО",
       "nr": "FLYEYE",
       "t": "recon",
       "tl": "Розвідка",
@@ -4339,7 +4339,7 @@
     {
       "id": "flycat",
       "img": "images/flycat.jpg",
-      "n": "Флайкет",
+      "n": "ФЛАЙКЕТ / ЛІТАЮЧИЙ КІТ",
       "nr": "FLYCAT",
       "t": "loiter",
       "tl": "Бараж. БП / ударний",
@@ -4391,7 +4391,7 @@
     {
       "id": "one_punch",
       "img": "images/punch.jpg",
-      "n": "Ван Панч",
+      "n": "Ван Панч / ОДИН УДАР",
       "nr": "One Punch",
        "t": "interceptor",
       "tl": "Дрон-перехоплювач",
@@ -5176,7 +5176,7 @@
     "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/owl_a-2.jpg",
     "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/owl_a-3.jpg"
   ],
-  "n": "ОУЛ-А",
+  "n": "ОУЛ-А / СОВА",
   "nr": "OWL A",
   "t": "attack",
   "tl": "Ударний (важкий квадрокоптер-бомбер)",
@@ -5456,7 +5456,7 @@
     "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/twister-2.jpg",
     "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/twister-3.jpg"
   ],
-  "n": "ТВІСТЕР",
+  "n": "ТВІСТЕР / СМЕРЧ",
   "nr": "TWISTER",
   "t": "recon",
   "tl": "Розвідка (тактична, VTOL)",
@@ -8207,12 +8207,12 @@
     "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/black_betty-2.jpg",
     "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/black_betty-3.jpg"
   ],
-  "n": "БЛЕК БЕТТІ",
+  "n": "БЛЕК БЕТТІ / ЧОРНА БЕТТІ",
   "nr": "BLACK BETTY",
-  "t": "strike",
+  "t": "attack",
   "tl": "Ударний БпЛА (барражуючий боєприпас)",
   "tl_en": "Strike UAV (Loitering Munition)",
-  "tg": ["strike", "loitering-munition"],
+  "tg": ["attack", "loiter"],
   "r": "до 100 км",
   "r_en": "up to 100 km",
   "kn": "2,7 кг (EFP / осколково-фугасна)",
@@ -8279,7 +8279,7 @@
     "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/skydevil-2.jpg",
     "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/skydevil-3.jpg"
   ],
-  "n": "СКАЙ ДЕВІЛ",
+  "n": "СКАЙ ДЕВІЛ / НЕБЕСНИЙ ДИЯВОЛ",
   "nr": "SKY DEVIL",
   "t": "recon",
   "tl": "Розвідка (тактична, РЕБостійка)",
@@ -13384,7 +13384,7 @@
       "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/sea_baby-2.jpg",
       "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/sea_baby-3.jpg"
     ],
-    "n": "СІ БЕЙБІ",
+    "n": "СІ БЕЙБІ / МОРСЬКИЙ МАЛЮК",
     "nr": "SEA BABY",
     "t": "bma-ua",
     "tl": "Безекіпажний морський апарат (БМА)",
@@ -13983,7 +13983,7 @@
     "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/remus_100-3.jpg",
      "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/remus_100-4.jpg"
   ],
-  "n": "REMUS 100",
+  "n": "РЕМУС 100",
   "nr": "REMUS 100",
   "t": "bma-ua",
   "tl": "Автономний безпілотний підводний апарат (АНПА)",
@@ -14078,7 +14078,7 @@
     "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/black_widow_2-2.jpg",
     "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/black_widow_2-3.jpg"
   ],
-  "n": "БЛЕК ВІДОВ 2",
+  "n": "БЛЕК ВІДОВ 2 / ЧОРНА ВДОВА 2",
   "nr": "BLACK WIDOW 2",
   "t": "bma-ua",
   "tl": "Безекіпажний катер (БЕК) річкового класу",
