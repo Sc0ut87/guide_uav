@@ -7,19 +7,9 @@
         "БЛЕК ВІДОВ 2"
       ],
       "removed": [],
-      "updated": [
-        {
-          "name": "БЛЕК ВІДОВ 2",
-          "fields": [
-            {
-              "uk": "nt",
-              "en": "nt"
-            }
-          ]
-        }
-      ],
-      "versionChange": {
-        "from": "1.66",
+      "updated": [],
+        "versionChange": {
+        "from": "1.64",
         "to": "1.65"
       }
     },
