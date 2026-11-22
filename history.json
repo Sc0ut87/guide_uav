@@ -14,16 +14,8 @@
               "en": "Chassis/Wingspan"
             },
             {
-              "uk": "w_en",
-              "en": "w_en"
-            },
-            {
               "uk": "Довжина/Габарити",
               "en": "Length/Dimensions"
-            },
-            {
-              "uk": "l_en",
-              "en": "l_en"
             },
             {
               "uk": "Висота",
@@ -56,6 +48,35 @@
       "versionChange": {
         "from": "1.63",
         "to": "1.64"
+      }
+    },
+    {
+      "date": "2026-11-22T19:30:00.000Z",
+      "version": "1.63",
+      "added": [],
+      "removed": [],
+      "updated": [
+        {
+          "name": "КАТРАН",
+          "fields": [
+            {
+              "uk": "Шасі/Розмах (EN)",
+              "en": "Chassis/Wingspan (EN)"
+            },
+            {
+              "uk": "Довжина/Габарити (EN)",
+              "en": "Length/Dimensions (EN)"
+            },
+            {
+              "uk": "Швидкість (EN)",
+              "en": "Speed (EN)"
+            }
+          ]
+        }
+      ],
+      "versionChange": {
+        "from": "1.62",
+        "to": "1.63"
       }
     },
     {
@@ -93,26 +114,6 @@
             {
               "uk": "Швидкість",
               "en": "Speed"
-            },
-            {
-              "uk": "sp_en",
-              "en": "sp_en"
-            },
-            {
-              "uk": "Шасі/Розмах",
-              "en": "Chassis/Wingspan"
-            },
-            {
-              "uk": "w_en",
-              "en": "w_en"
-            },
-            {
-              "uk": "Довжина/Габарити",
-              "en": "Length/Dimensions"
-            },
-            {
-              "uk": "l_en",
-              "en": "l_en"
             },
             {
               "uk": "Час польоту",
