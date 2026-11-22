@@ -1,5 +1,5 @@
 {
-   "version": "1.65",
+   "version": "1.66",
   "ua": [
     {
       "id": "neptun",
@@ -14080,6 +14080,7 @@
   ],
   "n": "БЛЕК ВІДОВ 2",
   "nr": "BLACK WIDOW 2",
+  "nt": "Блек Відов",
   "t": "bma-ua",
   "tl": "Безекіпажний катер (БЕК) річкового класу",
   "tl_en": "River-class Unmanned Surface Vehicle (USV)",
