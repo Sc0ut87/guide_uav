@@ -1,5 +1,5 @@
 {
-   "version": "1.64",
+   "version": "1.65",
   "ua": [
     {
       "id": "neptun",
@@ -14070,6 +14070,72 @@
   ],
   "i": "🤿",
   "c": "us"
+},
+     {
+  "id": "black_widow_2",
+  "img": "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/black_widow_2.jpg",
+  "imgs": [
+    "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/black_widow_2-2.jpg",
+    "https://raw.githubusercontent.com/Sc0ut87/guide_uav/main/images/black_widow_2-3.jpg"
+  ],
+  "n": "БЛЕК ВІДОВ 2",
+  "nr": "BLACK WIDOW 2",
+  "t": "bma-ua",
+  "tl": "Безекіпажний катер (БЕК) річкового класу",
+  "tl_en": "River-class Unmanned Surface Vehicle (USV)",
+  "tg": [
+    "bma-ua"
+  ],
+  "r": "не вказано",
+  "r_en": "not specified",
+  "kn": "до 3 кг (бойова частина або вантаж)",
+  "kn_en": "up to 3 kg (warhead or cargo)",
+  "zm": "бойова частина (камікадзе, до 3 кг вибухівки) / вантажний модуль",
+  "sp": "не вказано",
+  "sp_en": "not specified",
+  "w": "8 кг",
+  "w_en": "8 kg",
+  "l": "≈1 м",
+  "l_en": "≈1 m",
+  "y": "2024–2026",
+  "st": "Бойові випробування / серійне виробництво",
+  "st_en": "Combat trials / serial production",
+  "ft": "кілька годин активного ходу, до кількох діб у режимі засідки (дрейфу)",
+  "ft_en": "several hours active cruising, up to several days in ambush (drift) mode",
+  "h": "не вказано",
+  "h_en": "not specified",
+  "eng": "електричний двигун (безшумний хід)",
+  "eng_en": "electric motor (silent propulsion)",
+  "mods": "Ударний (камікадзе), розвідувально-патрульний, логістичний",
+  "mods_en": "Strike (kamikaze), reconnaissance/patrol, logistics",
+  "d": "Black Widow 2 («Чорна вдова 2») — український малий безпілотний надводний апарат (БЕК) річкового класу, розроблений київською компанією Hard Cat Drones за концепцією «FPV-дрона на воді». Призначений для бойових дій у вузьких протоках, плавнях, гирлах річок та на внутрішніх водоймах. Має довжину близько 1 м, вагу 8 кг та корисне навантаження до 3 кг (бойова частина або критично важливі вантажі). Оснащений безшумним електричним двигуном із низькою тепловою сигнатурою та оглядовою камерою на поворотній платформі для роботи вдень і вночі. Здатний виконувати ударні місії, вести приховану розвідку в режимі «засідки» до кількох діб та доставляти вантажі. Орієнтовна вартість: менше 100 000 грн за одиницю.",
+  "d_en": "Black Widow 2 is a Ukrainian small river-class unmanned surface vehicle (USV) developed by the Kyiv-based company Hard Cat Drones under the concept of an 'FPV drone on water'. It is designed for operations in narrow straits, floodplains, river mouths, and inland waters. It features a length of about 1 m, a weight of 8 kg, and a payload of up to 3 kg (warhead or critical supplies). Equipped with a silent electric motor with a low thermal signature and a pan-tilt day/night camera. Capable of strike missions, covert reconnaissance in 'ambush' mode for up to several days, and cargo delivery. Estimated cost: under 100,000 UAH per unit.",
+  "f": [
+    "Тип: безекіпажний катер (БЕК) річкового класу",
+    "Розробник: Hard Cat Drones (за підтримки Brave1)",
+    "Довжина: ≈1 м",
+    "Маса: 8 кг",
+    "Корисне навантаження / БЧ: до 3 кг",
+    "Силова установка: безшумний електричний двигун",
+    "Автономність: кілька годин активного ходу, до кількох діб у режимі «засідки»",
+    "Оптика: денна/нічна камера на двоосьовій поворотній платформі",
+    "Призначення: ударні місії (камікадзе), засідки, розвідка, логістика",
+    "Вартість: менше 100 000 грн"
+  ],
+  "f_en": [
+    "Type: river-class Unmanned Surface Vehicle (USV)",
+    "Developer: Hard Cat Drones (supported by Brave1)",
+    "Length: ≈1 m",
+    "Weight: 8 kg",
+    "Payload / Warhead: up to 3 kg",
+    "Powerplant: silent electric motor",
+    "Endurance: several hours active cruising, up to several days in 'ambush' mode",
+    "Optics: day/night camera on a pan-tilt platform",
+    "Roles: strike missions (kamikaze), ambush, reconnaissance, logistics",
+    "Cost: under 100,000 UAH"
+  ],
+  "i": "🌊",
+  "c": "ua"
 }
      ],
   "ru": [
