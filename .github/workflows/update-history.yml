@@ -126,15 +126,19 @@ jobs:
             }
           });
 
-          // Якщо змін немає — виходимо
-          if (added.length === 0 && removed.length === 0 && updated.length === 0) {
+          // 👇 ВИПРАВЛЕНО: Перевіряємо, чи змінилася версія 👇
+          const newVersion = newData.version || '?';
+          const oldVersion = oldData.version || '?';
+          const versionChanged = newVersion !== oldVersion;
+
+          // Якщо змін немає (ні в дронах, ні в версії) — виходимо
+          if (added.length === 0 && removed.length === 0 && updated.length === 0 && !versionChanged) {
             console.log('ℹ️ Змін у data.json немає — history.json не оновлюємо');
             process.exit(0);
           }
+          // 👆 КІНЕЦЬ ВИПРАВЛЕННЯ 👆
 
           // ГРУПУВАННЯ ЗА ВЕРСІЄЮ
-          const newVersion = newData.version || '?';
-          
           // Шукаємо, чи вже є запис для цієї версії в history
           let existingEntry = historyFile.history.find(h => h.version === newVersion);
           
@@ -168,9 +172,9 @@ jobs:
             existingEntry.date = new Date().toISOString();
             
             // Якщо змінилася версія (наприклад, була 1.44, стала 1.45) — оновлюємо
-            if (oldData.version !== newVersion) {
+            if (versionChanged) {
               existingEntry.versionChange = {
-                from: oldData.version || '?',
+                from: oldVersion,
                 to: newVersion
               };
             }
@@ -184,7 +188,7 @@ jobs:
               removed: removed,
               updated: updated,
               versionChange: {
-                from: oldData.version || '?',
+                from: oldVersion,
                 to: newVersion
               }
             });
@@ -198,6 +202,7 @@ jobs:
           fs.writeFileSync('history.json', JSON.stringify(historyFile, null, 2));
           console.log('✅ history.json оновлено');
           console.log(`   Додано: ${added.length}, Видалено: ${removed.length}, Оновлено: ${updated.length}`);
+          console.log(`   Версія: ${oldVersion} → ${newVersion}`);
           EOF
 
       - name: Commit history.json
