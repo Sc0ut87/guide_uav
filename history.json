@@ -1,7 +1,7 @@
 {
   "history": [
     {
-      "date": "2026-11-22T19:51:34.024Z",
+      "date": "2026-11-22T21:51:00.000Z",
       "version": "1.64",
       "added": [],
       "removed": [],
@@ -9,39 +9,16 @@
         {
           "name": "КАТРАН",
           "fields": [
-            {
-              "uk": "Шасі/Розмах",
-              "en": "Chassis/Wingspan"
-            },
-            {
-              "uk": "Довжина/Габарити",
-              "en": "Length/Dimensions"
-            },
-            {
-              "uk": "Висота",
-              "en": "Altitude"
-            },
-            {
-              "uk": "Висота (EN)",
-              "en": "Altitude (EN)"
-            },
-            {
-              "uk": "Модифікації",
-              "en": "Modifications"
-            },
-            {
-              "uk": "Модифікації (EN)",
-              "en": "Modifications (EN)"
-            }
+            { "uk": "Шасі/Розмах", "en": "Chassis/Wingspan" },
+            { "uk": "Довжина/Габарити", "en": "Length/Dimensions" },
+            { "uk": "Висота", "en": "Altitude" },
+            { "uk": "Модифікації", "en": "Modifications" }
           ]
         },
         {
           "name": "REMUS 100",
           "fields": [
-            {
-              "uk": "Навантаження",
-              "en": "Payload"
-            }
+            { "uk": "Навантаження", "en": "Payload" }
           ]
         }
       ],
@@ -51,7 +28,7 @@
       }
     },
     {
-      "date": "2026-11-22T19:30:00.000Z",
+      "date": "2026-11-22T21:30:00.000Z",
       "version": "1.63",
       "added": [],
       "removed": [],
@@ -59,18 +36,15 @@
         {
           "name": "КАТРАН",
           "fields": [
-            {
-              "uk": "Шасі/Розмах (EN)",
-              "en": "Chassis/Wingspan (EN)"
-            },
-            {
-              "uk": "Довжина/Габарити (EN)",
-              "en": "Length/Dimensions (EN)"
-            },
-            {
-              "uk": "Швидкість (EN)",
-              "en": "Speed (EN)"
-            }
+            { "uk": "Дальність", "en": "Range" },
+            { "uk": "Маса", "en": "Weight" },
+            { "uk": "Швидкість", "en": "Speed" },
+            { "uk": "Час польоту", "en": "Flight time" },
+            { "uk": "Висота", "en": "Altitude" },
+            { "uk": "Двигун", "en": "Engine" },
+            { "uk": "Модифікації", "en": "Modifications" },
+            { "uk": "Опис", "en": "Description" },
+            { "uk": "Характеристики", "en": "Features" }
           ]
         }
       ],
@@ -80,7 +54,7 @@
       }
     },
     {
-      "date": "2026-11-22T19:04:27.620Z",
+      "date": "2026-11-22T21:04:00.000Z",
       "version": "1.62",
       "added": [
         "REMUS 100"
@@ -90,83 +64,7 @@
         {
           "name": "REMUS 100",
           "fields": [
-            {
-              "uk": "Галерея фото",
-              "en": "Photo gallery"
-            }
-          ]
-        },
-        {
-          "name": "КАТРАН",
-          "fields": [
-            {
-              "uk": "Дальність",
-              "en": "Range"
-            },
-            {
-              "uk": "Дальність (EN)",
-              "en": "Range (EN)"
-            },
-            {
-              "uk": "Маса",
-              "en": "Weight"
-            },
-            {
-              "uk": "Швидкість",
-              "en": "Speed"
-            },
-            {
-              "uk": "Час польоту",
-              "en": "Flight time"
-            },
-            {
-              "uk": "Час польоту (EN)",
-              "en": "Flight time (EN)"
-            },
-            {
-              "uk": "Висота",
-              "en": "Altitude"
-            },
-            {
-              "uk": "Висота (EN)",
-              "en": "Altitude (EN)"
-            },
-            {
-              "uk": "Двигун",
-              "en": "Engine"
-            },
-            {
-              "uk": "Двигун (EN)",
-              "en": "Engine (EN)"
-            },
-            {
-              "uk": "Модифікації",
-              "en": "Modifications"
-            },
-            {
-              "uk": "Модифікації (EN)",
-              "en": "Modifications (EN)"
-            },
-            {
-              "uk": "Опис",
-              "en": "Description"
-            },
-            {
-              "uk": "Опис (EN)",
-              "en": "Description (EN)"
-            },
-            {
-              "uk": "Характеристики",
-              "en": "Features"
-            },
-            {
-              "uk": "Характеристики (EN)",
-              "en": "Features (EN)"
-            },
-            {
-              "uk": "Маса (EN)",
-              "en": "Weight (EN)"
-            }
+            { "uk": "Галерея фото", "en": "Photo gallery" }
           ]
         }
       ],
