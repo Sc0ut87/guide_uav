@@ -1,13 +1,23 @@
 {
   "history": [
     {
-      "date": "2026-11-22T17:46:57.217Z",
+      "date": "2026-11-22T18:01:56.136Z",
       "version": "1.62",
       "added": [
         "REMUS 100"
       ],
       "removed": [],
-      "updated": [],
+      "updated": [
+        {
+          "name": "REMUS 100",
+          "fields": [
+            {
+              "uk": "Галерея фото",
+              "en": "Photo gallery"
+            }
+          ]
+        }
+      ],
       "versionChange": {
         "from": "1.61",
         "to": "1.62"
