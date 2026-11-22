@@ -56,7 +56,7 @@ jobs:
 
           const updated = [];
           
-          const fieldNames = {
+          const baseFieldNames = {
             'n': { uk: 'Назва (укр)', en: 'Name (UK)' },
             'nr': { uk: 'Назва (англ)', en: 'Name (EN)' },
             't': { uk: 'Тип (категорія)', en: 'Type (category)' },
@@ -70,8 +70,11 @@ jobs:
             'zm': { uk: 'Маса', en: 'Weight' },
             'zm_en': { uk: 'Маса (EN)', en: 'Weight (EN)' },
             'sp': { uk: 'Швидкість', en: 'Speed' },
-            'w': { uk: 'Шасі/Розмах', en: 'Chassis/Wingspan' },
-            'l': { uk: 'Довжина/Габарити', en: 'Length/Dimensions' },
+            'sp_en': { uk: 'Швидкість (EN)', en: 'Speed (EN)' },
+            'w': { uk: 'Розмах крила', en: 'Wingspan' },
+            'w_en': { uk: 'Розмах крила (EN)', en: 'Wingspan (EN)' },
+            'l': { uk: 'Довжина', en: 'Length' },
+            'l_en': { uk: 'Довжина (EN)', en: 'Length (EN)' },
             'y': { uk: 'Рік', en: 'Year' },
             'st': { uk: 'Статус', en: 'Status' },
             'st_en': { uk: 'Статус (EN)', en: 'Status (EN)' },
@@ -97,9 +100,13 @@ jobs:
             const oldD = oldMap.get(newD.id);
             if (!oldD) return;
 
-            const changedFields = [];
+            const isMarine = newD.tg && newD.tg.includes('m');
+            const isGround = newD.tg && (newD.tg.includes('nrk-ua') || newD.tg.includes('nrk-ru'));
+
+            const changedKeys = new Set();
             const allKeys = new Set([...Object.keys(oldD), ...Object.keys(newD)]);
 
+            // 1. Збираємо всі змінені ключі
             allKeys.forEach(key => {
               if (key === 'id') return;
 
@@ -113,9 +120,110 @@ jobs:
               }
 
               if (oldVal !== newVal) {
-                const label = fieldNames[key] || { uk: key, en: key };
-                changedFields.push(label);
+                changedKeys.add(key);
               }
+            });
+
+            // 2. Об'єднуємо пари "поле" + "поле_en"
+            const processedPairs = new Set();
+            const changedFields = [];
+
+            changedKeys.forEach(key => {
+              if (processedPairs.has(key)) return;
+
+              // Якщо це "_en" поле
+              if (key.endsWith('_en')) {
+                const baseKey = key.slice(0, -3);
+                if (changedKeys.has(baseKey)) {
+                  // Змінилися ОБИДВА — показуємо один раз з базовою назвою
+                  let label = baseFieldNames[baseKey] || { uk: baseKey, en: baseKey };
+                  
+                  if (isMarine) {
+                    if (baseKey === 'r') label = { uk: 'Радіус дії', en: 'Radius of action' };
+                    if (baseKey === 'kn') label = { uk: 'Бойова частина', en: 'Warhead' };
+                    if (baseKey === 'zm') label = { uk: 'Водотоннажність', en: 'Displacement' };
+                    if (baseKey === 'w') label = { uk: 'Ширина / Осадка', en: 'Beam / Draft' };
+                    if (baseKey === 'l') label = { uk: 'Довжина корпусу', en: 'Hull length' };
+                    if (baseKey === 'ft') label = { uk: 'Час у морі', en: 'Time at sea' };
+                    if (baseKey === 'h') label = { uk: 'Висота над водою', en: 'Height above water' };
+                  }
+                  if (isGround) {
+                    if (baseKey === 'r') label = { uk: 'Запас ходу', en: 'Range (endurance)' };
+                    if (baseKey === 'kn') label = { uk: 'Вантажопідйомність', en: 'Payload capacity' };
+                    if (baseKey === 'zm') label = { uk: 'Маса', en: 'Weight' };
+                    if (baseKey === 'w') label = { uk: 'Тип шасі', en: 'Chassis type' };
+                    if (baseKey === 'l') label = { uk: 'Габарити (Д×Ш×В)', en: 'Dimensions (L×W×H)' };
+                    if (baseKey === 'ft') label = { uk: 'Дальність зв\'язку', en: 'Comm range' };
+                    if (baseKey === 'h') label = { uk: 'Кліренс', en: 'Ground clearance' };
+                  }
+
+                  changedFields.push(label);
+                  processedPairs.add(key);
+                  processedPairs.add(baseKey);
+                  return;
+                }
+                // Змінився ТІЛЬКИ _en — показуємо з позначкою "(EN)"
+                let labelEn = baseFieldNames[key] || { uk: key, en: key };
+                changedFields.push(labelEn);
+                processedPairs.add(key);
+                return;
+              }
+
+              // Базове поле без _en
+              const enKey = key + '_en';
+              if (changedKeys.has(enKey)) {
+                // Змінилися ОБИДВА — показуємо один раз
+                let label = baseFieldNames[key] || { uk: key, en: key };
+                
+                if (isMarine) {
+                  if (key === 'r') label = { uk: 'Радіус дії', en: 'Radius of action' };
+                  if (key === 'kn') label = { uk: 'Бойова частина', en: 'Warhead' };
+                  if (key === 'zm') label = { uk: 'Водотоннажність', en: 'Displacement' };
+                  if (key === 'w') label = { uk: 'Ширина / Осадка', en: 'Beam / Draft' };
+                  if (key === 'l') label = { uk: 'Довжина корпусу', en: 'Hull length' };
+                  if (key === 'ft') label = { uk: 'Час у морі', en: 'Time at sea' };
+                  if (key === 'h') label = { uk: 'Висота над водою', en: 'Height above water' };
+                }
+                if (isGround) {
+                  if (key === 'r') label = { uk: 'Запас ходу', en: 'Range (endurance)' };
+                  if (key === 'kn') label = { uk: 'Вантажопідйомність', en: 'Payload capacity' };
+                  if (key === 'zm') label = { uk: 'Маса', en: 'Weight' };
+                  if (key === 'w') label = { uk: 'Тип шасі', en: 'Chassis type' };
+                  if (key === 'l') label = { uk: 'Габарити (Д×Ш×В)', en: 'Dimensions (L×W×H)' };
+                  if (key === 'ft') label = { uk: 'Дальність зв\'язку', en: 'Comm range' };
+                  if (key === 'h') label = { uk: 'Кліренс', en: 'Ground clearance' };
+                }
+
+                changedFields.push(label);
+                processedPairs.add(key);
+                processedPairs.add(enKey);
+                return;
+              }
+
+              // Змінився ТІЛЬКИ базовий
+              let label = baseFieldNames[key] || { uk: key, en: key };
+              
+              if (isMarine) {
+                if (key === 'r') label = { uk: 'Радіус дії', en: 'Radius of action' };
+                if (key === 'kn') label = { uk: 'Бойова частина', en: 'Warhead' };
+                if (key === 'zm') label = { uk: 'Водотоннажність', en: 'Displacement' };
+                if (key === 'w') label = { uk: 'Ширина / Осадка', en: 'Beam / Draft' };
+                if (key === 'l') label = { uk: 'Довжина корпусу', en: 'Hull length' };
+                if (key === 'ft') label = { uk: 'Час у морі', en: 'Time at sea' };
+                if (key === 'h') label = { uk: 'Висота над водою', en: 'Height above water' };
+              }
+              if (isGround) {
+                if (key === 'r') label = { uk: 'Запас ходу', en: 'Range (endurance)' };
+                if (key === 'kn') label = { uk: 'Вантажопідйомність', en: 'Payload capacity' };
+                if (key === 'zm') label = { uk: 'Маса', en: 'Weight' };
+                if (key === 'w') label = { uk: 'Тип шасі', en: 'Chassis type' };
+                if (key === 'l') label = { uk: 'Габарити (Д×Ш×В)', en: 'Dimensions (L×W×H)' };
+                if (key === 'ft') label = { uk: 'Дальність зв\'язку', en: 'Comm range' };
+                if (key === 'h') label = { uk: 'Кліренс', en: 'Ground clearance' };
+              }
+
+              changedFields.push(label);
+              processedPairs.add(key);
             });
 
             if (changedFields.length > 0) {
@@ -126,36 +234,28 @@ jobs:
             }
           });
 
-          // 👇 ВИПРАВЛЕНО: Перевіряємо, чи змінилася версія 👇
           const newVersion = newData.version || '?';
           const oldVersion = oldData.version || '?';
           const versionChanged = newVersion !== oldVersion;
 
-          // Якщо змін немає (ні в дронах, ні в версії) — виходимо
           if (added.length === 0 && removed.length === 0 && updated.length === 0 && !versionChanged) {
             console.log('ℹ️ Змін у data.json немає — history.json не оновлюємо');
             process.exit(0);
           }
-          // 👆 КІНЕЦЬ ВИПРАВЛЕННЯ 👆
 
-          // ГРУПУВАННЯ ЗА ВЕРСІЄЮ
-          // Шукаємо, чи вже є запис для цієї версії в history
           let existingEntry = historyFile.history.find(h => h.version === newVersion);
           
           if (existingEntry) {
             console.log(`📝 Дописуємо зміни до існуючої версії ${newVersion}`);
             
-            // Додаємо нові дрони (уникаючи дублікатів)
             added.forEach(name => {
               if (!existingEntry.added.includes(name)) existingEntry.added.push(name);
             });
             
-            // Додаємо видалені (уникаючи дублікатів)
             removed.forEach(name => {
               if (!existingEntry.removed.includes(name)) existingEntry.removed.push(name);
             });
             
-            // Оновлюємо записи (якщо дрон вже є в updated — об'єднуємо поля)
             updated.forEach(newUpdate => {
               const existingUpdate = existingEntry.updated.find(u => u.name === newUpdate.name);
               if (existingUpdate) {
@@ -168,10 +268,8 @@ jobs:
               }
             });
             
-            // Оновлюємо дату на найсвіжішу
             existingEntry.date = new Date().toISOString();
             
-            // Якщо змінилася версія (наприклад, була 1.44, стала 1.45) — оновлюємо
             if (versionChanged) {
               existingEntry.versionChange = {
                 from: oldVersion,
@@ -179,7 +277,6 @@ jobs:
               };
             }
           } else {
-            // Якщо запису для цієї версії ще немає — створюємо новий
             console.log(`🆕 Створюємо новий запис для версії ${newVersion}`);
             historyFile.history.unshift({
               date: new Date().toISOString(),
@@ -194,7 +291,6 @@ jobs:
             });
           }
 
-          // Обмежуємо до 200 записів
           if (historyFile.history.length > 200) {
             historyFile.history = historyFile.history.slice(0, 200);
           }
