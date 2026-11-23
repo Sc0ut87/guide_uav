@@ -1,6 +1,128 @@
 {
   "history": [
     {
+      "date": "2026-11-23T21:56:33.053Z",
+      "version": "1.70",
+      "added": [
+        "МУРЕНА-300С"
+      ],
+      "removed": [],
+      "updated": [
+        {
+          "name": "МАГУРА V5",
+          "fields": [
+            {
+              "uk": "Дальність",
+              "en": "Range"
+            },
+            {
+              "uk": "Навантаження",
+              "en": "Payload"
+            },
+            {
+              "uk": "Маса",
+              "en": "Weight"
+            },
+            {
+              "uk": "Швидкість",
+              "en": "Speed"
+            },
+            {
+              "uk": "Модифікації (EN)",
+              "en": "Modifications (EN)"
+            },
+            {
+              "uk": "Опис",
+              "en": "Description"
+            },
+            {
+              "uk": "Характеристики",
+              "en": "Features"
+            }
+          ]
+        },
+        {
+          "name": "МАГУРА V7",
+          "fields": [
+            {
+              "uk": "Дальність",
+              "en": "Range"
+            },
+            {
+              "uk": "Навантаження",
+              "en": "Payload"
+            },
+            {
+              "uk": "Час польоту",
+              "en": "Flight time"
+            },
+            {
+              "uk": "Опис",
+              "en": "Description"
+            },
+            {
+              "uk": "Характеристики",
+              "en": "Features"
+            }
+          ]
+        },
+        {
+          "name": "БАРРАКУДА",
+          "fields": [
+            {
+              "uk": "Навантаження",
+              "en": "Payload"
+            },
+            {
+              "uk": "Модифікації",
+              "en": "Modifications"
+            },
+            {
+              "uk": "Опис",
+              "en": "Description"
+            },
+            {
+              "uk": "Характеристики",
+              "en": "Features"
+            }
+          ]
+        },
+        {
+          "name": "ТОЛОКА",
+          "fields": [
+            {
+              "uk": "Тип (категорія)",
+              "en": "Type (category)"
+            },
+            {
+              "uk": "Теги",
+              "en": "Tags"
+            },
+            {
+              "uk": "Висота",
+              "en": "Altitude"
+            },
+            {
+              "uk": "Опис",
+              "en": "Description"
+            },
+            {
+              "uk": "Характеристики",
+              "en": "Features"
+            },
+            {
+              "uk": "Іконка",
+              "en": "Icon"
+            }
+          ]
+        }
+      ],
+      "versionChange": {
+        "from": "1.69",
+        "to": "1.70"
+      }
+    },
+    {
       "date": "2026-11-23T20:49:59.239Z",
       "version": "1.69",
       "added": [
