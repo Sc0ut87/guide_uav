@@ -1,6 +1,27 @@
 {
   "history": [
     {
+      "date": "2026-11-23T18:07:57.200Z",
+      "version": "1.68",
+      "added": [],
+      "removed": [],
+      "updated": [
+        {
+          "name": "Привид С1",
+          "fields": [
+            {
+              "uk": "Теги",
+              "en": "Tags"
+            }
+          ]
+        }
+      ],
+      "versionChange": {
+        "from": "1.67",
+        "to": "1.68"
+      }
+    },
+    {
       "date": "2026-11-22T23:09:08.796Z",
       "version": "1.67",
       "added": [],
